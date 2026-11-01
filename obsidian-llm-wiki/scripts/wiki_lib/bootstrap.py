@@ -57,6 +57,7 @@ def initialize(vault: Path, name: str, domain: str, language: str) -> dict:
         (root / "AGENTS.md").write_text(
             "# Wiki runtime entry\n\nRead [SCHEMA.md](SCHEMA.md) before operating on this library.\n",
             encoding="utf-8",
+            newline="\n",
         )
         (root / PREFS).write_text(
             (template_root / "EXTEND.md")
@@ -97,6 +98,7 @@ def initialize(vault: Path, name: str, domain: str, language: str) -> dict:
         (root / "wiki/log.md").write_text(
             f"# Wiki operation history\n\n## [{now()[:10]}] bootstrap | New managed library\n",
             encoding="utf-8",
+            newline="\n",
         )
         refresh(root)
         publish_new(root, vault)

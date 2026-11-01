@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 from pathlib import Path
+from contextlib import closing
 import sqlite3
 
 from .paths import CONTROL, digest, ensure_ready, file_hash, json_bytes, now, safe
@@ -34,7 +35,7 @@ def build_index(vault: Path) -> dict:
             "Search build file exists; finish or remove the stopped build before retrying"
         )
     try:
-        with sqlite3.connect(temporary) as connection:
+        with closing(sqlite3.connect(temporary)) as connection:
             connection.execute(
                 "CREATE VIRTUAL TABLE notes USING fts5(path UNINDEXED, body)"
             )
@@ -47,6 +48,7 @@ def build_index(vault: Path) -> dict:
             connection.execute(
                 "INSERT INTO metadata VALUES (?,?)", (_fingerprint(documents), now())
             )
+            connection.commit()
         if _fingerprint(_documents(vault)) != _fingerprint(documents):
             raise ValueError("Wiki changed during search indexing; retry")
         temporary.replace(destination)
@@ -64,8 +66,8 @@ def search(vault: Path, query: str, limit: int = 20, bm25: bool = False) -> dict
         try:
             index = safe(vault, f"{CONTROL}/search.sqlite")
             if index.is_file():
-                with sqlite3.connect(
-                    index.as_uri() + "?mode=ro", uri=True
+                with closing(
+                    sqlite3.connect(index.as_uri() + "?mode=ro", uri=True)
                 ) as connection:
                     saved = connection.execute(
                         "SELECT fingerprint FROM metadata"
