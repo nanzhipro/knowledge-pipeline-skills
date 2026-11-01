@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "run_id": 41271967923,
+  "url": "https://github.com/nanzhipro/knowledge-pipeline-skills/actions/runs/41271967923",
+  "tested_source_commit": "44bd1bbe98b3baf6f0f9d0d6b3a317072cef9974",
+  "native_os_jobs": 3,
+  "python_combinations": 6,
+  "jobs": [
+    {
+      "name": "native (windows-latest)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/knowledge-pipeline-skills/actions/runs/41271967923/job/124746409094"
+    },
+    {
+      "name": "native (macos-14)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/knowledge-pipeline-skills/actions/runs/41271967923/job/124746409177"
+    },
+    {
+      "name": "native (macos-15-intel)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/knowledge-pipeline-skills/actions/runs/41271967923/job/124746409237"
+    }
+  ],
+  "test_summaries": [
+    {
+      "job": "native (macos-15-intel)",
+      "step": "8_Rust tests.txt",
+      "python_tests": null,
+      "rust_groups": [
+        20,
+        0,
+        2,
+        0
+      ],
+      "log_sha256": "60993cf4aac44e2c0239122cf87f4ee015e936635191cff2547e36c5eda98a82"
+    },
+    {
+      "job": "native (macos-15-intel)",
+      "step": "14_Python 3.10 Skill regressions.txt",
+      "python_tests": 29,
+      "rust_groups": [],
+      "log_sha256": "bace6ddaa5641a272bb4e0a934c9f8cc8ff159089c044ea3c343fbe6c03a26c9"
+    },
+    {
+      "job": "native (macos-15-intel)",
+      "step": "15_Python 3.10 actual Rust to Wiki handoff.txt",
+      "python_tests": 1,
+      "rust_groups": [],
+      "log_sha256": "faabade07696098a1b04e72ec6c72b01bcc05975a1854cc246f3873dc3cddc01"
+    },
+    {
+      "job": "native (macos-15-intel)",
+      "step": "20_Python 3.13 Skill regressions.txt",
+      "python_tests": 29,
+      "rust_groups": [],
+      "log_sha256": "63a864faec2cb1c16c0528aa0d5dc82b69e010f917a17d121c1fe5e7cf4c8856"
+    },
+    {
+      "job": "native (macos-15-intel)",
+      "step": "21_Python 3.13 actual Rust to Wiki handoff.txt",
+      "python_tests": 1,
+      "rust_groups": [],
+      "log_sha256": "ec400a0c861628952d4263df1499d48b00b4a5c60a8cd46b4283434bc4ce7787"
+    },
+    {
+      "job": "native (macos-14)",
+      "step": "8_Rust tests.txt",
+      "python_tests": null,
+      "rust_groups": [
+        20,
+        0,
+        2,
+        0
+      ],
+      "log_sha256": "a97e8d66e3a87b96494e0cf17f779390f449921d0033a59d6865afee4e53cfcf"
+    },
+    {
+      "job": "native (macos-14)",
+      "step": "14_Python 3.10 Skill regressions.txt",
+      "python_tests": 29,
+      "rust_groups": [],
+      "log_sha256": "e36fafb280fe3ecc9c3f3a905fe13b59e2afae36a3fb5a90c932ff78be55d978"
+    },
+    {
+      "job": "native (macos-14)",
+      "step": "15_Python 3.10 actual Rust to Wiki handoff.txt",
+      "python_tests": 1,
+      "rust_groups": [],
+      "log_sha256": "29bb49b964653c7f30ab02a8b02ee144284d6d1be30d631bbbb870031f03be1f"
+    },
+    {
+      "job": "native (macos-14)",
+      "step": "20_Python 3.13 Skill regressions.txt",
+      "python_tests": 29,
+      "rust_groups": [],
+      "log_sha256": "96c1df1480d0d1b7b2fb41a1c700ed7f143178696eb601491d057f316c3dfc64"
+    },
+    {
+      "job": "native (macos-14)",
+      "step": "21_Python 3.13 actual Rust to Wiki handoff.txt",
+      "python_tests": 1,
+      "rust_groups": [],
+      "log_sha256": "272cf3c6e1a27595054b5649c3c51b96fdfad4e947443d2055c807dfe7934b60"
+    },
+    {
+      "job": "native (windows-latest)",
+      "step": "8_Rust tests.txt",
+      "python_tests": null,
+      "rust_groups": [
+        20,
+        0,
+        2,
+        0
+      ],
+      "log_sha256": "4de6918bdd94fed97fd32d3eae2e1d6001dc8eca091935de0a3246c672c7f4de"
+    },
+    {
+      "job": "native (windows-latest)",
+      "step": "14_Python 3.10 Skill regressions.txt",
+      "python_tests": 29,
+      "rust_groups": [],
+      "log_sha256": "1e31384361e9731e799dc607f4366ab982672065d2f06bbff71a2aed1ad7271f"
+    },
+    {
+      "job": "native (windows-latest)",
+      "step": "15_Python 3.10 actual Rust to Wiki handoff.txt",
+      "python_tests": 1,
+      "rust_groups": [],
+      "log_sha256": "e70a7dc81175469b0d124dd25702a73a3ad08fc385368f6d22525957983d044a"
+    },
+    {
+      "job": "native (windows-latest)",
+      "step": "20_Python 3.13 Skill regressions.txt",
+      "python_tests": 29,
+      "rust_groups": [],
+      "log_sha256": "64f0c117f4c8f448a705b3648ff25dd4f9f9572d811c597abfd3b330b0cbc1fb"
+    },
+    {
+      "job": "native (windows-latest)",
+      "step": "21_Python 3.13 actual Rust to Wiki handoff.txt",
+      "python_tests": 1,
+      "rust_groups": [],
+      "log_sha256": "f54f009eece785f77d542a1892bf2ea3cf4d437c7bc689aec9aa08a37b9dede2"
+    }
+  ],
+  "logs_archive_sha256": "1c03a0c27bbea5fcac8d4e85c42139c04abe0a87ab9826c6d9e3f8b25b3e855b",
+  "scope": "Rust fmt, Clippy, tests and release build on three native OS jobs; Python 3.10/3.13 each run 29 Wiki regressions and one real converter-to-Wiki handoff. No GUI or model accuracy claim.",
+  "initial_workflow_failure": "https://github.com/nanzhipro/knowledge-pipeline-skills/actions/runs/41271916577"
+}
