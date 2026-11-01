@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Snapshot hashes bind the complete raw/metadata bytes on every platform.
+docs/verification/*-compiled-vault/** -text

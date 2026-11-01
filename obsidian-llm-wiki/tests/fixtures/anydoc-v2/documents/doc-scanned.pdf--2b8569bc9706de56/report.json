@@ -1,0 +1,26 @@
+{
+  "schema": "anydoc-markdown/1",
+  "source_relative_path": "negative/scanned.pdf",
+  "source_sha256": "f298b75294aa55400691fb88abb7c30e88fbde4ad04a9a43d809c12b214545c4",
+  "status": "needs_ocr",
+  "format": "pdf",
+  "engine": "anydoc/0.2.4",
+  "warnings": [],
+  "ocr_pages": [
+    1,
+    2
+  ],
+  "error": "PDF pages 1, 2 of 2 require OCR; no partial Markdown was returned and no OCR service was contacted.",
+  "artifacts": [
+    {
+      "path": "source/original.pdf",
+      "sha256": "f298b75294aa55400691fb88abb7c30e88fbde4ad04a9a43d809c12b214545c4",
+      "bytes": 1046
+    },
+    {
+      "path": "document.md",
+      "sha256": "a46b050f895ec7377541fb9715df990d5fa8781cd27c85b19c442da22c4e200d",
+      "bytes": 617
+    }
+  ]
+}

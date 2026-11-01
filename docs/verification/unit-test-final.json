@@ -1,0 +1,10 @@
+{
+  "scope": "Combined final local suite; deterministic behavior, not semantic model accuracy",
+  "tests": 27,
+  "passed": true,
+  "python": "3.13",
+  "platform": "macOS ARM64",
+  "duration_seconds": 8.598,
+  "command": "python -m unittest discover -s obsidian-llm-wiki/tests -v",
+  "output_sha256": "146a0ca29237d2293078d4e26f2bece94dbd302dc362efc2daa4c47595f00938"
+}

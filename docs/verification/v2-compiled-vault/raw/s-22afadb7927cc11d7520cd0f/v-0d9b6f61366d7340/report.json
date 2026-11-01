@@ -1,0 +1,39 @@
+{
+  "schema": "anydoc-markdown/1",
+  "source_relative_path": "assets/image.docx",
+  "source_sha256": "22afadb7927cc11d7520cd0f471aa1eea658369a1ba85da48123aded0700aafa",
+  "status": "partial",
+  "format": "docx",
+  "engine": "anydoc/0.2.4",
+  "warnings": [
+    "Embedded OLE objects are retained as stored binary containers; their inner application files are not unpacked."
+  ],
+  "ocr_pages": [],
+  "error": null,
+  "artifacts": [
+    {
+      "path": "source/original.docx",
+      "sha256": "22afadb7927cc11d7520cd0f471aa1eea658369a1ba85da48123aded0700aafa",
+      "bytes": 3268
+    },
+    {
+      "path": "assets/asset-0001-c414cd0e204de974.png",
+      "sha256": "c414cd0e204de974f73753c7e28d7638e7b3691bb8b1a2bab6b25bb7fed7ce77",
+      "bytes": 70,
+      "origin": "word/media/dot.png",
+      "media_type": "image/png"
+    },
+    {
+      "path": "assets/asset-0002-be7a8c28ab094836.bin",
+      "sha256": "be7a8c28ab094836cc1ff77dcf771c6e20bfe8fee378d258c15c80082d333e41",
+      "bytes": 80,
+      "origin": "word/embeddings/oleObject1.bin",
+      "media_type": "application/vnd.ms-ole-object"
+    },
+    {
+      "path": "document.md",
+      "sha256": "bcbdca461c6fb84ac4237c63d6c0d12f8a023ec3430254ac47faf9f1e2934364",
+      "bytes": 531
+    }
+  ]
+}

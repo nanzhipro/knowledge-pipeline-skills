@@ -1,0 +1,40 @@
+{
+  "scope": "Actual stage-1 outputs; intake/identity/byte/link checks only, no semantic compilation or GUI claim. Private paths, names, individual hashes and content excluded.",
+  "runs": [
+    {
+      "corpus": "public",
+      "input_entries": 78,
+      "status_counts": {
+        "converted": 10,
+        "error": 12,
+        "needs_ocr": 2,
+        "partial": 54
+      },
+      "registered_sources": 60,
+      "pending_semantic": 60,
+      "raw_artifacts": 212,
+      "structural_audit_pass": true,
+      "repeat_zero_content_writes": true,
+      "formal_library_unchanged": true,
+      "input_batch_integrity_after_pass": true,
+      "seconds": 0.34
+    },
+    {
+      "corpus": "private-downloads",
+      "input_entries": 97,
+      "status_counts": {
+        "converted": 2,
+        "error": 2,
+        "partial": 93
+      },
+      "registered_sources": 95,
+      "pending_semantic": 95,
+      "raw_artifacts": 556,
+      "structural_audit_pass": true,
+      "repeat_zero_content_writes": true,
+      "formal_library_unchanged": true,
+      "input_batch_integrity_after_pass": true,
+      "seconds": 1.181
+    }
+  ]
+}

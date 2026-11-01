@@ -1,0 +1,138 @@
+[
+  {
+    "case": "relative",
+    "targets": [
+      "wiki/concepts/b.md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "raw",
+    "targets": [
+      "raw/s/v/document.md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "encoded",
+    "targets": [
+      "wiki/concepts/a (1).md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "angle-title",
+    "targets": [
+      "wiki/concepts/a (1).md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "balanced",
+    "targets": [],
+    "errors": [
+      "wiki/concepts/a.md: invalid local link 'a(1).md': [Errno 2] No such file or directory: '/tmp/obsidian-link-checks/wiki/concepts/a(1).md'"
+    ]
+  },
+  {
+    "case": "balanced-valid",
+    "targets": [
+      "wiki/concepts/a (1).md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "references",
+    "targets": [
+      "wiki/concepts/b.md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "undefined",
+    "targets": [],
+    "errors": [
+      "wiki/concepts/a.md: undefined Markdown link reference [missing]"
+    ]
+  },
+  {
+    "case": "shortcut",
+    "targets": [
+      "wiki/concepts/b.md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "wiki-root",
+    "targets": [
+      "wiki/concepts/b.md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "wiki-sibling",
+    "targets": [
+      "wiki/concepts/b.md"
+    ],
+    "errors": []
+  },
+  {
+    "case": "masked",
+    "targets": [],
+    "errors": []
+  },
+  {
+    "case": "external",
+    "targets": [],
+    "errors": []
+  },
+  {
+    "case": "escape",
+    "targets": [],
+    "errors": [
+      "wiki/concepts/a.md: invalid local link '../../../outside.md': local link escapes the vault"
+    ]
+  },
+  {
+    "case": "abs",
+    "targets": [],
+    "errors": [
+      "wiki/concepts/a.md: invalid local link '/etc/passwd': absolute, drive, backslash or control-character path refused"
+    ]
+  },
+  {
+    "case": "file",
+    "targets": [],
+    "errors": [
+      "wiki/concepts/a.md: invalid local link 'file:///etc/passwd': file URLs are not contained vault links"
+    ]
+  },
+  {
+    "case": "drive",
+    "targets": [],
+    "errors": [
+      "wiki/concepts/a.md: invalid local link 'C:/foo': Windows drive/backslash paths are not vault links"
+    ]
+  },
+  {
+    "case": "slash",
+    "targets": [],
+    "errors": [
+      "wiki/concepts/a.md: invalid local link 'foo%5Cbar': absolute, drive, backslash or control-character path refused"
+    ]
+  },
+  {
+    "case": "symlink",
+    "targets": [],
+    "errors": [
+      "wiki/concepts/a.md: invalid local link 'link.md': symlink target refused: wiki/concepts/link.md"
+    ]
+  },
+  {
+    "case": "anchor",
+    "targets": [
+      "wiki/concepts/a.md"
+    ],
+    "errors": []
+  }
+]

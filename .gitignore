@@ -1,0 +1,9 @@
+.DS_Store
+.venv/
+.work/
+__pycache__/
+*.pyc
+outputs/
+.coverage*
+htmlcov/
+dist/

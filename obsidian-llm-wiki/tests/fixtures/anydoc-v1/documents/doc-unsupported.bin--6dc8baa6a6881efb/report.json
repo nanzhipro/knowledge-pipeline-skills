@@ -1,0 +1,23 @@
+{
+  "schema": "anydoc-markdown/1",
+  "source_relative_path": "negative/unsupported.bin",
+  "source_sha256": "eb16992f00b04fc59dbc1e6d7f4b89e65395319663915ddb6429d388c7b53a73",
+  "status": "unsupported",
+  "format": "bin",
+  "engine": "anydoc/0.2.4",
+  "warnings": [],
+  "ocr_pages": [],
+  "error": "Unrecognized document content and extension.",
+  "artifacts": [
+    {
+      "path": "source/original.bin",
+      "sha256": "eb16992f00b04fc59dbc1e6d7f4b89e65395319663915ddb6429d388c7b53a73",
+      "bytes": 98
+    },
+    {
+      "path": "document.md",
+      "sha256": "7abbbd3007e41ae58deec277ee5f4bf3178c997d50c913d4ad7977fc8ea4a3e9",
+      "bytes": 515
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "command": "python -m unittest discover -s obsidian-llm-wiki/tests -v",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "python": "3.13.13",
+  "tests": 26,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "duration_seconds": 8.646,
+  "evidence": "unit-tests-macos-arm64.txt",
+  "scope": "Independent mechanical contract tests, not a model accuracy score. Additional native CI and independent race regression are recorded separately."
+}

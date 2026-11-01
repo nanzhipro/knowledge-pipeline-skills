@@ -1,0 +1,23 @@
+{
+  "schema": "anydoc-markdown/1",
+  "source_relative_path": "negative/truncated.pdf",
+  "source_sha256": "3aac165d38b732e9ab207496598eb78c55759e0f91c987540746692f2546076a",
+  "status": "error",
+  "format": "pdf",
+  "engine": "anydoc/0.2.4",
+  "warnings": [],
+  "ocr_pages": [],
+  "error": "malformed document: invalid PDF structure",
+  "artifacts": [
+    {
+      "path": "source/original.pdf",
+      "sha256": "3aac165d38b732e9ab207496598eb78c55759e0f91c987540746692f2546076a",
+      "bytes": 128
+    },
+    {
+      "path": "document.md",
+      "sha256": "f1173a4f6a5bad6ceed54a44cea53c4fad622ca44711f91bad37219f67297700",
+      "bytes": 496
+    }
+  ]
+}

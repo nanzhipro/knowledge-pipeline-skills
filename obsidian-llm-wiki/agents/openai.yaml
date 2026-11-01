@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian LLM Wiki"
+  short_description: "Build and maintain a local Wiki from AnyDoc Markdown bundles"
+  default_prompt: "Use $obsidian-llm-wiki to ingest these AnyDoc Markdown outputs into my local Obsidian knowledge library."

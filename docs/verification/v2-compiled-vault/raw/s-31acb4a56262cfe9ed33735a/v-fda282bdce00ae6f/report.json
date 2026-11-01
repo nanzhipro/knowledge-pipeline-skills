@@ -1,0 +1,23 @@
+{
+  "schema": "anydoc-markdown/1",
+  "source_relative_path": "books/knowledge-brief.epub",
+  "source_sha256": "31acb4a56262cfe9ed33735af83a6423b458638acc1645de23af900eeee5dc56",
+  "status": "converted",
+  "format": "epub",
+  "engine": "anydoc/0.2.4",
+  "warnings": [],
+  "ocr_pages": [],
+  "error": null,
+  "artifacts": [
+    {
+      "path": "source/original.epub",
+      "sha256": "31acb4a56262cfe9ed33735af83a6423b458638acc1645de23af900eeee5dc56",
+      "bytes": 1540
+    },
+    {
+      "path": "document.md",
+      "sha256": "83731a03293a5ae66ba80c9ce34ce6ce7210c93771cd0c5b6729aac4f2f8d6b7",
+      "bytes": 552
+    }
+  ]
+}

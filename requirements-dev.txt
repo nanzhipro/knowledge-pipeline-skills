@@ -1,0 +1,3 @@
+-r obsidian-llm-wiki/requirements.txt
+black==25.11.0
+coverage==7.13.2
