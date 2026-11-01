@@ -1,3 +1,5 @@
+test_crlf_history_bytes_survive_import_prepare_and_apply (test_log_bytes.LogByteTest.test_crlf_history_bytes_survive_import_prepare_and_apply) ... ok
+test_initial_generated_text_uses_lf_on_every_platform (test_log_bytes.LogByteTest.test_initial_generated_text_uses_lf_on_every_platform) ... ok
 test_bm25_cache_detects_add_modify_delete_and_search_is_read_only (test_pipeline.PipelineTest.test_bm25_cache_detects_add_modify_delete_and_search_is_read_only) ... ok
 test_bundle_symlink_is_rejected (test_pipeline.PipelineTest.test_bundle_symlink_is_rejected) ... ok
 test_corrupt_bm25_cache_falls_back_without_writing (test_pipeline.PipelineTest.test_corrupt_bm25_cache_falls_back_without_writing) ... ok
@@ -27,6 +29,6 @@ test_v2_preserves_v1_raw_and_deduplicates_unchanged_sources (test_pipeline.Pipel
 test_unknown_edit_between_recovery_scans_is_preserved (test_recovery_race.RecoveryRaceTest.test_unknown_edit_between_recovery_scans_is_preserved) ... ok
 
 ----------------------------------------------------------------------
-Ran 27 tests in 8.501s
+Ran 29 tests in 8.522s
 
 OK

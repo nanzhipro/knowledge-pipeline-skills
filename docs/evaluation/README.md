@@ -12,13 +12,14 @@ source-fidelity, runtime-correctness or Obsidian-rendering score.
 | [3](round-3.json) | 86 | Meaningful test files became available to the evaluator |
 | [4](round-4.json) | 91 | Source-only snapshot after Python formatting and CLI/documentation alignment |
 | [5](round-5.json) | 91 | Re-evaluated the snapshot including the standalone skill origin notice |
-| [6, final](round-6.json) | 91 | Re-evaluated after tests explicitly adopted UTF-8 for portability |
+| [6](round-6.json) | 91 | Re-evaluated after tests explicitly adopted UTF-8 for portability |
+| [7, final](round-7.json) | 91 | Native Windows failures prompted byte-preserving logs, LF initialization, explicit SQLite closing, and two regression tests |
 
 Every round retains its original JSON, Markdown report, improvement brief,
 `start` routing output and official-validator result. Early rounds sampled an
 implementation in progress; this history is not a controlled model A/B benchmark.
 [The round 1–2 comparison](compare-round-1-round-2.md) records the trigger-cost fix.
-Rounds 4–6 used complete copies of the skill, including tests, fixtures, licenses,
+Rounds 4–7 used complete copies of the skill, including tests, fixtures, licenses,
 Markdown references and templates; only Python caches, `.pyc` and `.DS_Store` were
 excluded. No useful source, test or fixture was removed to obtain the score.
 
@@ -26,10 +27,12 @@ excluded. No useful source, test or fixture was removed to obtain the score.
 
 - [Final original report](final.json), [readable report](final.md),
   [improvement brief](final-brief.json), and [official validation](final-agent-skills.json).
-- [Exact source inventory](final-source-inventory.json): 96 files, including the
-  origin notice and UTF-8 portability fix. The local source-only snapshot stays in
+- [Exact source inventory](final-source-inventory.json): 97 files, including the
+  origin notice, UTF-8 portability fix, byte-preserving log regressions and SQLite
+  connection-lifecycle fixes. [Round 6 inventory](round-6-source-inventory.json)
+  remains as historical evidence. The local source-only snapshot stays in
   the ignored repository `.work/` directory; it is not an additional release payload.
-- Tree digest: `5f0848fd63cddd8562cf5bef3e107743247155f0cf02021b2ac404902028c3e2`.
+- Tree digest: `edc2e4eb9111c9e13dc43bec20558950b129c85500b77e0a842b7b00c224f82f`.
   The inventory documents the canonical path/size/SHA-256 JSON-array digest method.
 - After evaluation, the working skill tree was checked byte-for-byte against the
   inventory. Subsequent skill-tree edits require another evaluation and inventory.
@@ -41,6 +44,18 @@ metrics and scoring. No custom metric pack, altered rule or score override was u
 The official `skills-ref` validator comes from Agent Skills source commit
 `69ef37e9424c0a7ea9dd2293b559e43ec8176379`; it validates frontmatter and naming only.
 
+## Windows evidence and the seventh round
+
+The [first native CI run](https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41268874679)
+at commit `ee91eb0c5ffe43190e61b7e7a050236609c860c3` failed on Windows Python
+3.10/3.13. Those runtime findings prompted LF-only generated initialization text,
+raw-byte-preserving append-only logs (including existing CRLF), and explicit closing
+of SQLite connections before file replacement. Two new log-byte regression tests
+are included in the final evaluated source. [Round 6–7 comparison](compare-round-6-round-7.md)
+records a fresh unchanged-rule evaluation of the modified bytes rather than reusing
+the previous score. This static result does not itself establish that the corrected
+code passes Windows; native rerun results belong in the separate verification record.
+
 ## Remaining static findings and actual verification
 
 The final report retains two warnings: aggregate deferred resources (including helper
@@ -51,7 +66,7 @@ file and function levels, so its number is not a measured runtime complexity bou
 Do not interpret 91 as warning-free or as the evaluator's A grade (which starts at 93).
 
 Estimated discovery/invocation costs are 39/723 tokens. The aggregate deferred estimate
-is 47,641 tokens across supporting files; these files are loaded or executed as needed,
+is 48,617 tokens across supporting files; these files are loaded or executed as needed,
 not necessarily read together. All budget figures are **static estimates**. No observed
 API token-usage dataset or model-accuracy score was attached or claimed.
 

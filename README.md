@@ -18,6 +18,8 @@ flowchart LR
   I --> D
 ```
 
+验证：**Plugin Eval 91/100**、官方 Agent Skills 校验通过、**29 项测试在六组 Windows/macOS + Python 原生组合通过**。见 [评测记录](docs/evaluation/README.md)、[平台执行](docs/verification/native-ci.json) 和 [v0.1.0 安装包](https://github.com/nanzhipro/obsidian-llm-wiki-skill/releases/tag/v0.1.0)。
+
 这是一个 Agent Skill，配套 Python 工具管理文件、来源身份和发布过程。**知识内容由 Agent 阅读证据后编写**；单独运行导入命令只会生成待编译来源卡片。结构检查与 Plugin Eval 分数均不证明事实正确或模型理解正确。
 
 ## 安装

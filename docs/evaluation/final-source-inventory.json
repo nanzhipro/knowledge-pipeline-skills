@@ -1,16 +1,16 @@
 {
   "format": "skill-source-inventory/1",
-  "evaluation_round": "round-6",
+  "evaluation_round": "round-7",
   "source_root": "/Users/nanzhi/Downloads/知本设计研究/obsidian-llm-wiki-skill/obsidian-llm-wiki",
-  "snapshot_root": "/Users/nanzhi/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki",
+  "snapshot_root": "/Users/nanzhi/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki",
   "exclusions": [
     "__pycache__",
     ".DS_Store",
     "*.pyc"
   ],
-  "tree_sha256": "5f0848fd63cddd8562cf5bef3e107743247155f0cf02021b2ac404902028c3e2",
+  "tree_sha256": "edc2e4eb9111c9e13dc43bec20558950b129c85500b77e0a842b7b00c224f82f",
   "digest_method": "SHA-256 of UTF-8 JSON files array, sorted paths, sort_keys=true, ensure_ascii=false, separators=comma/colon, no trailing newline",
-  "file_count": 96,
+  "file_count": 97,
   "files": [
     {
       "path": "LICENSE",
@@ -64,8 +64,8 @@
     },
     {
       "path": "scripts/wiki_lib/bootstrap.py",
-      "bytes": 5003,
-      "sha256": "1b759a5b3aa183b61722359c47a383a566b9ce53b180dfdee0412048cc79d03d"
+      "bytes": 5055,
+      "sha256": "fb5d2c9e28352621dcec6142cd8cf95fddc69625dd4d688cc54590e9d73b4067"
     },
     {
       "path": "scripts/wiki_lib/bundle_checks.py",
@@ -94,8 +94,8 @@
     },
     {
       "path": "scripts/wiki_lib/navigation.py",
-      "bytes": 3227,
-      "sha256": "22de73e5d0c9445cc8ef00beaf655adfa066e3495a7b1fc3e8d97345a3fbdd52"
+      "bytes": 3182,
+      "sha256": "792b48d1d9b08424e571035f38b7d3e4eec340411551bfe97de6ff95a45e170f"
     },
     {
       "path": "scripts/wiki_lib/paths.py",
@@ -114,8 +114,8 @@
     },
     {
       "path": "scripts/wiki_lib/searching.py",
-      "bytes": 4648,
-      "sha256": "9e1391bb2144bd01a43e43d8480fdb3a12cceaa5dcdca59c181e6e8a5252dddb"
+      "bytes": 4729,
+      "sha256": "a72f1e74987e6430a39228e31a58444b6b7f71bb0a7b012bcca034ae7b1d68fd"
     },
     {
       "path": "tests/fixtures/.gitattributes",
@@ -481,6 +481,11 @@
       "path": "tests/fixtures/semantic-oracle.json",
       "bytes": 2553,
       "sha256": "1a03cf412ffe094c6111b878523ec77c03156cb7ad561d50b1bbe435a9db3b09"
+    },
+    {
+      "path": "tests/test_log_bytes.py",
+      "bytes": 3845,
+      "sha256": "c65c479ea40089196726410d90e958877919b0d81b46d931791cdad9a666a221"
     },
     {
       "path": "tests/test_pipeline.py",

@@ -1,4 +1,121 @@
 {
-  "status": "scheduled",
-  "scope": "Native checks must finish before release. Final run identity and outcomes replace this preparation record."
+  "status": "passed",
+  "run_id": 41269013476,
+  "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41269013476",
+  "tested_source_commit": "911980400f4c512843585e6f493e209b7c3603c8",
+  "scope": "Native OS/Python execution of the same 29-test package suite, formatting, and CLI help. No Obsidian GUI or factual/model accuracy claim.",
+  "jobs": [
+    {
+      "name": "native (macos-14, 3.10)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41269013476/job/124737728142"
+    },
+    {
+      "name": "native (windows-latest, 3.10)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41269013476/job/124737728283"
+    },
+    {
+      "name": "native (windows-latest, 3.13)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41269013476/job/124737728284"
+    },
+    {
+      "name": "native (macos-14, 3.13)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41269013476/job/124737728330"
+    },
+    {
+      "name": "native (macos-15-intel, 3.10)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41269013476/job/124737728337"
+    },
+    {
+      "name": "native (macos-15-intel, 3.13)",
+      "conclusion": "success",
+      "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41269013476/job/124737728356"
+    }
+  ],
+  "test_summaries": [
+    {
+      "job": "native (macos-15-intel, 3.13)",
+      "tests": 29,
+      "seconds": 33.723,
+      "ok": true,
+      "skipped": 0,
+      "log_sha256": "a179bc4be30264d4462122dcc15d34fc4ffc62eef1ea81fdd359d3dc5f9dd4c5"
+    },
+    {
+      "job": "native (macos-14, 3.13)",
+      "tests": 29,
+      "seconds": 13.846,
+      "ok": true,
+      "skipped": 0,
+      "log_sha256": "3269cab36b8f661a18f72365b0f3e71cc6dbd733014ab9ed51b23b69aa39951d"
+    },
+    {
+      "job": "native (macos-15-intel, 3.10)",
+      "tests": 29,
+      "seconds": 22.325,
+      "ok": true,
+      "skipped": 0,
+      "log_sha256": "d44644579467ee698552122f809304e386d25254cc49a01f2f6fe14d1a53448f"
+    },
+    {
+      "job": "native (windows-latest, 3.13)",
+      "tests": 29,
+      "seconds": 32.905,
+      "ok": true,
+      "skipped": 0,
+      "log_sha256": "16bbe314af705e93e7d1998325315c7ebec943453c2721ab23090c230aa6a758"
+    },
+    {
+      "job": "native (windows-latest, 3.10)",
+      "tests": 29,
+      "seconds": 26.144,
+      "ok": true,
+      "skipped": 0,
+      "log_sha256": "5456448cce4109becf6928962d9e0aba2377a5c2f245c6545e948508a3f04ce2"
+    },
+    {
+      "job": "native (macos-14, 3.10)",
+      "tests": 29,
+      "seconds": 12.765,
+      "ok": true,
+      "skipped": 0,
+      "log_sha256": "8b92f61710cf143985b22d13d53be90a897d1344068a1f40a4818a1c19adaadd"
+    }
+  ],
+  "logs_archive_sha256": "c3ce24261afc4524199461fd3717a03ad5a93dd7d2aa31afd4fc2d8cb82a3043",
+  "initial_failed_run": {
+    "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41268874679",
+    "source_commit": "ee91eb0c5ffe43190e61b7e7a050236609c860c3",
+    "jobs": [
+      {
+        "name": "native (windows-latest, 3.13)",
+        "conclusion": "failure"
+      },
+      {
+        "name": "native (macos-14, 3.13)",
+        "conclusion": "success"
+      },
+      {
+        "name": "native (windows-latest, 3.10)",
+        "conclusion": "failure"
+      },
+      {
+        "name": "native (macos-15-intel, 3.13)",
+        "conclusion": "success"
+      },
+      {
+        "name": "native (macos-14, 3.10)",
+        "conclusion": "success"
+      },
+      {
+        "name": "native (macos-15-intel, 3.10)",
+        "conclusion": "success"
+      }
+    ],
+    "finding": "Windows CRLF normalization changed the original log byte prefix; protection refused prepare. New code preserves existing bytes and emits LF at bootstrap, adds regressions, and explicitly closes SQLite handles. Final native rerun passed all six jobs."
+  }
 }

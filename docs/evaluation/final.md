@@ -22,7 +22,7 @@
 - Fix the top findings and rerun the report
 - Why: A short pass on the highest-value findings will improve trust, readability, and the signal quality of future benchmarks.
 - Chat request: "What should I fix first?"
-- Local command: `plugin-eval start ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki --request 'What should I fix first?' --format markdown`
+- Local command: `plugin-eval start ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki --request 'What should I fix first?' --format markdown`
 
 ## Details
 <details>
@@ -45,8 +45,8 @@
 
 - trigger_cost_tokens: 39 (moderate)
 - invoke_cost_tokens: 723 (moderate)
-- deferred_cost_tokens: 47641 (heavy)
-- total_tokens: 48403 (heavy)
+- deferred_cost_tokens: 48617 (heavy)
+- total_tokens: 49379 (heavy)
 
 - No observed usage supplied.
 </details>
@@ -69,23 +69,23 @@ Start with a natural chat request, then let plugin-eval show the exact local com
 
 Start with this chat request: "Evaluate this skill."
 Why this path: Plugin Eval recommended Evaluate Skill from the current local state for this skill.
-Quick local entrypoint: plugin-eval start ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki --request 'Evaluate this skill.' --format markdown
-Plugin Eval will run first: plugin-eval analyze ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki --format markdown
+Quick local entrypoint: plugin-eval start ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki --request 'Evaluate this skill.' --format markdown
+Plugin Eval will run first: plugin-eval analyze ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki --format markdown
 
 Other chat requests you can use:
-- Full Skill Analysis: say "Give me a full analysis of this skill, including benchmark setup." -> plugin-eval analyze ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki --format markdown
-- Evaluate Skill: say "Evaluate this skill." -> plugin-eval analyze ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki --format markdown
-- Explain Token Budget: say "Explain the token budget for this skill." -> plugin-eval explain-budget ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki --format markdown
-- Measure Real Token Usage: say "Measure the real token usage of this skill." -> plugin-eval init-benchmark ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki
-- Benchmark With Starter Scenarios: say "Help me benchmark this skill." -> plugin-eval init-benchmark ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki
-- Start Here: say "What should I run next?" -> plugin-eval analyze ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki --format markdown
+- Full Skill Analysis: say "Give me a full analysis of this skill, including benchmark setup." -> plugin-eval analyze ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki --format markdown
+- Evaluate Skill: say "Evaluate this skill." -> plugin-eval analyze ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki --format markdown
+- Explain Token Budget: say "Explain the token budget for this skill." -> plugin-eval explain-budget ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki --format markdown
+- Measure Real Token Usage: say "Measure the real token usage of this skill." -> plugin-eval init-benchmark ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki
+- Benchmark With Starter Scenarios: say "Help me benchmark this skill." -> plugin-eval init-benchmark ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki
+- Start Here: say "What should I run next?" -> plugin-eval analyze ~/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki --format markdown
 </details>
 <details>
 <summary>Checks</summary>
 
-- [WARN] deferred_cost_tokens-budget-high: deferred_cost_tokens is heavy relative to the current Codex baseline. Evidence: Value: 47641 tokens Baseline samples: skills=12, plugins=60 Remediation: Reduce repeated instruction text and move detail into deferred supporting files.
+- [WARN] deferred_cost_tokens-budget-high: deferred_cost_tokens is heavy relative to the current Codex baseline. Evidence: Value: 48617 tokens Baseline samples: skills=12, plugins=60 Remediation: Reduce repeated instruction text and move detail into deferred supporting files.
 - [WARN] py-complexity-high: At least one Python function has high cyclomatic complexity. Evidence: Max complexity: 121 Remediation: Split complex functions into smaller helpers or guard clauses.
-- [INFO] coverage-artifacts-unavailable: No coverage artifacts were found for this target. Evidence: obsidian-llm-wiki-skill/.work/final-eval-source-final/obsidian-llm-wiki Remediation: Generate `lcov.info`, `coverage.xml`, or an Istanbul coverage JSON file if you want coverage scoring.
+- [INFO] coverage-artifacts-unavailable: No coverage artifacts were found for this target. Evidence: obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki Remediation: Generate `lcov.info`, `coverage.xml`, or an Istanbul coverage JSON file if you want coverage scoring.
 </details>
 <details>
 <summary>Metrics</summary>
@@ -94,17 +94,17 @@ Other chat requests you can use:
 - description_length_chars: 134 chars (good)
 - relative_link_count: 3 links (good)
 - code_fence_count: 0 blocks (good)
-- support_file_count: 95 files (good)
+- support_file_count: 96 files (good)
 - trigger_cost_tokens: 39 tokens (moderate)
 - invoke_cost_tokens: 723 tokens (moderate)
-- deferred_cost_tokens: 47641 tokens (heavy)
-- py_file_count: 15 files (good)
-- py_function_count: 47 functions (good)
+- deferred_cost_tokens: 48617 tokens (heavy)
+- py_file_count: 16 files (good)
+- py_function_count: 53 functions (good)
 - py_max_cyclomatic_complexity: 121 score (heavy)
-- py_average_function_length: 17.77 lines (good)
+- py_average_function_length: 17.47 lines (good)
 - py_max_nesting_depth: 6 levels (heavy)
 - py_comment_ratio: 0.001 ratio (moderate)
-- py_test_file_count: 2 files (good)
+- py_test_file_count: 3 files (good)
 - coverage_artifact_count: 0 files (info)
 </details>
 <details>

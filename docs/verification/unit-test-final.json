@@ -1,10 +1,10 @@
 {
-  "scope": "Combined final local suite; deterministic behavior, not semantic model accuracy",
-  "tests": 27,
+  "scope": "Final local deterministic suite after native Windows findings; 26 pipeline + recovery race + 2 log-byte regressions",
+  "tests": 29,
   "passed": true,
   "python": "3.13",
   "platform": "macOS ARM64",
-  "duration_seconds": 8.598,
   "command": "python -m unittest discover -s obsidian-llm-wiki/tests -v",
-  "output_sha256": "146a0ca29237d2293078d4e26f2bece94dbd302dc362efc2daa4c47595f00938"
+  "source_commit": "911980400f4c512843585e6f493e209b7c3603c8",
+  "output_sha256": "57c3e215e87b316a590b7b58d512898f45e4f8b0c543635427ddbcefe29bde6c"
 }

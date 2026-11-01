@@ -1,0 +1,37 @@
+{
+  "title": "Improve obsidian-llm-wiki",
+  "target": {
+    "kind": "skill",
+    "path": "/Users/nanzhi/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki",
+    "entryPath": "/Users/nanzhi/Downloads/知本设计研究/obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki/SKILL.md",
+    "name": "obsidian-llm-wiki",
+    "relativePath": "obsidian-llm-wiki-skill/.work/final-eval-source-round7/obsidian-llm-wiki"
+  },
+  "summary": "Raise the evaluation from grade B (91/100) with a focus on the highest-signal structural and budget issues first.",
+  "goals": [
+    "Reduce repeated instruction text and move detail into deferred supporting files.",
+    "Split complex functions into smaller helpers or guard clauses."
+  ],
+  "measurementGoals": [
+    "token-usage-observer",
+    "task-outcome-scorecard"
+  ],
+  "requiredFixes": [],
+  "recommendedFixes": [
+    {
+      "id": "deferred_cost_tokens-budget-high",
+      "message": "deferred_cost_tokens is heavy relative to the current Codex baseline.",
+      "remediation": [
+        "Reduce repeated instruction text and move detail into deferred supporting files."
+      ]
+    },
+    {
+      "id": "py-complexity-high",
+      "message": "At least one Python function has high cyclomatic complexity.",
+      "remediation": [
+        "Split complex functions into smaller helpers or guard clauses."
+      ]
+    }
+  ],
+  "suggestedPrompt": "Use the skill-creator guidance to improve obsidian-llm-wiki. Keep the structure compact and move bulky details into references or scripts. Define success measures with these toolsets: token-usage-observer, task-outcome-scorecard. Address deferred_cost_tokens-budget-high: deferred_cost_tokens is heavy relative to the current Codex baseline. Address py-complexity-high: At least one Python function has high cyclomatic complexity."
+}
