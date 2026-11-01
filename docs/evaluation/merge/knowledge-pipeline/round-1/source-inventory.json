@@ -1,0 +1,43 @@
+{
+  "format": "skill-source-inventory/1",
+  "skill": "knowledge-pipeline",
+  "source_root": "/Users/nanzhi/Downloads/知本设计研究/knowledge-pipeline-skills/skills/knowledge-pipeline",
+  "snapshot_root": "/tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline",
+  "file_count": 5,
+  "tree_sha256": "4186021404b09df3c2b602906ab4f399c4b1040d8ac1422ddf4621de33e40bb7",
+  "digest_method": "SHA-256 of UTF-8 JSON files array, sorted paths, sort_keys=true, ensure_ascii=false, separators=comma/colon, no trailing newline",
+  "exclusions": [
+    "target (compiled Rust output)",
+    "__pycache__",
+    ".pyc",
+    ".DS_Store",
+    ".git"
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "7bba0a4452d573854ab04cd181ee48c188099054ca6a7f4c748e507c028e0e1d"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 464,
+      "sha256": "53b9c76cf8c4b125b0b3bccb7e41cb9f7c86c2f66999c217817ace498b072b85"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2941,
+      "sha256": "f4ecdcb379009e1bf50445c0063e39c3efedf35c3938692461a405a3d6afb460"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 249,
+      "sha256": "03cccbf1bc74a6b29dea0fc723b8984d50e27898060dcc33212a15d38198d3db"
+    },
+    {
+      "path": "references/workflows.md",
+      "bytes": 6674,
+      "sha256": "b9feaacbf1ea30cbb4792e06053b0b9c47f046865d126a4dbe2efe4e59717847"
+    }
+  ]
+}

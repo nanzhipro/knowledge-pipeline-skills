@@ -1,3 +1,5 @@
+> Historical component snapshot. Current installation and release: [repository README](../../../README.md). Old repository URLs below are historical; use the migration mapping and portable backup.
+
 # AnyDoc Markdown Skill
 
 [![Native Rust checks](https://github.com/nanzhipro/anydoc-markdown-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/nanzhipro/anydoc-markdown-skill/actions/workflows/ci.yml)

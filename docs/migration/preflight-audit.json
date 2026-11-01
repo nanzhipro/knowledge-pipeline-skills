@@ -1,0 +1,205 @@
+{
+  "format": "repository-merge-audit/1",
+  "checked_at": "2026-11-01T04:05:40.913841+00:00",
+  "scope": [
+    "nanzhipro/anydoc-markdown-skill",
+    "nanzhipro/obsidian-llm-wiki-skill"
+  ],
+  "read_only_remote": true,
+  "original_private_karpathy_repository_touched": false,
+  "repositories": [
+    {
+      "name": "nanzhipro/anydoc-markdown-skill",
+      "id": 1441430138,
+      "local_head": "2f8e64fbca75793a76cdc0b08f33cc82508632a7",
+      "working_tree_clean": true,
+      "remote_url": "https://github.com/nanzhipro/anydoc-markdown-skill.git",
+      "local_commit_count": 4,
+      "remote_heads": [
+        "main"
+      ],
+      "remote_tags": [
+        "v0.1.0"
+      ],
+      "tag_v0_1_0_type": "commit",
+      "tag_v0_1_0_oid": "2f8e64fbca75793a76cdc0b08f33cc82508632a7",
+      "local_v0_1_0_tag_present": false,
+      "issues_count": 0,
+      "pull_requests_count": 0,
+      "milestones_count": 0,
+      "deployments_count": 0,
+      "environments_count": 0,
+      "webhooks_count": 0,
+      "actions_secrets_count": 0,
+      "actions_variables_count": 0,
+      "rulesets_count": 0,
+      "branch_protection_rules_count": 0,
+      "has_pages": false,
+      "has_discussions": false,
+      "wiki_repository_exists": false,
+      "wiki_probe_result": "git ls-remote returned Repository not found; default has_wiki flag is enabled but no actual wiki repository exists",
+      "projects_v2": "not verified: current token lacks read:project scope",
+      "releases": [
+        {
+          "tag": "v0.1.0",
+          "id": 430329296,
+          "assets": [
+            {
+              "name": "anydoc-markdown-v0.1.0.zip",
+              "bytes": 263862,
+              "digest": "sha256:8f450481c7fb43b3ddcd0a106558843ace8b198ff98c8faadf611c2b151774fc"
+            },
+            {
+              "name": "SHA256SUMS",
+              "bytes": 93,
+              "digest": "sha256:7df5dbbcbe8efc6699a860d676e06c67b1d86246f5d3e1aba6844331f083713a"
+            }
+          ]
+        }
+      ],
+      "actions_runs": [
+        {
+          "id": 41267043173,
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "71121dc708d0c886d246f41232b85d21c6eb969c",
+          "url": "https://github.com/nanzhipro/anydoc-markdown-skill/actions/runs/41267043173"
+        },
+        {
+          "id": 41266759296,
+          "status": "completed",
+          "conclusion": "failure",
+          "head_sha": "d1cf9093dd998e6062a8029143857de46c35dcc5",
+          "url": "https://github.com/nanzhipro/anydoc-markdown-skill/actions/runs/41266759296"
+        },
+        {
+          "id": 41266501082,
+          "status": "completed",
+          "conclusion": "cancelled",
+          "head_sha": "53962172a87369f88ff254f490d9ff552ba29cb1",
+          "url": "https://github.com/nanzhipro/anydoc-markdown-skill/actions/runs/41266501082"
+        }
+      ],
+      "actions_artifact_count": 7,
+      "stars": 0,
+      "forks": 0,
+      "subscribers": 0,
+      "admin": true,
+      "license": "MIT"
+    },
+    {
+      "name": "nanzhipro/obsidian-llm-wiki-skill",
+      "id": 1441448157,
+      "local_head": "8467cf04d0b914df134358f4b80597d45194c139",
+      "working_tree_clean": true,
+      "remote_url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill.git",
+      "local_commit_count": 3,
+      "remote_heads": [
+        "main"
+      ],
+      "remote_tags": [
+        "v0.1.0"
+      ],
+      "tag_v0_1_0_type": "tag",
+      "tag_v0_1_0_oid": "31b43d50ef44010837e25b7ade43ac5fda6e172e",
+      "local_v0_1_0_tag_present": true,
+      "issues_count": 0,
+      "pull_requests_count": 0,
+      "milestones_count": 0,
+      "deployments_count": 0,
+      "environments_count": 0,
+      "webhooks_count": 0,
+      "actions_secrets_count": 0,
+      "actions_variables_count": 0,
+      "rulesets_count": 0,
+      "branch_protection_rules_count": 0,
+      "has_pages": false,
+      "has_discussions": false,
+      "wiki_repository_exists": false,
+      "wiki_probe_result": "git ls-remote returned Repository not found; default has_wiki flag is enabled but no actual wiki repository exists",
+      "projects_v2": "not verified: current token lacks read:project scope",
+      "releases": [
+        {
+          "tag": "v0.1.0",
+          "id": 430338621,
+          "assets": [
+            {
+              "name": "obsidian-llm-wiki-v0.1.0.zip",
+              "bytes": 106415,
+              "digest": "sha256:1654c07297e3079a6e7e9db3b152a2db03dca8eaab9e58c8771d079c8190e2d1"
+            },
+            {
+              "name": "SHA256SUMS",
+              "bytes": 95,
+              "digest": "sha256:27a70829eded5bc3d16fb4e56ad36eecf6dd6aa75c466b54e6fbd2f9e30fef98"
+            }
+          ]
+        }
+      ],
+      "actions_runs": [
+        {
+          "id": 41269013476,
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "911980400f4c512843585e6f493e209b7c3603c8",
+          "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41269013476"
+        },
+        {
+          "id": 41268874679,
+          "status": "completed",
+          "conclusion": "failure",
+          "head_sha": "ee91eb0c5ffe43190e61b7e7a050236609c860c3",
+          "url": "https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/runs/41268874679"
+        }
+      ],
+      "actions_artifact_count": 0,
+      "stars": 0,
+      "forks": 0,
+      "subscribers": 0,
+      "admin": true,
+      "license": "MIT"
+    }
+  ],
+  "authentication": {
+    "observed_oauth_scopes": [
+      "gist",
+      "read:org",
+      "repo",
+      "workflow"
+    ],
+    "delete_repo_scope_present": false,
+    "delete_requirement_source": "gh repo delete --help: Deletion requires authorization with the delete_repo scope. To authorize, run gh auth refresh -s delete_repo",
+    "meaning": "Existing user instruction authorizes the conditional deletion; this is a missing credential capability, not a request to approve the task again."
+  },
+  "backups": {
+    "root": "repository-backups/2026-11-01-knowledge-pipeline",
+    "inventory": "assets-inventory.json",
+    "inventory_sha256": "a473a7c763a89cbadc5a463d52b50ee941617eeee0726eae6cafd2f9116f9aa9",
+    "download_counts": {
+      "release-asset": 4,
+      "actions-run-logs": 5,
+      "actions-artifact": 7
+    },
+    "files": 65,
+    "bytes": 36833263,
+    "all_zip_crc_checks_passed": true,
+    "all_available_remote_digest_checks_passed": true,
+    "release_checksum_files_match": true,
+    "credential_signature_scan": {
+      "metadata_and_ci_log_files_scanned": 202,
+      "common_credential_signature_matches": 0,
+      "scope_limit": "Pattern scan is a supplementary check; backups contain only existing public GitHub repository data, not local personal document corpora or credential stores."
+    },
+    "git_mirrors_and_bundles": "Parent agent supplies/verifies them separately; source refs and release asset metadata are retained here."
+  },
+  "pre_deletion_gates": [
+    "New repository contains both independent skill directories with matching names and complete requirements/licenses/tests.",
+    "Both original Git histories are reachable; preserve colliding v0.1.0 tags under distinct namespaces without rewriting original objects.",
+    "Backups include full mirror/bundles, all four Release assets and metadata, five CI log ZIPs and seven build artifact ZIPs; verify an independent restore and portable backup checksum.",
+    "Each merged Skill passes official validation and Plugin Eval above 90; combined native and real first-to-second pipeline tests pass.",
+    "New repository and installable release are public and downloadable; switch active links/install sources and preserve historical provenance/link mapping.",
+    "Immediately before deletion recheck exact owner/repository IDs and unchanged remote refs; delete only the two explicit old repositories, never the original Karpathy repository.",
+    "Deletion credential must have delete_repo; if missing, finish reviewable migration then handle authentication, leaving old repositories untouched until the capability is granted.",
+    "Verify both old repository endpoints are gone and record the final new repository URL, release, backup digest and deletion outcomes."
+  ]
+}

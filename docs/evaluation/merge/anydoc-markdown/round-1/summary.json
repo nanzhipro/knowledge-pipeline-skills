@@ -1,0 +1,12 @@
+{
+  "skill": "anydoc-markdown",
+  "round": "round-1",
+  "score": 95,
+  "grade": "A",
+  "official_agent_skills_pass": true,
+  "source_unchanged_after_evaluation": true,
+  "file_count": 60,
+  "tree_sha256": "b17debb68fd1260fb05e24d5bc1994d41d760d8ca08299beeba5445020c0e3bd",
+  "evaluation_pass": true,
+  "scope": "Static package and frontmatter/naming checks only. No observed-token, runtime, model accuracy, semantic fidelity, or Obsidian GUI claim."
+}

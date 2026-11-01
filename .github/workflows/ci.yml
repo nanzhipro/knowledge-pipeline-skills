@@ -1,0 +1,66 @@
+name: Native pipeline checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-14, macos-15-intel, windows-latest]
+    runs-on: ${{ matrix.os }}
+    env:
+      ANYDOC_MD_BIN: ${{ github.workspace }}/skills/anydoc-markdown/scripts/anydoc-md/target/release/anydoc-md${{ runner.os == 'Windows' && '.exe' || '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: skills/anydoc-markdown/scripts/anydoc-md
+      - name: Rust runtime details
+        run: rustc -vV
+      - name: Rust formatting
+        run: cargo fmt --manifest-path skills/anydoc-markdown/scripts/anydoc-md/Cargo.toml --check
+      - name: Rust Clippy
+        run: cargo clippy --manifest-path skills/anydoc-markdown/scripts/anydoc-md/Cargo.toml --locked --all-targets -- -D warnings
+      - name: Rust tests
+        run: cargo test --manifest-path skills/anydoc-markdown/scripts/anydoc-md/Cargo.toml --locked
+      - name: Build native converter
+        run: cargo build --manifest-path skills/anydoc-markdown/scripts/anydoc-md/Cargo.toml --locked --release
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Python 3.10 runtime details
+        run: python -c "import platform,sys; print(sys.version); print(platform.platform()); print(platform.machine())"
+      - name: Python 3.10 dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Python 3.10 formatting
+        run: python -m black --check skills/obsidian-llm-wiki/scripts skills/obsidian-llm-wiki/tests skills/knowledge-pipeline tests
+      - name: Python 3.10 Skill regressions
+        run: python -c "import pathlib,subprocess,sys; [subprocess.run([sys.executable, '-m', 'unittest', 'discover', '-s', str(path), '-v'], check=True) for path in sorted(pathlib.Path('skills').glob('*/tests')) if any(path.glob('test_*.py'))]"
+      - name: Python 3.10 actual Rust to Wiki handoff
+        run: python -m unittest discover -s tests -v
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Python 3.13 runtime details
+        run: python -c "import platform,sys; print(sys.version); print(platform.platform()); print(platform.machine())"
+      - name: Python 3.13 dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Python 3.13 formatting
+        run: python -m black --check skills/obsidian-llm-wiki/scripts skills/obsidian-llm-wiki/tests skills/knowledge-pipeline tests
+      - name: Python 3.13 Skill regressions
+        run: python -c "import pathlib,subprocess,sys; [subprocess.run([sys.executable, '-m', 'unittest', 'discover', '-s', str(path), '-v'], check=True) for path in sorted(pathlib.Path('skills').glob('*/tests')) if any(path.glob('test_*.py'))]"
+      - name: Python 3.13 actual Rust to Wiki handoff
+        run: python -m unittest discover -s tests -v
+      - uses: actions/upload-artifact@v4
+        with:
+          name: anydoc-md-${{ runner.os }}-${{ runner.arch }}
+          path: |
+            skills/anydoc-markdown/scripts/anydoc-md/target/release/anydoc-md
+            skills/anydoc-markdown/scripts/anydoc-md/target/release/anydoc-md.exe
+          if-no-files-found: error

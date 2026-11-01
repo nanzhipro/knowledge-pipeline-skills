@@ -1,0 +1,51 @@
+{
+  "format": "knowledge-pipeline-static-evaluation/1",
+  "package_version": "0.2.0",
+  "expected_components": [
+    "anydoc-markdown",
+    "obsidian-llm-wiki",
+    "knowledge-pipeline"
+  ],
+  "pending_components": [],
+  "all_components_passed": true,
+  "threshold": "All three requested Skills each score strictly greater than 90, official reference validation pass, complete source snapshot unchanged after evaluation",
+  "components": [
+    {
+      "skill": "anydoc-markdown",
+      "round": "round-1",
+      "score": 95,
+      "grade": "A",
+      "official_agent_skills_pass": true,
+      "source_unchanged_after_evaluation": true,
+      "file_count": 60,
+      "tree_sha256": "b17debb68fd1260fb05e24d5bc1994d41d760d8ca08299beeba5445020c0e3bd",
+      "evaluation_pass": true,
+      "scope": "Static package and frontmatter/naming checks only. No observed-token, runtime, model accuracy, semantic fidelity, or Obsidian GUI claim."
+    },
+    {
+      "skill": "obsidian-llm-wiki",
+      "round": "round-1",
+      "score": 91,
+      "grade": "B",
+      "official_agent_skills_pass": true,
+      "source_unchanged_after_evaluation": true,
+      "file_count": 97,
+      "tree_sha256": "e3efc1e5a7432ae63fb30e456ad2d5cf07ea8afbe709efbeae0d27b35d6efbf1",
+      "evaluation_pass": true,
+      "scope": "Static package and frontmatter/naming checks only. No observed-token, runtime, model accuracy, semantic fidelity, or Obsidian GUI claim."
+    },
+    {
+      "skill": "knowledge-pipeline",
+      "round": "round-1",
+      "score": 95,
+      "grade": "A",
+      "official_agent_skills_pass": true,
+      "source_unchanged_after_evaluation": true,
+      "file_count": 5,
+      "tree_sha256": "4186021404b09df3c2b602906ab4f399c4b1040d8ac1422ddf4621de33e40bb7",
+      "evaluation_pass": true,
+      "scope": "Static package and frontmatter/naming checks only. No observed-token, runtime, model accuracy, semantic fidelity, or Obsidian GUI claim."
+    }
+  ],
+  "scope": "Independent static package assessments. Native CI, end-to-end handoff, backup integrity, release verification and repository deletion are separate actions/evidence owned by the migration workflow. No combined average or model/runtime accuracy score is asserted."
+}

@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.88"
 license = "MIT"
 description = "Local document-to-Markdown bundles powered by Rust anydoc"
-repository = "https://github.com/nanzhipro/anydoc-markdown-skill"
+repository = "https://github.com/nanzhipro/knowledge-pipeline-skills"
 
 [dependencies]
 anydoc = "=0.2.4"

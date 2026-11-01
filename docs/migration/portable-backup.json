@@ -1,0 +1,20 @@
+{
+  "filename": "legacy-repositories-backup-2026-11-01.zip",
+  "files": 69,
+  "bytes": 36936306,
+  "sha256": "34b2dbf96259de2834df1e45cf5e6fcfb2edb82171a9fa11d19922bef7c1f641",
+  "contains": [
+    "two portable Git bundles",
+    "full Git/source ref inventory",
+    "former Release assets",
+    "CI run logs",
+    "native build artifact ZIPs",
+    "public repository metadata"
+  ],
+  "excludes": [
+    "mirror configs",
+    "OAuth/account credential stores",
+    "private local test documents"
+  ],
+  "all_bundles_standalone_restored": true
+}

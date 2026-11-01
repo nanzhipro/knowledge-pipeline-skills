@@ -1,7 +1,7 @@
 # Public pipeline fixtures
 
 These two batches were produced by the real `anydoc-md 0.1.0` helper from
-[nanzhipro/anydoc-markdown-skill](https://github.com/nanzhipro/anydoc-markdown-skill),
+[AnyDoc Markdown component](https://github.com/nanzhipro/knowledge-pipeline-skills/tree/main/skills/anydoc-markdown),
 using Rust anydoc 0.2.4, on 2026-11-01. They are converter outputs rather than
 prewritten Wiki pages. They contain no private documents.
 

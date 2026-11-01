@@ -1,3 +1,5 @@
+> Historical component snapshot. Current installation and release: [repository README](../../../README.md). Old repository URLs below are historical; use the migration mapping and portable backup.
+
 # Obsidian LLM Wiki Skill
 
 [![Native Python checks](https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/nanzhipro/obsidian-llm-wiki-skill/actions/workflows/ci.yml)

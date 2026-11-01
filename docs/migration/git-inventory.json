@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "anydoc-markdown-skill",
+    "refs": [
+      "refs/heads/main 2f8e64fbca75793a76cdc0b08f33cc82508632a7 commit",
+      "refs/tags/v0.1.0 2f8e64fbca75793a76cdc0b08f33cc82508632a7 commit"
+    ],
+    "bundle": "anydoc-markdown-skill.bundle",
+    "bundle_sha256": "5675cf53c98e27c54d236902668bfb38c82f1755661447f94425a38404368250",
+    "bundle_verified": true
+  },
+  {
+    "repository": "obsidian-llm-wiki-skill",
+    "refs": [
+      "refs/heads/main 8467cf04d0b914df134358f4b80597d45194c139 commit",
+      "refs/tags/v0.1.0 31b43d50ef44010837e25b7ade43ac5fda6e172e tag"
+    ],
+    "bundle": "obsidian-llm-wiki-skill.bundle",
+    "bundle_sha256": "ea45e3caeb4eb82a80598d7e45c5513ca629b8c16146b5d0e482dc2341861662",
+    "bundle_verified": true
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "component": "anydoc-markdown",
+    "tracked_files_preserved": 60,
+    "intentional_changes": [
+      {
+        "path": "anydoc-markdown/scripts/anydoc-md/Cargo.toml",
+        "before_sha256": "f3382117dba077f3b4a9faaa62f22af5caecb5568bd6d35862e832e17727ff4e",
+        "after_sha256": "a360bdfafeea17c5a3d73fd0c2b46ea2b580b6af69161899c58f3a903eb16184"
+      }
+    ],
+    "original_head_reachable": true
+  },
+  {
+    "component": "obsidian-llm-wiki",
+    "tracked_files_preserved": 97,
+    "intentional_changes": [
+      {
+        "path": "obsidian-llm-wiki/NOTICE.md",
+        "before_sha256": "3c8cf078244ec4ea3fa53c3f02108a5a6956b2343472d0b38d1c3702380440fb",
+        "after_sha256": "15a3470572993d383735fac21b007411cd045ca5b149f0e72964c56df88d5c46"
+      },
+      {
+        "path": "obsidian-llm-wiki/tests/fixtures/PROVENANCE.md",
+        "before_sha256": "c3a4c8c1f4cb38b0057c78dfa5a63d301eb3cddb7fbbbe79fe02b1a004127a4f",
+        "after_sha256": "d5469d552ef168ea8032c29475d5f283daa987687e2a6cb6e859479c2e3b5519"
+      }
+    ],
+    "original_head_reachable": true
+  }
+]

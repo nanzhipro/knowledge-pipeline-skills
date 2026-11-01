@@ -1,0 +1,12 @@
+{
+  "skill": "knowledge-pipeline",
+  "round": "round-1",
+  "score": 95,
+  "grade": "A",
+  "official_agent_skills_pass": true,
+  "source_unchanged_after_evaluation": true,
+  "file_count": 5,
+  "tree_sha256": "4186021404b09df3c2b602906ab4f399c4b1040d8ac1422ddf4621de33e40bb7",
+  "evaluation_pass": true,
+  "scope": "Static package and frontmatter/naming checks only. No observed-token, runtime, model accuracy, semantic fidelity, or Obsidian GUI claim."
+}

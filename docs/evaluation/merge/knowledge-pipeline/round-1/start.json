@@ -1,0 +1,126 @@
+{
+  "kind": "workflow-guide",
+  "createdAt": "2026-11-01T04:06:35.095Z",
+  "target": {
+    "kind": "skill",
+    "path": "/tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline",
+    "entryPath": "/tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline/SKILL.md",
+    "name": "knowledge-pipeline",
+    "relativePath": "../../../../tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline"
+  },
+  "requestedGoal": "evaluate",
+  "requestedChatPrompt": "Evaluate this skill.",
+  "requestRouting": {
+    "goal": "evaluate",
+    "reason": "it asks for the overall evaluation report or prioritized findings from it"
+  },
+  "recommendedWorkflowId": "evaluate",
+  "recommendedWorkflow": {
+    "id": "evaluate",
+    "label": "Evaluate Skill",
+    "chatPrompt": "Evaluate this skill.",
+    "summary": "Start here when you want the overall report for a skill, including structure, budgets, and code checks.",
+    "firstCommand": "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown",
+    "commands": [
+      "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown"
+    ],
+    "startCommand": "plugin-eval start /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --request 'Evaluate this skill.' --format markdown"
+  },
+  "workflowStatus": {
+    "hasBenchmarkConfig": false,
+    "hasUsageLog": false
+  },
+  "beginnerSummary": "Start with a natural chat request, then let plugin-eval show the exact local command sequence behind it.",
+  "startHere": {
+    "chatPrompt": "Evaluate this skill.",
+    "label": "Evaluate Skill",
+    "summary": "Start here when you want the overall report for a skill, including structure, budgets, and code checks.",
+    "routingExplanation": "Plugin Eval routed \"Evaluate this skill.\" to Evaluate Skill because it asks for the overall evaluation report or prioritized findings from it.",
+    "startCommand": "plugin-eval start /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --request 'Evaluate this skill.' --format markdown",
+    "firstCommand": "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown",
+    "commands": [
+      "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown"
+    ]
+  },
+  "entrypoints": [
+    {
+      "id": "analysis",
+      "label": "Full Skill Analysis",
+      "chatPrompt": "Give me a full analysis of this skill, including benchmark setup.",
+      "summary": "Use this when you want the full report and starter benchmark setup for this skill in one guided path.",
+      "firstCommand": "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown",
+      "commands": [
+        "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown",
+        "plugin-eval init-benchmark /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline",
+        "plugin-eval benchmark /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --config /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline/.plugin-eval/benchmark.json"
+      ],
+      "startCommand": "plugin-eval start /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --request 'Give me a full analysis of this skill, including benchmark setup.' --format markdown"
+    },
+    {
+      "id": "evaluate",
+      "label": "Evaluate Skill",
+      "chatPrompt": "Evaluate this skill.",
+      "summary": "Start here when you want the overall report for a skill, including structure, budgets, and code checks.",
+      "firstCommand": "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown",
+      "commands": [
+        "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown"
+      ],
+      "startCommand": "plugin-eval start /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --request 'Evaluate this skill.' --format markdown"
+    },
+    {
+      "id": "budget",
+      "label": "Explain Token Budget",
+      "chatPrompt": "Explain the token budget for this skill.",
+      "summary": "Use this when the main question is why the skill feels expensive before you collect any live measurements.",
+      "firstCommand": "plugin-eval explain-budget /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown",
+      "commands": [
+        "plugin-eval explain-budget /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown"
+      ],
+      "startCommand": "plugin-eval start /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --request 'Explain the token budget for this skill.' --format markdown"
+    },
+    {
+      "id": "measure",
+      "label": "Measure Real Token Usage",
+      "chatPrompt": "Measure the real token usage of this skill.",
+      "summary": "Use this when you want real token usage instead of only the static estimate.",
+      "firstCommand": "plugin-eval init-benchmark /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline",
+      "commands": [
+        "plugin-eval init-benchmark /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline",
+        "plugin-eval benchmark /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --config /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline/.plugin-eval/benchmark.json",
+        "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --observed-usage /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline/.plugin-eval/benchmark-usage.jsonl --format markdown"
+      ],
+      "startCommand": "plugin-eval start /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --request 'Measure the real token usage of this skill.' --format markdown"
+    },
+    {
+      "id": "benchmark",
+      "label": "Benchmark With Starter Scenarios",
+      "chatPrompt": "Help me benchmark this skill.",
+      "summary": "Use this when you want starter scenarios and a repeatable real-Codex benchmark run for this skill.",
+      "firstCommand": "plugin-eval init-benchmark /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline",
+      "commands": [
+        "plugin-eval init-benchmark /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline"
+      ],
+      "startCommand": "plugin-eval start /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --request 'Help me benchmark this skill.' --format markdown"
+    },
+    {
+      "id": "next",
+      "label": "Start Here",
+      "chatPrompt": "What should I run next?",
+      "summary": "If you are new to plugin-eval, start with the overall evaluation report for this skill.",
+      "firstCommand": "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown",
+      "commands": [
+        "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown"
+      ],
+      "startCommand": "plugin-eval start /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --request 'What should I run next?' --format markdown"
+    }
+  ],
+  "nextSteps": [
+    "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown"
+  ],
+  "nextAction": {
+    "label": "Evaluate Skill",
+    "why": "Plugin Eval routed \"Evaluate this skill.\" to Evaluate Skill because it asks for the overall evaluation report or prioritized findings from it.",
+    "command": "plugin-eval analyze /tmp/knowledge-pipeline-merge-eval/round-1/knowledge-pipeline/source/knowledge-pipeline --format markdown",
+    "chatPrompt": "Evaluate this skill."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "skill": "obsidian-llm-wiki",
+  "round": "round-1",
+  "score": 91,
+  "grade": "B",
+  "official_agent_skills_pass": true,
+  "source_unchanged_after_evaluation": true,
+  "file_count": 97,
+  "tree_sha256": "e3efc1e5a7432ae63fb30e456ad2d5cf07ea8afbe709efbeae0d27b35d6efbf1",
+  "evaluation_pass": true,
+  "scope": "Static package and frontmatter/naming checks only. No observed-token, runtime, model accuracy, semantic fidelity, or Obsidian GUI claim."
+}

@@ -1,0 +1,9 @@
+{
+  "validator": "skills-ref",
+  "version": "0.1.0",
+  "source_commit": "69ef37e9424c0a7ea9dd2293b559e43ec8176379",
+  "target": "/private/tmp/knowledge-pipeline-merge-eval/round-1/obsidian-llm-wiki/source/obsidian-llm-wiki",
+  "pass": true,
+  "problems": [],
+  "scope": "Official frontmatter/naming reference validation only; no runtime or extraction quality claim."
+}

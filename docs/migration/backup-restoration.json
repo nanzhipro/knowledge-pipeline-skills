@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "anydoc-markdown-skill",
+    "restored_head": "2f8e64fbca75793a76cdc0b08f33cc82508632a7",
+    "restored_original_tag_object": "2f8e64fbca75793a76cdc0b08f33cc82508632a7",
+    "standalone_bundle_restore_pass": true
+  },
+  {
+    "repository": "obsidian-llm-wiki-skill",
+    "restored_head": "8467cf04d0b914df134358f4b80597d45194c139",
+    "restored_original_tag_object": "31b43d50ef44010837e25b7ade43ac5fda6e172e",
+    "standalone_bundle_restore_pass": true
+  }
+]

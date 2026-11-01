@@ -11,4 +11,4 @@ are preserved in `tests/fixtures/LICENSE.anydoc` and `tests/fixtures/PROVENANCE.
 Input documents retain their owners' rights. Obsidian is separate and not bundled.
 
 Full source, development evidence and release history:
-https://github.com/nanzhipro/obsidian-llm-wiki-skill
+https://github.com/nanzhipro/knowledge-pipeline-skills

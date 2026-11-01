@@ -1,3 +1,5 @@
+> Historical component snapshot. Current installation and release: [repository README](../../../README.md). Old repository URLs below are historical; use the migration mapping and portable backup.
+
 # AnyDoc Markdown Skill
 
 使用 **Rust anydoc 0.2.4**，把单个文档或目录批量转换为可追溯的本地 Markdown。支持 Windows 与 macOS，不依赖 Python/Node 解析绑定、云端 OCR、API Key、OKF 或 LLM Wiki。

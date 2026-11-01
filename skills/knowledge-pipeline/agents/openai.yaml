@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Pipeline"
+  short_description: "Coordinate document extraction and local Wiki maintenance"
+  default_prompt: "Use $knowledge-pipeline to turn these documents into a maintained local Obsidian knowledge library."

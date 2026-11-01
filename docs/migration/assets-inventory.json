@@ -1,0 +1,539 @@
+{
+  "format": "github-repository-assets-backup/1",
+  "observed_at": "2026-11-01T04:04:25.458002+00:00",
+  "scope": [
+    "nanzhipro/anydoc-markdown-skill",
+    "nanzhipro/obsidian-llm-wiki-skill"
+  ],
+  "read_only_remote": true,
+  "private_local_documents_included": false,
+  "credentials_included": false,
+  "download_counts": {
+    "release-asset": 4,
+    "actions-run-logs": 5,
+    "actions-artifact": 7
+  },
+  "downloads": [
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-artifact",
+      "id": 13066554882,
+      "name": "anydoc-md-macOS-ARM64",
+      "path": "anydoc-markdown-skill/actions/artifacts/13066554882.zip",
+      "recorded_digest": "sha256:4ad47fc200fd6e4ee69809f759f2de65d8ac6afb197045a9604284ac82417d53",
+      "sha256": "4ad47fc200fd6e4ee69809f759f2de65d8ac6afb197045a9604284ac82417d53",
+      "bytes": 4969492,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-artifact",
+      "id": 13067159997,
+      "name": "anydoc-md-macOS-ARM64",
+      "path": "anydoc-markdown-skill/actions/artifacts/13067159997.zip",
+      "recorded_digest": "sha256:e76dd03580bfb637a2c060fa53168bd813ed4cbbc58eda96ed7a02f53866ec18",
+      "sha256": "e76dd03580bfb637a2c060fa53168bd813ed4cbbc58eda96ed7a02f53866ec18",
+      "bytes": 4969494,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-artifact",
+      "id": 13067218713,
+      "name": "anydoc-md-macOS-X64",
+      "path": "anydoc-markdown-skill/actions/artifacts/13067218713.zip",
+      "recorded_digest": "sha256:1e62b749f929876a2a1bbbe99a05f170e86431f557e1f17ac198ee3ee4ff7f95",
+      "sha256": "1e62b749f929876a2a1bbbe99a05f170e86431f557e1f17ac198ee3ee4ff7f95",
+      "bytes": 5201238,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-artifact",
+      "id": 13067223101,
+      "name": "anydoc-md-macOS-X64",
+      "path": "anydoc-markdown-skill/actions/artifacts/13067223101.zip",
+      "recorded_digest": "sha256:44660444ccd3dd74ee79165d9b5789fcf01fe1b7050b5008528d7623c2dd2932",
+      "sha256": "44660444ccd3dd74ee79165d9b5789fcf01fe1b7050b5008528d7623c2dd2932",
+      "bytes": 5201237,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-artifact",
+      "id": 13067601750,
+      "name": "anydoc-md-Windows-X64",
+      "path": "anydoc-markdown-skill/actions/artifacts/13067601750.zip",
+      "recorded_digest": "sha256:0ac0cb0d1676c37cfce1443048b09f0814b439b38e6a6285eb86a6db49c63755",
+      "sha256": "0ac0cb0d1676c37cfce1443048b09f0814b439b38e6a6285eb86a6db49c63755",
+      "bytes": 5305309,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-artifact",
+      "id": 13067817130,
+      "name": "anydoc-md-macOS-X64",
+      "path": "anydoc-markdown-skill/actions/artifacts/13067817130.zip",
+      "recorded_digest": "sha256:1ead9a0fa5179efcaadb53a396d1f4bba522e44c08365d646a46fd10813217df",
+      "sha256": "1ead9a0fa5179efcaadb53a396d1f4bba522e44c08365d646a46fd10813217df",
+      "bytes": 5201238,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-artifact",
+      "id": 13068275910,
+      "name": "anydoc-md-macOS-ARM64",
+      "path": "anydoc-markdown-skill/actions/artifacts/13068275910.zip",
+      "recorded_digest": "sha256:662976f37ea23a36591c9f0136eb67743435844a38d25a9a7fcdbef91021793a",
+      "sha256": "662976f37ea23a36591c9f0136eb67743435844a38d25a9a7fcdbef91021793a",
+      "bytes": 4969494,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-run-logs",
+      "id": 41266501082,
+      "name": "41266501082.zip",
+      "path": "anydoc-markdown-skill/actions/runs/41266501082.zip",
+      "recorded_digest": null,
+      "sha256": "bb0a1fab1535bf7d391bd03de16145c09921bffef56d5a3831c41e47449ba50b",
+      "bytes": 50116,
+      "remote_digest_matches": false,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-run-logs",
+      "id": 41266759296,
+      "name": "41266759296.zip",
+      "path": "anydoc-markdown-skill/actions/runs/41266759296.zip",
+      "recorded_digest": null,
+      "sha256": "197285ede6190f75369ecbb2c3d388c17347dbae9bb176dff1e39b57ab6370d6",
+      "bytes": 44455,
+      "remote_digest_matches": false,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "actions-run-logs",
+      "id": 41267043173,
+      "name": "41267043173.zip",
+      "path": "anydoc-markdown-skill/actions/runs/41267043173.zip",
+      "recorded_digest": null,
+      "sha256": "08a33d4521821b669987af5f1d32981bde651662dc2782e603f4df87d51d6cb1",
+      "bytes": 40638,
+      "remote_digest_matches": false,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "release-asset",
+      "id": 697160150,
+      "name": "SHA256SUMS",
+      "path": "anydoc-markdown-skill/releases/v0.1.0/SHA256SUMS",
+      "recorded_digest": "sha256:7df5dbbcbe8efc6699a860d676e06c67b1d86246f5d3e1aba6844331f083713a",
+      "sha256": "7df5dbbcbe8efc6699a860d676e06c67b1d86246f5d3e1aba6844331f083713a",
+      "bytes": 93,
+      "remote_digest_matches": true,
+      "zip_crc_pass": false
+    },
+    {
+      "repo": "anydoc-markdown-skill",
+      "kind": "release-asset",
+      "id": 697160136,
+      "name": "anydoc-markdown-v0.1.0.zip",
+      "path": "anydoc-markdown-skill/releases/v0.1.0/anydoc-markdown-v0.1.0.zip",
+      "recorded_digest": "sha256:8f450481c7fb43b3ddcd0a106558843ace8b198ff98c8faadf611c2b151774fc",
+      "sha256": "8f450481c7fb43b3ddcd0a106558843ace8b198ff98c8faadf611c2b151774fc",
+      "bytes": 263862,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "obsidian-llm-wiki-skill",
+      "kind": "actions-run-logs",
+      "id": 41268874679,
+      "name": "41268874679.zip",
+      "path": "obsidian-llm-wiki-skill/actions/runs/41268874679.zip",
+      "recorded_digest": null,
+      "sha256": "cacf73511dd886a27f153445dbec99ff3f569082c0d7ee4a3087605ee20b4e2f",
+      "bytes": 111595,
+      "remote_digest_matches": false,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "obsidian-llm-wiki-skill",
+      "kind": "actions-run-logs",
+      "id": 41269013476,
+      "name": "41269013476.zip",
+      "path": "obsidian-llm-wiki-skill/actions/runs/41269013476.zip",
+      "recorded_digest": null,
+      "sha256": "c3ce24261afc4524199461fd3717a03ad5a93dd7d2aa31afd4fc2d8cb82a3043",
+      "bytes": 109156,
+      "remote_digest_matches": false,
+      "zip_crc_pass": true
+    },
+    {
+      "repo": "obsidian-llm-wiki-skill",
+      "kind": "release-asset",
+      "id": 697206277,
+      "name": "SHA256SUMS",
+      "path": "obsidian-llm-wiki-skill/releases/v0.1.0/SHA256SUMS",
+      "recorded_digest": "sha256:27a70829eded5bc3d16fb4e56ad36eecf6dd6aa75c466b54e6fbd2f9e30fef98",
+      "sha256": "27a70829eded5bc3d16fb4e56ad36eecf6dd6aa75c466b54e6fbd2f9e30fef98",
+      "bytes": 95,
+      "remote_digest_matches": true,
+      "zip_crc_pass": false
+    },
+    {
+      "repo": "obsidian-llm-wiki-skill",
+      "kind": "release-asset",
+      "id": 697206269,
+      "name": "obsidian-llm-wiki-v0.1.0.zip",
+      "path": "obsidian-llm-wiki-skill/releases/v0.1.0/obsidian-llm-wiki-v0.1.0.zip",
+      "recorded_digest": "sha256:1654c07297e3079a6e7e9db3b152a2db03dca8eaab9e58c8771d079c8190e2d1",
+      "sha256": "1654c07297e3079a6e7e9db3b152a2db03dca8eaab9e58c8771d079c8190e2d1",
+      "bytes": 106415,
+      "remote_digest_matches": true,
+      "zip_crc_pass": true
+    }
+  ],
+  "files": [
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13066554882.json",
+      "sha256": "c15490f3b686959e5451823926ea6e5fe5ed9c845e28717eb5dbcc75ac2263f9",
+      "bytes": 795
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13066554882.zip",
+      "sha256": "4ad47fc200fd6e4ee69809f759f2de65d8ac6afb197045a9604284ac82417d53",
+      "bytes": 4969492
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067159997.json",
+      "sha256": "ac8b01e056ea7b234715b398cf69f25759039ba80937cb565d203a5ca870f066",
+      "bytes": 795
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067159997.zip",
+      "sha256": "e76dd03580bfb637a2c060fa53168bd813ed4cbbc58eda96ed7a02f53866ec18",
+      "bytes": 4969494
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067218713.json",
+      "sha256": "74556458bac660e10f8342697345266f425c51ee060f2fae6568430cfd794f1c",
+      "bytes": 793
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067218713.zip",
+      "sha256": "1e62b749f929876a2a1bbbe99a05f170e86431f557e1f17ac198ee3ee4ff7f95",
+      "bytes": 5201238
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067223101.json",
+      "sha256": "e9d4ac53338c3bf4cb0f507c48a357e01cd96dbf840b27c75e5219cd135dbec0",
+      "bytes": 793
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067223101.zip",
+      "sha256": "44660444ccd3dd74ee79165d9b5789fcf01fe1b7050b5008528d7623c2dd2932",
+      "bytes": 5201237
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067601750.json",
+      "sha256": "2b9bd22fb9b146de873b61b73f1f1e3961614f00db8becbe7ae07e649d3e4aa8",
+      "bytes": 795
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067601750.zip",
+      "sha256": "0ac0cb0d1676c37cfce1443048b09f0814b439b38e6a6285eb86a6db49c63755",
+      "bytes": 5305309
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067817130.json",
+      "sha256": "a23c6446efea2f9eb229fb3c4f133e21d00df43f35f7054bd86b3f22cbe463cb",
+      "bytes": 793
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13067817130.zip",
+      "sha256": "1ead9a0fa5179efcaadb53a396d1f4bba522e44c08365d646a46fd10813217df",
+      "bytes": 5201238
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13068275910.json",
+      "sha256": "636a574304acac5b798b718197a701ef5bafcd09d51008a6bed3c57fd24ba08d",
+      "bytes": 795
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/artifacts/13068275910.zip",
+      "sha256": "662976f37ea23a36591c9f0136eb67743435844a38d25a9a7fcdbef91021793a",
+      "bytes": 4969494
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41266501082-jobs.json",
+      "sha256": "91bb0325a0052a70ad2e99c468217dff734fe5c9c5f5fa25c7c14fa2078aa4f3",
+      "bytes": 14339
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41266501082.json",
+      "sha256": "8603a89e1da3aa556795a9bdeef84263ddebd414330327d1cb2f7716894f9a93",
+      "bytes": 14737
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41266501082.zip",
+      "sha256": "bb0a1fab1535bf7d391bd03de16145c09921bffef56d5a3831c41e47449ba50b",
+      "bytes": 50116
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41266759296-jobs.json",
+      "sha256": "095b5f9fe6a603092cf3122b62aae7604fae0a1c24b75c0acde646a93b3fa551",
+      "bytes": 14337
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41266759296.json",
+      "sha256": "16e32905da92370fd215ec4ac9f1cd7af19f4e2d373d09e7a7aee4554136ecc1",
+      "bytes": 14748
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41266759296.zip",
+      "sha256": "197285ede6190f75369ecbb2c3d388c17347dbae9bb176dff1e39b57ab6370d6",
+      "bytes": 44455
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41267043173-jobs.json",
+      "sha256": "2ffe6b8bbea961b883fc0ea87cb1a8b281ac313041a2335da633d7f3f814d797",
+      "bytes": 14337
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41267043173.json",
+      "sha256": "85b2c09da0edba8965171b1012909935e465793df6afe4f645b37c44a97099f5",
+      "bytes": 14719
+    },
+    {
+      "path": "anydoc-markdown-skill/actions/runs/41267043173.zip",
+      "sha256": "08a33d4521821b669987af5f1d32981bde651662dc2782e603f4df87d51d6cb1",
+      "bytes": 40638
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/actions-artifacts.json",
+      "sha256": "199a3939d5cf732b9b2a5c761f6b53bb6ebf3944b944420515085e6b7eeda585",
+      "bytes": 6170
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/actions-runs.json",
+      "sha256": "95cce7f01a374733245f3e8aab0d11e48bd62520affa56178264aff6cd111581",
+      "bytes": 46943
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/actions-secrets.json",
+      "sha256": "92471c73f46340faf89cee89b506bcce30f82acb0a6dd5df525856ecfdae0682",
+      "bytes": 40
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/actions-variables.json",
+      "sha256": "06fe2b89387a170dfd9f71359295e72935ebeb1ce1ffefb9c54d0d26b047dced",
+      "bytes": 42
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/branches.json",
+      "sha256": "212e9becff58380d3a2160d6e67fe68360c71de73b0f6ac465a1a3d1c6d93eff",
+      "bytes": 545
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/deployments.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/environments.json",
+      "sha256": "d755e532306c17ca4745b4c43f28fd24b6c3eb7c99e6386eedcffb7686e6aaeb",
+      "bytes": 45
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/issues.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/milestones.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/pull-requests.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/releases.json",
+      "sha256": "645a783ea90d571da6bb0daf8acf2cbdd31c54a898e07f513e5afa539b3feb93",
+      "bytes": 7071
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/repository.json",
+      "sha256": "313a7dee89d5e94909706cff5c5b4d9f250277b8160ba3e43776f7aec1f97748",
+      "bytes": 7331
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/rulesets.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/tag-ref-v0.1.0.json",
+      "sha256": "220ec351aa602da759fce847f2c699d7ea897887b12e298c8f59ab089458a316",
+      "bytes": 402
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/tags.json",
+      "sha256": "787cb7548dc568e22a6a44c1bc8f80300c1b956a606e76b3345380b16cdfcf3a",
+      "bytes": 509
+    },
+    {
+      "path": "anydoc-markdown-skill/metadata/webhooks.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "anydoc-markdown-skill/releases/v0.1.0/SHA256SUMS",
+      "sha256": "7df5dbbcbe8efc6699a860d676e06c67b1d86246f5d3e1aba6844331f083713a",
+      "bytes": 93
+    },
+    {
+      "path": "anydoc-markdown-skill/releases/v0.1.0/anydoc-markdown-v0.1.0.zip",
+      "sha256": "8f450481c7fb43b3ddcd0a106558843ace8b198ff98c8faadf611c2b151774fc",
+      "bytes": 263862
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/actions/runs/41268874679-jobs.json",
+      "sha256": "29f8f1b33d6e4317abb5c4ae2e34821376210c7117a0f2939483ba72f18c410a",
+      "bytes": 24723
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/actions/runs/41268874679.json",
+      "sha256": "fd8f169cb162f97258ac13f529c315300c4225937e4d429be2a424bf32416555",
+      "bytes": 14859
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/actions/runs/41268874679.zip",
+      "sha256": "cacf73511dd886a27f153445dbec99ff3f569082c0d7ee4a3087605ee20b4e2f",
+      "bytes": 111595
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/actions/runs/41269013476-jobs.json",
+      "sha256": "413c4ac1836c1df58f2de6c8b6665f6231417e2d54550a5ffd8c852d049a8ccd",
+      "bytes": 24723
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/actions/runs/41269013476.json",
+      "sha256": "058445041d11f841ba980e3bee0a412cecce6cc5f2bba1d64bd281625b8f5d21",
+      "bytes": 14863
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/actions/runs/41269013476.zip",
+      "sha256": "c3ce24261afc4524199461fd3717a03ad5a93dd7d2aa31afd4fc2d8cb82a3043",
+      "bytes": 109156
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/actions-artifacts.json",
+      "sha256": "f7417e1fb877d3f5934f143cc38ad9e2905476e8f5ac6776507d09441efcd6f6",
+      "bytes": 42
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/actions-runs.json",
+      "sha256": "370ba901e12ea7380a532392685915337dfe2e6a9498ede575fa8496072d79be",
+      "bytes": 31564
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/actions-secrets.json",
+      "sha256": "92471c73f46340faf89cee89b506bcce30f82acb0a6dd5df525856ecfdae0682",
+      "bytes": 40
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/actions-variables.json",
+      "sha256": "06fe2b89387a170dfd9f71359295e72935ebeb1ce1ffefb9c54d0d26b047dced",
+      "bytes": 42
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/branches.json",
+      "sha256": "de931fad98d9f7aabc784696960d2866abafdb02d7c2d2e25846ca24b3b8d697",
+      "bytes": 549
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/deployments.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/environments.json",
+      "sha256": "d755e532306c17ca4745b4c43f28fd24b6c3eb7c99e6386eedcffb7686e6aaeb",
+      "bytes": 45
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/issues.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/milestones.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/pull-requests.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/releases.json",
+      "sha256": "80008fa507113ba272e704e44bd2c2b0bd60f14f4d25593ea3523eab19ef6310",
+      "bytes": 7665
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/repository.json",
+      "sha256": "0edc35163a9e59207ddfa6d2200d5a181c60d5502a308638ce1b943b56d1690e",
+      "bytes": 7396
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/rulesets.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/tag-ref-v0.1.0.json",
+      "sha256": "70d24eccc2c49f92d4e7fc9fb39331008e76f9505979aad9708b609491cf8d23",
+      "bytes": 400
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/tags.json",
+      "sha256": "d9554b19c4b75970d8d999b3501fe72a2beb1fcd5c05355baf9729d774431a21",
+      "bytes": 515
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/metadata/webhooks.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/releases/v0.1.0/SHA256SUMS",
+      "sha256": "27a70829eded5bc3d16fb4e56ad36eecf6dd6aa75c466b54e6fbd2f9e30fef98",
+      "bytes": 95
+    },
+    {
+      "path": "obsidian-llm-wiki-skill/releases/v0.1.0/obsidian-llm-wiki-v0.1.0.zip",
+      "sha256": "1654c07297e3079a6e7e9db3b152a2db03dca8eaab9e58c8771d079c8190e2d1",
+      "bytes": 106415
+    }
+  ],
+  "files_sha256": "5c67918441cbd7370a72d23925b07baad5c770a14fc2d87dc82c0be1b104458d",
+  "git_mirrors": "Parent agent supplies separate *.git mirrors and Git bundles; they are outside this inventory."
+}
