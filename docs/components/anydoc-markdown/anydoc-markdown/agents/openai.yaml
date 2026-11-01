@@ -1,0 +1,4 @@
+interface:
+  display_name: "AnyDoc Markdown"
+  short_description: "Convert documents and folders to local Markdown bundles"
+  default_prompt: "Use $anydoc-markdown to convert these documents into local Markdown bundles and report any omissions."

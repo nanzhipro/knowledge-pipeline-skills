@@ -1,0 +1,29 @@
+{
+  "title": "Improve anydoc-markdown",
+  "target": {
+    "kind": "skill",
+    "path": "/tmp/anydoc-eval-setup/final-source/anydoc-markdown",
+    "entryPath": "/tmp/anydoc-eval-setup/final-source/anydoc-markdown/SKILL.md",
+    "name": "anydoc-markdown",
+    "relativePath": "../../../../tmp/anydoc-eval-setup/final-source/anydoc-markdown"
+  },
+  "summary": "Raise the evaluation from grade A (95/100) with a focus on the highest-signal structural and budget issues first.",
+  "goals": [
+    "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+  ],
+  "measurementGoals": [
+    "token-usage-observer",
+    "task-outcome-scorecard"
+  ],
+  "requiredFixes": [],
+  "recommendedFixes": [
+    {
+      "id": "extra-doc-files",
+      "message": "The skill includes extra documentation files that usually belong in references/ or outside the skill bundle.",
+      "remediation": [
+        "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+      ]
+    }
+  ],
+  "suggestedPrompt": "Use the skill-creator guidance to improve anydoc-markdown. Keep the structure compact and move bulky details into references or scripts. Define success measures with these toolsets: token-usage-observer, task-outcome-scorecard. Address extra-doc-files: The skill includes extra documentation files that usually belong in references/ or outside the skill bundle."
+}

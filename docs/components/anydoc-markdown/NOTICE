@@ -1,0 +1,6 @@
+This project uses firecrawl/anydoc 0.2.4 under the MIT License.
+The vendored Markdown renderer is from firecrawl/anydoc tag v0.2.4,
+commit 42bf1c5ecdde9eb0d96d6bd75a9e6698cf93b14c.
+Its original MIT license, source fingerprints and minimal modifications are
+recorded in anydoc-markdown/scripts/anydoc-md/src/render/.
+Official anydoc fixtures used in tests retain the upstream MIT attribution.

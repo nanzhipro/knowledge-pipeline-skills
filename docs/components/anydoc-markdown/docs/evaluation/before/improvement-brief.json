@@ -1,0 +1,29 @@
+{
+  "title": "Improve anydoc-markdown",
+  "target": {
+    "kind": "skill",
+    "path": "/Users/nanzhi/Downloads/知本设计研究/anydoc-markdown-skill/anydoc-markdown",
+    "entryPath": "/Users/nanzhi/Downloads/知本设计研究/anydoc-markdown-skill/anydoc-markdown/SKILL.md",
+    "name": "anydoc-markdown",
+    "relativePath": "anydoc-markdown-skill/anydoc-markdown"
+  },
+  "summary": "Raise the evaluation from grade A (95/100) with a focus on the highest-signal structural and budget issues first.",
+  "goals": [
+    "Rewrite the description to include a clear 'Use when ...' trigger sentence."
+  ],
+  "measurementGoals": [
+    "token-usage-observer",
+    "task-outcome-scorecard"
+  ],
+  "requiredFixes": [],
+  "recommendedFixes": [
+    {
+      "id": "description-trigger-weak",
+      "message": "The description does not clearly advertise when the skill should trigger.",
+      "remediation": [
+        "Rewrite the description to include a clear 'Use when ...' trigger sentence."
+      ]
+    }
+  ],
+  "suggestedPrompt": "Use the skill-creator guidance to improve anydoc-markdown. Keep the structure compact and move bulky details into references or scripts. Define success measures with these toolsets: token-usage-observer, task-outcome-scorecard. Address description-trigger-weak: The description does not clearly advertise when the skill should trigger."
+}

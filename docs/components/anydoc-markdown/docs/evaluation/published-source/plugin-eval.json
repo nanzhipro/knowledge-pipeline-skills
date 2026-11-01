@@ -1,0 +1,1237 @@
+{
+  "schemaVersion": 1,
+  "tool": {
+    "name": "plugin-eval",
+    "version": "0.1.0"
+  },
+  "createdAt": "2026-11-01T02:55:12.081Z",
+  "target": {
+    "kind": "skill",
+    "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown",
+    "entryPath": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+    "name": "anydoc-markdown",
+    "relativePath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+  },
+  "summary": {
+    "score": 95,
+    "grade": "A",
+    "riskLevel": "medium",
+    "riskReasons": [
+      "Contains 1 warning signal that still need attention."
+    ],
+    "scoreBreakdown": {
+      "startingScore": 100,
+      "totalDeductions": 4.75,
+      "finalScore": 95,
+      "gradeThresholds": {
+        "A": 93,
+        "B": 85,
+        "C": 70,
+        "D": 55
+      }
+    },
+    "checkCounts": {
+      "total": 2,
+      "pass": 0,
+      "warn": 1,
+      "fail": 0,
+      "info": 2,
+      "error": 0,
+      "warning": 1
+    },
+    "deductions": [
+      {
+        "id": "extra-doc-files",
+        "category": "best-practice",
+        "severity": "warning",
+        "status": "warn",
+        "message": "The skill includes extra documentation files that usually belong in references/ or outside the skill bundle.",
+        "penalty": 4.5,
+        "remediation": [
+          "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+        ],
+        "source": "core",
+        "targetPath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+      },
+      {
+        "id": "coverage-artifacts-unavailable",
+        "category": "coverage",
+        "severity": "info",
+        "status": "info",
+        "message": "No coverage artifacts were found for this target.",
+        "penalty": 0.25,
+        "remediation": [
+          "Generate `lcov.info`, `coverage.xml`, or an Istanbul coverage JSON file if you want coverage scoring."
+        ],
+        "source": "core"
+      }
+    ],
+    "categoryDeductions": [
+      {
+        "category": "best-practice",
+        "totalPenalty": 4.5,
+        "checks": 1
+      },
+      {
+        "category": "coverage",
+        "totalPenalty": 0.25,
+        "checks": 1
+      }
+    ],
+    "topRecommendations": [
+      "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+    ],
+    "whyBullets": [
+      "1 warning signal still need cleanup before this feels polished.",
+      "best-practice is the largest source of score loss at -4.5 points.",
+      "Budget pressure is not the dominant issue right now.",
+      "No observed usage is attached yet, so budget conclusions are still based on static estimates."
+    ],
+    "fixFirst": [
+      {
+        "id": "extra-doc-files",
+        "category": "best-practice",
+        "severity": "warning",
+        "status": "warn",
+        "message": "The skill includes extra documentation files that usually belong in references/ or outside the skill bundle.",
+        "why": "Best-practice gaps usually do not break the workflow immediately, but they make the skill harder to understand and improve.",
+        "remediation": [
+          "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+        ],
+        "penalty": 4.5,
+        "source": "core",
+        "targetPath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+      }
+    ],
+    "watchNext": []
+  },
+  "budgets": {
+    "method": "estimated-static",
+    "invocation_policy": {
+      "allow_implicit_invocation": true,
+      "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/agents/openai.yaml"
+    },
+    "trigger_cost_tokens": {
+      "value": 31,
+      "band": "moderate",
+      "thresholds": {
+        "goodMax": 26,
+        "moderateMax": 41,
+        "heavyMax": 44
+      },
+      "components": [
+        {
+          "label": "skill-name",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+          "tokens": 4,
+          "note": "Always-loaded skill identifier"
+        },
+        {
+          "label": "skill-description",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+          "tokens": 27,
+          "note": "Always-loaded trigger description"
+        }
+      ]
+    },
+    "invoke_cost_tokens": {
+      "value": 741,
+      "band": "moderate",
+      "thresholds": {
+        "goodMax": 550,
+        "moderateMax": 743,
+        "heavyMax": 784
+      },
+      "components": [
+        {
+          "label": "skill-file",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+          "tokens": 741,
+          "note": "Loaded when the skill is invoked"
+        }
+      ]
+    },
+    "deferred_cost_tokens": {
+      "value": 8501,
+      "band": "moderate",
+      "thresholds": {
+        "goodMax": 1738,
+        "moderateMax": 16036,
+        "heavyMax": 76488
+      },
+      "components": [
+        {
+          "label": "agents/openai.yaml",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/agents/openai.yaml",
+          "tokens": 62,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "references/formats-and-limits.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/references/formats-and-limits.md",
+          "tokens": 538,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "references/output-contract.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/references/output-contract.md",
+          "tokens": 795,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "references/runtime.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/references/runtime.md",
+          "tokens": 327,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/Cargo.toml",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/Cargo.toml",
+          "tokens": 218,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/rustfmt.toml",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/rustfmt.toml",
+          "tokens": 17,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/src/render/UPSTREAM-FINGERPRINTS.json",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/src/render/UPSTREAM-FINGERPRINTS.json",
+          "tokens": 522,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/src/render/UPSTREAM-NOTICE.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/src/render/UPSTREAM-NOTICE.md",
+          "tokens": 192,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/README.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/README.md",
+          "tokens": 253,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/SOURCES.json",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/SOURCES.json",
+          "tokens": 2922,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/assets__image.docx.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/assets__image.docx.md",
+          "tokens": 50,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/assets__image.epub.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/assets__image.epub.md",
+          "tokens": 146,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__csv__sheet.csv.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__csv__sheet.csv.md",
+          "tokens": 74,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__doc__text.doc.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__doc__text.doc.md",
+          "tokens": 308,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__docx__text.docx.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__docx__text.docx.md",
+          "tokens": 324,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__epub__book.epub.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__epub__book.epub.md",
+          "tokens": 190,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__odp__pres.odp.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__odp__pres.odp.md",
+          "tokens": 68,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__ods__sheet.ods.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__ods__sheet.ods.md",
+          "tokens": 99,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__odt__text.odt.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__odt__text.odt.md",
+          "tokens": 326,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__pdf__text.pdf.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__pdf__text.pdf.md",
+          "tokens": 269,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__ppt__pres.ppt.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__ppt__pres.ppt.md",
+          "tokens": 63,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__pptx__pres.pptx.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__pptx__pres.pptx.md",
+          "tokens": 69,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__rtf__text.rtf.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__rtf__text.rtf.md",
+          "tokens": 325,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__xls__sheet.xls.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__xls__sheet.xls.md",
+          "tokens": 99,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__xlsb__handmade-sheet.xlsb.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__xlsb__handmade-sheet.xlsb.md",
+          "tokens": 93,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/expected/valid__xlsx__sheet.xlsx.md",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__xlsx__sheet.xlsx.md",
+          "tokens": 99,
+          "note": "Deferred supporting file"
+        },
+        {
+          "label": "scripts/anydoc-md/tests/fixtures/valid/csv/sheet.csv",
+          "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/valid/csv/sheet.csv",
+          "tokens": 53,
+          "note": "Deferred supporting file"
+        }
+      ]
+    },
+    "total_tokens": {
+      "value": 9273,
+      "band": "moderate"
+    }
+  },
+  "observedUsage": null,
+  "checks": [
+    {
+      "id": "extra-doc-files",
+      "category": "best-practice",
+      "severity": "warning",
+      "status": "warn",
+      "message": "The skill includes extra documentation files that usually belong in references/ or outside the skill bundle.",
+      "evidence": [
+        "README.md"
+      ],
+      "remediation": [
+        "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+      ],
+      "source": "core",
+      "targetPath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    {
+      "id": "coverage-artifacts-unavailable",
+      "category": "coverage",
+      "severity": "info",
+      "status": "info",
+      "message": "No coverage artifacts were found for this target.",
+      "evidence": [
+        "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+      ],
+      "remediation": [
+        "Generate `lcov.info`, `coverage.xml`, or an Istanbul coverage JSON file if you want coverage scoring."
+      ],
+      "source": "core"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "skill_line_count",
+      "category": "budget",
+      "value": 50,
+      "unit": "lines",
+      "band": "good",
+      "source": "core",
+      "targetPath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    {
+      "id": "description_length_chars",
+      "category": "budget",
+      "value": 107,
+      "unit": "chars",
+      "band": "good",
+      "source": "core",
+      "targetPath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    {
+      "id": "relative_link_count",
+      "category": "documentation",
+      "value": 3,
+      "unit": "links",
+      "band": "good",
+      "source": "core",
+      "targetPath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    {
+      "id": "code_fence_count",
+      "category": "readability",
+      "value": 3,
+      "unit": "blocks",
+      "band": "good",
+      "source": "core",
+      "targetPath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    {
+      "id": "support_file_count",
+      "category": "documentation",
+      "value": 59,
+      "unit": "files",
+      "band": "good",
+      "source": "core",
+      "targetPath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    {
+      "id": "trigger_cost_tokens",
+      "category": "budget",
+      "value": 31,
+      "unit": "tokens",
+      "band": "moderate",
+      "source": "core"
+    },
+    {
+      "id": "invoke_cost_tokens",
+      "category": "budget",
+      "value": 741,
+      "unit": "tokens",
+      "band": "moderate",
+      "source": "core"
+    },
+    {
+      "id": "deferred_cost_tokens",
+      "category": "budget",
+      "value": 8501,
+      "unit": "tokens",
+      "band": "moderate",
+      "source": "core"
+    },
+    {
+      "id": "coverage_artifact_count",
+      "category": "coverage",
+      "value": 0,
+      "unit": "files",
+      "band": "info",
+      "source": "core"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "skill-link-inventory",
+      "type": "inventory",
+      "label": "Skill relative links",
+      "description": "Relative links found in SKILL.md.",
+      "source": "core",
+      "data": {
+        "links": [
+          "references/output-contract.md",
+          "references/formats-and-limits.md",
+          "references/runtime.md"
+        ]
+      }
+    },
+    {
+      "id": "budget-breakdown",
+      "type": "budget",
+      "label": "Budget breakdown",
+      "description": "Trigger, invoke, and deferred token budget analysis.",
+      "source": "core",
+      "data": {
+        "budgets": {
+          "method": "estimated-static",
+          "invocation_policy": {
+            "allow_implicit_invocation": true,
+            "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/agents/openai.yaml"
+          },
+          "trigger_cost_tokens": {
+            "value": 31,
+            "band": "moderate",
+            "thresholds": {
+              "goodMax": 26,
+              "moderateMax": 41,
+              "heavyMax": 44
+            },
+            "components": [
+              {
+                "label": "skill-name",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+                "tokens": 4,
+                "note": "Always-loaded skill identifier"
+              },
+              {
+                "label": "skill-description",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+                "tokens": 27,
+                "note": "Always-loaded trigger description"
+              }
+            ]
+          },
+          "invoke_cost_tokens": {
+            "value": 741,
+            "band": "moderate",
+            "thresholds": {
+              "goodMax": 550,
+              "moderateMax": 743,
+              "heavyMax": 784
+            },
+            "components": [
+              {
+                "label": "skill-file",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+                "tokens": 741,
+                "note": "Loaded when the skill is invoked"
+              }
+            ]
+          },
+          "deferred_cost_tokens": {
+            "value": 8501,
+            "band": "moderate",
+            "thresholds": {
+              "goodMax": 1738,
+              "moderateMax": 16036,
+              "heavyMax": 76488
+            },
+            "components": [
+              {
+                "label": "agents/openai.yaml",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/agents/openai.yaml",
+                "tokens": 62,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "references/formats-and-limits.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/references/formats-and-limits.md",
+                "tokens": 538,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "references/output-contract.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/references/output-contract.md",
+                "tokens": 795,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "references/runtime.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/references/runtime.md",
+                "tokens": 327,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/Cargo.toml",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/Cargo.toml",
+                "tokens": 218,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/rustfmt.toml",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/rustfmt.toml",
+                "tokens": 17,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/src/render/UPSTREAM-FINGERPRINTS.json",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/src/render/UPSTREAM-FINGERPRINTS.json",
+                "tokens": 522,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/src/render/UPSTREAM-NOTICE.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/src/render/UPSTREAM-NOTICE.md",
+                "tokens": 192,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/README.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/README.md",
+                "tokens": 253,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/SOURCES.json",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/SOURCES.json",
+                "tokens": 2922,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/assets__image.docx.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/assets__image.docx.md",
+                "tokens": 50,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/assets__image.epub.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/assets__image.epub.md",
+                "tokens": 146,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__csv__sheet.csv.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__csv__sheet.csv.md",
+                "tokens": 74,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__doc__text.doc.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__doc__text.doc.md",
+                "tokens": 308,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__docx__text.docx.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__docx__text.docx.md",
+                "tokens": 324,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__epub__book.epub.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__epub__book.epub.md",
+                "tokens": 190,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__odp__pres.odp.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__odp__pres.odp.md",
+                "tokens": 68,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__ods__sheet.ods.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__ods__sheet.ods.md",
+                "tokens": 99,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__odt__text.odt.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__odt__text.odt.md",
+                "tokens": 326,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__pdf__text.pdf.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__pdf__text.pdf.md",
+                "tokens": 269,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__ppt__pres.ppt.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__ppt__pres.ppt.md",
+                "tokens": 63,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__pptx__pres.pptx.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__pptx__pres.pptx.md",
+                "tokens": 69,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__rtf__text.rtf.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__rtf__text.rtf.md",
+                "tokens": 325,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__xls__sheet.xls.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__xls__sheet.xls.md",
+                "tokens": 99,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__xlsb__handmade-sheet.xlsb.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__xlsb__handmade-sheet.xlsb.md",
+                "tokens": 93,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/expected/valid__xlsx__sheet.xlsx.md",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/expected/valid__xlsx__sheet.xlsx.md",
+                "tokens": 99,
+                "note": "Deferred supporting file"
+              },
+              {
+                "label": "scripts/anydoc-md/tests/fixtures/valid/csv/sheet.csv",
+                "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/scripts/anydoc-md/tests/fixtures/valid/csv/sheet.csv",
+                "tokens": 53,
+                "note": "Deferred supporting file"
+              }
+            ]
+          },
+          "total_tokens": {
+            "value": 9273,
+            "band": "moderate"
+          }
+        },
+        "baselineEvidence": {
+          "skillSamples": 12,
+          "pluginSamples": 60,
+          "sourceRoots": [
+            "../../../.codex/skills",
+            "../../../.codex/plugins/cache/openai-curated",
+            "../../../.codex/.tmp/plugins/plugins"
+          ]
+        }
+      }
+    },
+    {
+      "id": "measurement-plan",
+      "type": "measurement-plan",
+      "label": "Measurement plan",
+      "description": "Recommended toolsets for measuring the real-world effect of this skill or plugin.",
+      "source": "core",
+      "data": {
+        "recommendedToolsets": [
+          "token-usage-observer",
+          "task-outcome-scorecard"
+        ],
+        "toolsets": [
+          {
+            "id": "token-usage-observer",
+            "label": "Token Usage Observer",
+            "priority": "high",
+            "goal": "Measure how many tokens the skill or plugin actually burns in representative runs.",
+            "why": "Static estimates are useful guardrails, but observed usage is what tells you whether a real workflow is affordable and whether caching or reasoning changes the picture.",
+            "signals": [
+              "observed_usage_sample_count",
+              "observed_input_tokens_avg",
+              "observed_total_tokens_avg",
+              "estimate_vs_observed_input_ratio"
+            ],
+            "evidenceSources": [
+              "Responses API usage logs",
+              "Codex-like session exports",
+              "JSONL traces captured from local benchmarking harnesses"
+            ],
+            "starterPack": {
+              "manifestName": "token-usage-pack",
+              "focus": "Validate sample size, cold-start versus warm-cache behavior, and estimate drift over time."
+            }
+          },
+          {
+            "id": "task-outcome-scorecard",
+            "label": "Task Outcome Scorecard",
+            "priority": "high",
+            "goal": "Measure whether the skill helps users finish the intended job with fewer retries and less cleanup.",
+            "why": "A low-token skill is still a miss if it fails the task, and a verbose skill may be worth it if it consistently improves first-pass success.",
+            "signals": [
+              "task_success_rate",
+              "first_pass_success_rate",
+              "retry_rate",
+              "human_override_rate"
+            ],
+            "evidenceSources": [
+              "Task run logs",
+              "Structured user acceptance checklist",
+              "Before/after comparison runs on the same prompts"
+            ],
+            "starterPack": {
+              "manifestName": "task-outcomes-pack",
+              "focus": "Score success, retries, and manual intervention across a fixed prompt set."
+            }
+          },
+          {
+            "id": "tool-call-audit",
+            "label": "Tool Call Audit",
+            "priority": "medium",
+            "goal": "Check whether the agent uses the right tools, arguments, and sequencing when the skill is active.",
+            "why": "For Codex plugins and many higher-agency skills, tool correctness is often the real determinant of user value.",
+            "signals": [
+              "tool_call_success_rate",
+              "invalid_tool_argument_rate",
+              "recoverable_tool_failure_rate"
+            ],
+            "evidenceSources": [
+              "Tool invocation traces",
+              "Recorded sessions",
+              "Golden-path scenario replays"
+            ],
+            "starterPack": {
+              "manifestName": "tool-audit-pack",
+              "focus": "Flag wrong tool selection, malformed args, and missing follow-up calls."
+            }
+          },
+          {
+            "id": "latency-efficiency",
+            "label": "Latency And Efficiency",
+            "priority": "medium",
+            "goal": "Track whether the skill speeds users up enough to justify its cost.",
+            "why": "DX improvements usually win when they reduce waiting or rework, not only when they reduce absolute token counts.",
+            "signals": [
+              "p50_time_to_first_acceptable_answer_seconds",
+              "p95_time_to_task_completion_seconds",
+              "tokens_per_successful_run"
+            ],
+            "evidenceSources": [
+              "Benchmark harness timings",
+              "Manual stopwatch runs on canonical tasks",
+              "Responses API timestamps combined with usage logs"
+            ],
+            "starterPack": {
+              "manifestName": "latency-efficiency-pack",
+              "focus": "Measure time-to-value and cost-per-success on a stable prompt suite."
+            }
+          },
+          {
+            "id": "human-rubric-review",
+            "label": "Human Rubric Review",
+            "priority": "medium",
+            "goal": "Capture clarity, trust, and usefulness signals that automated checks will miss.",
+            "why": "The best skills often reduce confusion and editing effort in ways that do not show up in static lint-like checks.",
+            "signals": [
+              "clarity_score_avg",
+              "confidence_score_avg",
+              "follow_up_question_rate"
+            ],
+            "evidenceSources": [
+              "Reviewer scorecards",
+              "Team rubric sheets",
+              "Annotated transcripts"
+            ],
+            "starterPack": {
+              "manifestName": "human-rubric-pack",
+              "focus": "Collect 1 to 5 scores for clarity, trust, and edit burden across a small evaluator panel."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [],
+  "measurementPlan": {
+    "kind": "measurement-plan",
+    "createdAt": "2026-11-01T02:55:12.918Z",
+    "target": {
+      "kind": "skill",
+      "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown",
+      "entryPath": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+      "name": "anydoc-markdown",
+      "relativePath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    "title": "Measurement plan for anydoc-markdown",
+    "summary": "Combine cost, outcome, and trust signals so you can tell whether the skill or plugin is genuinely helping instead of only looking well-structured on paper.",
+    "recommendedToolsets": [
+      "token-usage-observer",
+      "task-outcome-scorecard"
+    ],
+    "toolsets": [
+      {
+        "id": "token-usage-observer",
+        "label": "Token Usage Observer",
+        "priority": "high",
+        "goal": "Measure how many tokens the skill or plugin actually burns in representative runs.",
+        "why": "Static estimates are useful guardrails, but observed usage is what tells you whether a real workflow is affordable and whether caching or reasoning changes the picture.",
+        "signals": [
+          "observed_usage_sample_count",
+          "observed_input_tokens_avg",
+          "observed_total_tokens_avg",
+          "estimate_vs_observed_input_ratio"
+        ],
+        "evidenceSources": [
+          "Responses API usage logs",
+          "Codex-like session exports",
+          "JSONL traces captured from local benchmarking harnesses"
+        ],
+        "starterPack": {
+          "manifestName": "token-usage-pack",
+          "focus": "Validate sample size, cold-start versus warm-cache behavior, and estimate drift over time."
+        }
+      },
+      {
+        "id": "task-outcome-scorecard",
+        "label": "Task Outcome Scorecard",
+        "priority": "high",
+        "goal": "Measure whether the skill helps users finish the intended job with fewer retries and less cleanup.",
+        "why": "A low-token skill is still a miss if it fails the task, and a verbose skill may be worth it if it consistently improves first-pass success.",
+        "signals": [
+          "task_success_rate",
+          "first_pass_success_rate",
+          "retry_rate",
+          "human_override_rate"
+        ],
+        "evidenceSources": [
+          "Task run logs",
+          "Structured user acceptance checklist",
+          "Before/after comparison runs on the same prompts"
+        ],
+        "starterPack": {
+          "manifestName": "task-outcomes-pack",
+          "focus": "Score success, retries, and manual intervention across a fixed prompt set."
+        }
+      },
+      {
+        "id": "tool-call-audit",
+        "label": "Tool Call Audit",
+        "priority": "medium",
+        "goal": "Check whether the agent uses the right tools, arguments, and sequencing when the skill is active.",
+        "why": "For Codex plugins and many higher-agency skills, tool correctness is often the real determinant of user value.",
+        "signals": [
+          "tool_call_success_rate",
+          "invalid_tool_argument_rate",
+          "recoverable_tool_failure_rate"
+        ],
+        "evidenceSources": [
+          "Tool invocation traces",
+          "Recorded sessions",
+          "Golden-path scenario replays"
+        ],
+        "starterPack": {
+          "manifestName": "tool-audit-pack",
+          "focus": "Flag wrong tool selection, malformed args, and missing follow-up calls."
+        }
+      },
+      {
+        "id": "latency-efficiency",
+        "label": "Latency And Efficiency",
+        "priority": "medium",
+        "goal": "Track whether the skill speeds users up enough to justify its cost.",
+        "why": "DX improvements usually win when they reduce waiting or rework, not only when they reduce absolute token counts.",
+        "signals": [
+          "p50_time_to_first_acceptable_answer_seconds",
+          "p95_time_to_task_completion_seconds",
+          "tokens_per_successful_run"
+        ],
+        "evidenceSources": [
+          "Benchmark harness timings",
+          "Manual stopwatch runs on canonical tasks",
+          "Responses API timestamps combined with usage logs"
+        ],
+        "starterPack": {
+          "manifestName": "latency-efficiency-pack",
+          "focus": "Measure time-to-value and cost-per-success on a stable prompt suite."
+        }
+      },
+      {
+        "id": "human-rubric-review",
+        "label": "Human Rubric Review",
+        "priority": "medium",
+        "goal": "Capture clarity, trust, and usefulness signals that automated checks will miss.",
+        "why": "The best skills often reduce confusion and editing effort in ways that do not show up in static lint-like checks.",
+        "signals": [
+          "clarity_score_avg",
+          "confidence_score_avg",
+          "follow_up_question_rate"
+        ],
+        "evidenceSources": [
+          "Reviewer scorecards",
+          "Team rubric sheets",
+          "Annotated transcripts"
+        ],
+        "starterPack": {
+          "manifestName": "human-rubric-pack",
+          "focus": "Collect 1 to 5 scores for clarity, trust, and edit burden across a small evaluator panel."
+        }
+      }
+    ],
+    "artifact": {
+      "id": "measurement-plan",
+      "type": "measurement-plan",
+      "label": "Measurement plan",
+      "description": "Recommended toolsets for measuring the real-world effect of this skill or plugin.",
+      "source": "core",
+      "data": {
+        "recommendedToolsets": [
+          "token-usage-observer",
+          "task-outcome-scorecard"
+        ],
+        "toolsets": [
+          {
+            "id": "token-usage-observer",
+            "label": "Token Usage Observer",
+            "priority": "high",
+            "goal": "Measure how many tokens the skill or plugin actually burns in representative runs.",
+            "why": "Static estimates are useful guardrails, but observed usage is what tells you whether a real workflow is affordable and whether caching or reasoning changes the picture.",
+            "signals": [
+              "observed_usage_sample_count",
+              "observed_input_tokens_avg",
+              "observed_total_tokens_avg",
+              "estimate_vs_observed_input_ratio"
+            ],
+            "evidenceSources": [
+              "Responses API usage logs",
+              "Codex-like session exports",
+              "JSONL traces captured from local benchmarking harnesses"
+            ],
+            "starterPack": {
+              "manifestName": "token-usage-pack",
+              "focus": "Validate sample size, cold-start versus warm-cache behavior, and estimate drift over time."
+            }
+          },
+          {
+            "id": "task-outcome-scorecard",
+            "label": "Task Outcome Scorecard",
+            "priority": "high",
+            "goal": "Measure whether the skill helps users finish the intended job with fewer retries and less cleanup.",
+            "why": "A low-token skill is still a miss if it fails the task, and a verbose skill may be worth it if it consistently improves first-pass success.",
+            "signals": [
+              "task_success_rate",
+              "first_pass_success_rate",
+              "retry_rate",
+              "human_override_rate"
+            ],
+            "evidenceSources": [
+              "Task run logs",
+              "Structured user acceptance checklist",
+              "Before/after comparison runs on the same prompts"
+            ],
+            "starterPack": {
+              "manifestName": "task-outcomes-pack",
+              "focus": "Score success, retries, and manual intervention across a fixed prompt set."
+            }
+          },
+          {
+            "id": "tool-call-audit",
+            "label": "Tool Call Audit",
+            "priority": "medium",
+            "goal": "Check whether the agent uses the right tools, arguments, and sequencing when the skill is active.",
+            "why": "For Codex plugins and many higher-agency skills, tool correctness is often the real determinant of user value.",
+            "signals": [
+              "tool_call_success_rate",
+              "invalid_tool_argument_rate",
+              "recoverable_tool_failure_rate"
+            ],
+            "evidenceSources": [
+              "Tool invocation traces",
+              "Recorded sessions",
+              "Golden-path scenario replays"
+            ],
+            "starterPack": {
+              "manifestName": "tool-audit-pack",
+              "focus": "Flag wrong tool selection, malformed args, and missing follow-up calls."
+            }
+          },
+          {
+            "id": "latency-efficiency",
+            "label": "Latency And Efficiency",
+            "priority": "medium",
+            "goal": "Track whether the skill speeds users up enough to justify its cost.",
+            "why": "DX improvements usually win when they reduce waiting or rework, not only when they reduce absolute token counts.",
+            "signals": [
+              "p50_time_to_first_acceptable_answer_seconds",
+              "p95_time_to_task_completion_seconds",
+              "tokens_per_successful_run"
+            ],
+            "evidenceSources": [
+              "Benchmark harness timings",
+              "Manual stopwatch runs on canonical tasks",
+              "Responses API timestamps combined with usage logs"
+            ],
+            "starterPack": {
+              "manifestName": "latency-efficiency-pack",
+              "focus": "Measure time-to-value and cost-per-success on a stable prompt suite."
+            }
+          },
+          {
+            "id": "human-rubric-review",
+            "label": "Human Rubric Review",
+            "priority": "medium",
+            "goal": "Capture clarity, trust, and usefulness signals that automated checks will miss.",
+            "why": "The best skills often reduce confusion and editing effort in ways that do not show up in static lint-like checks.",
+            "signals": [
+              "clarity_score_avg",
+              "confidence_score_avg",
+              "follow_up_question_rate"
+            ],
+            "evidenceSources": [
+              "Reviewer scorecards",
+              "Team rubric sheets",
+              "Annotated transcripts"
+            ],
+            "starterPack": {
+              "manifestName": "human-rubric-pack",
+              "focus": "Collect 1 to 5 scores for clarity, trust, and edit burden across a small evaluator panel."
+            }
+          }
+        ]
+      }
+    },
+    "nextAction": {
+      "label": "Start with Token Usage Observer",
+      "why": "Measure how many tokens the skill or plugin actually burns in representative runs.",
+      "command": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'What should I run next?' --format markdown",
+      "chatPrompt": "What should I run next?",
+      "toolsetId": "token-usage-observer"
+    }
+  },
+  "improvementBrief": {
+    "title": "Improve anydoc-markdown",
+    "target": {
+      "kind": "skill",
+      "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown",
+      "entryPath": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+      "name": "anydoc-markdown",
+      "relativePath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    "summary": "Raise the evaluation from grade A (95/100) with a focus on the highest-signal structural and budget issues first.",
+    "goals": [
+      "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+    ],
+    "measurementGoals": [
+      "token-usage-observer",
+      "task-outcome-scorecard"
+    ],
+    "requiredFixes": [],
+    "recommendedFixes": [
+      {
+        "id": "extra-doc-files",
+        "message": "The skill includes extra documentation files that usually belong in references/ or outside the skill bundle.",
+        "remediation": [
+          "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+        ]
+      }
+    ],
+    "suggestedPrompt": "Use the skill-creator guidance to improve anydoc-markdown. Keep the structure compact and move bulky details into references or scripts. Define success measures with these toolsets: token-usage-observer, task-outcome-scorecard. Address extra-doc-files: The skill includes extra documentation files that usually belong in references/ or outside the skill bundle."
+  },
+  "nextAction": {
+    "label": "Fix the top findings and rerun the report",
+    "why": "A short pass on the highest-value findings will improve trust, readability, and the signal quality of future benchmarks.",
+    "command": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'What should I fix first?' --format markdown",
+    "chatPrompt": "What should I fix first?"
+  },
+  "workflowGuide": {
+    "kind": "workflow-guide",
+    "createdAt": "2026-11-01T02:55:12.919Z",
+    "target": {
+      "kind": "skill",
+      "path": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown",
+      "entryPath": "/var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/SKILL.md",
+      "name": "anydoc-markdown",
+      "relativePath": "../../../../../var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+    },
+    "requestedGoal": "evaluate",
+    "requestedChatPrompt": null,
+    "requestRouting": null,
+    "recommendedWorkflowId": "evaluate",
+    "recommendedWorkflow": {
+      "id": "evaluate",
+      "label": "Evaluate Skill",
+      "chatPrompt": "Evaluate this skill.",
+      "summary": "Start here when you want the overall report for a skill, including structure, budgets, and code checks.",
+      "firstCommand": "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown",
+      "commands": [
+        "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown"
+      ],
+      "startCommand": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'Evaluate this skill.' --format markdown"
+    },
+    "workflowStatus": {
+      "hasBenchmarkConfig": false,
+      "hasUsageLog": false
+    },
+    "beginnerSummary": "Start with a natural chat request, then let plugin-eval show the exact local command sequence behind it.",
+    "startHere": {
+      "chatPrompt": "Evaluate this skill.",
+      "label": "Evaluate Skill",
+      "summary": "Start here when you want the overall report for a skill, including structure, budgets, and code checks.",
+      "routingExplanation": "Plugin Eval recommended Evaluate Skill from the current local state for this skill.",
+      "startCommand": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'Evaluate this skill.' --format markdown",
+      "firstCommand": "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown",
+      "commands": [
+        "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown"
+      ]
+    },
+    "entrypoints": [
+      {
+        "id": "analysis",
+        "label": "Full Skill Analysis",
+        "chatPrompt": "Give me a full analysis of this skill, including benchmark setup.",
+        "summary": "Use this when you want the full report and starter benchmark setup for this skill in one guided path.",
+        "firstCommand": "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown",
+        "commands": [
+          "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown",
+          "plugin-eval init-benchmark /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown",
+          "plugin-eval benchmark /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --config /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/.plugin-eval/benchmark.json"
+        ],
+        "startCommand": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'Give me a full analysis of this skill, including benchmark setup.' --format markdown"
+      },
+      {
+        "id": "evaluate",
+        "label": "Evaluate Skill",
+        "chatPrompt": "Evaluate this skill.",
+        "summary": "Start here when you want the overall report for a skill, including structure, budgets, and code checks.",
+        "firstCommand": "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown",
+        "commands": [
+          "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown"
+        ],
+        "startCommand": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'Evaluate this skill.' --format markdown"
+      },
+      {
+        "id": "budget",
+        "label": "Explain Token Budget",
+        "chatPrompt": "Explain the token budget for this skill.",
+        "summary": "Use this when the main question is why the skill feels expensive before you collect any live measurements.",
+        "firstCommand": "plugin-eval explain-budget /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown",
+        "commands": [
+          "plugin-eval explain-budget /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown"
+        ],
+        "startCommand": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'Explain the token budget for this skill.' --format markdown"
+      },
+      {
+        "id": "measure",
+        "label": "Measure Real Token Usage",
+        "chatPrompt": "Measure the real token usage of this skill.",
+        "summary": "Use this when you want real token usage instead of only the static estimate.",
+        "firstCommand": "plugin-eval init-benchmark /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown",
+        "commands": [
+          "plugin-eval init-benchmark /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown",
+          "plugin-eval benchmark /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --config /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/.plugin-eval/benchmark.json",
+          "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --observed-usage /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown/.plugin-eval/benchmark-usage.jsonl --format markdown"
+        ],
+        "startCommand": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'Measure the real token usage of this skill.' --format markdown"
+      },
+      {
+        "id": "benchmark",
+        "label": "Benchmark With Starter Scenarios",
+        "chatPrompt": "Help me benchmark this skill.",
+        "summary": "Use this when you want starter scenarios and a repeatable real-Codex benchmark run for this skill.",
+        "firstCommand": "plugin-eval init-benchmark /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown",
+        "commands": [
+          "plugin-eval init-benchmark /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown"
+        ],
+        "startCommand": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'Help me benchmark this skill.' --format markdown"
+      },
+      {
+        "id": "next",
+        "label": "Start Here",
+        "chatPrompt": "What should I run next?",
+        "summary": "If you are new to plugin-eval, start with the overall evaluation report for this skill.",
+        "firstCommand": "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown",
+        "commands": [
+          "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown"
+        ],
+        "startCommand": "plugin-eval start /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --request 'What should I run next?' --format markdown"
+      }
+    ],
+    "nextSteps": [
+      "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown"
+    ],
+    "nextAction": {
+      "label": "Evaluate Skill",
+      "why": "Plugin Eval recommended Evaluate Skill from the current local state for this skill.",
+      "command": "plugin-eval analyze /var/folders/pk/_n6ttwlx7ml68987q2jxx8tr0000gp/T/anydoc-release-checkout-1_pj9a8g/repo/anydoc-markdown --format markdown",
+      "chatPrompt": "Evaluate this skill."
+    }
+  }
+}

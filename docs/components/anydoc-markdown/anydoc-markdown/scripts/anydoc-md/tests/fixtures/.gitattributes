@@ -1,0 +1,5 @@
+# Preserve source-document bytes on every platform; fixture SHA-256 is contractual.
+valid/** -text
+assets/** -text
+negative/** -text
+expected/** text eol=lf

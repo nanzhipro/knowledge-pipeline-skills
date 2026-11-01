@@ -1,0 +1,309 @@
+{
+  "observed_at": "2026-11-01T02:44:34.549619+00:00",
+  "source": "/Users/nanzhi/Downloads/知本设计研究/anydoc-markdown-skill/anydoc-markdown",
+  "snapshot": "/tmp/anydoc-eval-setup/final-source/anydoc-markdown",
+  "excluded_generated_directories": [
+    "target",
+    ".git",
+    ".work"
+  ],
+  "file_count": 59,
+  "tree_sha256": "7d2381f98b42441d4477142fd87a4af71c1f0ab63f40ee4a1c42963f880e9061",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "7bba0a4452d573854ab04cd181ee48c188099054ca6a7f4c748e507c028e0e1d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2961,
+      "sha256": "d6f2e2b1d58ddabb65acd6ec53c555ea06b28a09fc875811e7efc78ecffcf2d0"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 246,
+      "sha256": "d0552895de91f9e39b81622bb2457a974ab025268ba683e381bb2fcdd5c4be87"
+    },
+    {
+      "path": "references/formats-and-limits.md",
+      "bytes": 2151,
+      "sha256": "12144d0c17e111061e4debd29f9ce668c9a86037a242ddeaae7fbbe3f0322977"
+    },
+    {
+      "path": "references/output-contract.md",
+      "bytes": 3180,
+      "sha256": "13cef6407449cdbbd3c96142bd1be4d2863b8060f70b299d9a9e99d2ec743a93"
+    },
+    {
+      "path": "references/runtime.md",
+      "bytes": 1305,
+      "sha256": "e7c2959189458cd44304cf133161ede3a91c697908b89ee41bdd16ee48abb1b7"
+    },
+    {
+      "path": "scripts/anydoc-md/Cargo.lock",
+      "bytes": 37919,
+      "sha256": "a5822c54281aade2c2ed12ea6217909882de1abe8219ea114da6a6c0683b3c12"
+    },
+    {
+      "path": "scripts/anydoc-md/Cargo.toml",
+      "bytes": 738,
+      "sha256": "07ae8fe65cf5ade4efec76cbb9d32a1c15c9a823fc4847234f959fde25b066d1"
+    },
+    {
+      "path": "scripts/anydoc-md/rustfmt.toml",
+      "bytes": 66,
+      "sha256": "41f2d8780028adaddf0b4085f7a14528591fc97f225a640282c890531331485b"
+    },
+    {
+      "path": "scripts/anydoc-md/src/conversion.rs",
+      "bytes": 29558,
+      "sha256": "7a86d43e745c667017fa99640da8b59c7e40f15168aa542ac155f02482acc169"
+    },
+    {
+      "path": "scripts/anydoc-md/src/lib.rs",
+      "bytes": 28751,
+      "sha256": "4fdcbb8bbb83c5982c0f66e107de1a2e51492cda25113a2a0c1b46670e3276bf"
+    },
+    {
+      "path": "scripts/anydoc-md/src/main.rs",
+      "bytes": 2589,
+      "sha256": "d5c6e2380f9d59010fa85cb82be1e81ed026889b87304e9cf3ac6d193511e8ac"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/UPSTREAM-FINGERPRINTS.json",
+      "bytes": 2085,
+      "sha256": "feeb53dee1af755581075a8ea63cee43156fc2662430e466d20d4c6b1bf068c2"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/UPSTREAM-LICENSE",
+      "bytes": 1084,
+      "sha256": "03a9e7657aac6536fb6458bd220347c4e7f85bd0a51d8d9e8528530b7a682ade"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/UPSTREAM-NOTICE.md",
+      "bytes": 765,
+      "sha256": "59a2214173fa2705dbe5b64349e9e96741a68052e4c46fd01c26d578b3a029df"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/markdown/anchors.rs",
+      "bytes": 10533,
+      "sha256": "7ce634f3c171e6162385c029714effc16638b5503065da9a6a274968ebdad718"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/markdown/escape.rs",
+      "bytes": 12267,
+      "sha256": "dedb614508afeb826f96b807f9011407d71c3b40aa35c31ad92287a93e448ba2"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/markdown/inline.rs",
+      "bytes": 16373,
+      "sha256": "395816095a377333ae4e4a959f4024c2db35f47acf4d0cd3212e584ed9896ac3"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/markdown/mod.rs",
+      "bytes": 10615,
+      "sha256": "e771b944fbf03ff38423e05797dda568efd10180b05ef505a5d748ce490e7f0e"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/markdown/table.rs",
+      "bytes": 6547,
+      "sha256": "2131b0ec1b356c8bfb9c2d234f47e50b090541e904d3a9646e5772598ea05472"
+    },
+    {
+      "path": "scripts/anydoc-md/src/render/mod.rs",
+      "bytes": 18,
+      "sha256": "51c3a68b107e70138220a7d47565f5d183904500f84c46f1528d9323e96dd937"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/corpus.rs",
+      "bytes": 3528,
+      "sha256": "c5db363172dfba6235977e164851b19da60a8d7cff44ecd61d015b838d53297f"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/LICENSE.anydoc",
+      "bytes": 1084,
+      "sha256": "03a9e7657aac6536fb6458bd220347c4e7f85bd0a51d8d9e8528530b7a682ade"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/README.md",
+      "bytes": 1010,
+      "sha256": "dfbefd192772ffc4f72b60219ae878d285d618cdaf4a7f57f0ee28815700a089"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/SOURCES.json",
+      "bytes": 11687,
+      "sha256": "67aa620cf994d6b609739763c0c938f0ff02f892dcf7f9d3807a2964b0175587"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/assets/image.docx",
+      "bytes": 3268,
+      "sha256": "22afadb7927cc11d7520cd0f471aa1eea658369a1ba85da48123aded0700aafa"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/assets/image.epub",
+      "bytes": 3317,
+      "sha256": "0d7a72873c570620e5fd425558bdfb014cecc85771b0775c1e992843509755ce"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/assets__image.docx.md",
+      "bytes": 197,
+      "sha256": "16078566ec68ca417afae775ccac7e2c43e58773214d3fee6cb1f023ff75d4a4"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/assets__image.epub.md",
+      "bytes": 581,
+      "sha256": "7c4f35515efd05590f461b72ce14442a6745733ca0c0321bf20c59b4f1707d58"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__csv__sheet.csv.md",
+      "bytes": 294,
+      "sha256": "ec669ff463b9e4a6c781b5a47f6d6da90fcb86d4f95ccf3183d757853a6b020b"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__doc__text.doc.md",
+      "bytes": 1250,
+      "sha256": "cda6f7dcc25160cf8b3f8b95eacf961f1c87d21a4199032d28198f416f8ee2c4"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__docx__text.docx.md",
+      "bytes": 1316,
+      "sha256": "4d468169dd7fa25cfae9e3162fbe1621d40c9d0c759aae7272169b8e33f5e28c"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__epub__book.epub.md",
+      "bytes": 757,
+      "sha256": "5db89d2c88e66112ec367f71ac988acc82fdb3607ff4c860e82408d2d61b6d96"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__odp__pres.odp.md",
+      "bytes": 272,
+      "sha256": "8ae1b5406d359b50547e7a5f08bcf9ad4849748d357eb0093a29943d4231cbee"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__ods__sheet.ods.md",
+      "bytes": 396,
+      "sha256": "7cd57efc16368a15ca2d5a81281e0118703823458c8e989205c250f0b0a4312b"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__odt__text.odt.md",
+      "bytes": 1322,
+      "sha256": "e7a900618272d73b4114e73d9762d24d0139ea7e7cf29455a61d182796ba1b88"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__pdf__text.pdf.md",
+      "bytes": 1096,
+      "sha256": "0504ad4deb935d4d8aadf0b247e2aaf73ce105340c96aef9f28bbd873352827e"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__ppt__pres.ppt.md",
+      "bytes": 250,
+      "sha256": "30b94b02ff2cdddac0bff7f895acc9492ce87020f6a3e8ff4527441c3e02eb35"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__pptx__pres.pptx.md",
+      "bytes": 273,
+      "sha256": "1ead0fb933fc7fa6aa31d5bd565c11154ae13ee04b74c6c40dcf9b532b4f70c0"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__rtf__text.rtf.md",
+      "bytes": 1321,
+      "sha256": "95c968e62dfe3a5b01432de77303916776ea1ae2de3f58a11c84da0a80ca764f"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__xls__sheet.xls.md",
+      "bytes": 396,
+      "sha256": "7cd57efc16368a15ca2d5a81281e0118703823458c8e989205c250f0b0a4312b"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__xlsb__handmade-sheet.xlsb.md",
+      "bytes": 369,
+      "sha256": "aa7291065ff4e44a00a08c8f5ca6a7b8a6f12fc065e340ba2e1ebd0d05f4bab9"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/expected/valid__xlsx__sheet.xlsx.md",
+      "bytes": 396,
+      "sha256": "7cd57efc16368a15ca2d5a81281e0118703823458c8e989205c250f0b0a4312b"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/negative/scanned.pdf",
+      "bytes": 1046,
+      "sha256": "f298b75294aa55400691fb88abb7c30e88fbde4ad04a9a43d809c12b214545c4"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/negative/truncated.pdf",
+      "bytes": 128,
+      "sha256": "3aac165d38b732e9ab207496598eb78c55759e0f91c987540746692f2546076a"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/csv/sheet.csv",
+      "bytes": 210,
+      "sha256": "4a19b2cd06b8571a6f39cbb11b51c90857effe25878094b1c817ba63300005fd"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/doc/text.doc",
+      "bytes": 20480,
+      "sha256": "0d7c077cf4b49939a05ccd5f8012164649752be0c5841fa50da6258e0517e6e5"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/docx/text.docx",
+      "bytes": 10159,
+      "sha256": "6b674297884f9ed57809763c9f60ea3a849d5cc6fb28c9837c714e322eceddcf"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/epub/book.epub",
+      "bytes": 6167,
+      "sha256": "292cba3ea8019684cb59cb890de6caf31bc9399d9f983b25db1506e275f83563"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/odp/pres.odp",
+      "bytes": 19065,
+      "sha256": "6b5e859ad2591be8f1cbc0246d7e757fbc0ffa06e8ccd022a3e1612f67169df1"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/ods/sheet.ods",
+      "bytes": 16142,
+      "sha256": "e2c092eb2173b9c7ea8dd2c42e8dd7ef284cf37de40e206f3c8e43571de88454"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/odt/text.odt",
+      "bytes": 25489,
+      "sha256": "614b107dcd9f48364b33fa98ad1db32b43667701adeb510b081961ced54438ee"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/pdf/text.pdf",
+      "bytes": 90060,
+      "sha256": "7d1fd0932634cffa80bf9fb1bd73a6871f82a2cb29b4d7bcfb689927bc5d84e7"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/ppt/pres.ppt",
+      "bytes": 464384,
+      "sha256": "8b92d2304598dafc977ff309095aa405151ac741d3374b3d5a214377b57765b3"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/pptx/pres.pptx",
+      "bytes": 15734,
+      "sha256": "c96aa52da19f273f602040490203d9319872f512707e1a6c5a3fc53251b6d050"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/rtf/text.rtf",
+      "bytes": 20136,
+      "sha256": "8af25d8d79f898c5fd8c65782a6b73b04b4869fe621c6d39bf201ce4478ec731"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/xls/sheet.xls",
+      "bytes": 7168,
+      "sha256": "1b3fc8f35f4c7ad6bb4dcf9b9f1fdf4ddf1f4c7f2f6748f33b7948204f940136"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/xlsb/handmade-sheet.xlsb",
+      "bytes": 1602,
+      "sha256": "6f965c3d4c9c9d4028c8e2bb8409c28473cd6310c4af05266cf54f4852f94fbf"
+    },
+    {
+      "path": "scripts/anydoc-md/tests/fixtures/valid/xlsx/sheet.xlsx",
+      "bytes": 7106,
+      "sha256": "ddfec7c1e98c7b50611b1c3ac55c0aa0d9d413135aa7afc36732338e44f4d26c"
+    }
+  ]
+}

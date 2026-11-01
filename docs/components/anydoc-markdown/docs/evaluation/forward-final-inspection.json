@@ -1,0 +1,150 @@
+{
+  "counts": {
+    "converted": 1,
+    "partial": 13
+  },
+  "traversal_errors": [],
+  "excluded": [],
+  "documents": [
+    {
+      "source": "csv/sheet.csv",
+      "status": "partial",
+      "warnings": [
+        "CSV encoding, delimiter, and header rows are inferred; verify them against the original."
+      ],
+      "assets": 0
+    },
+    {
+      "source": "doc/text.doc",
+      "status": "partial",
+      "warnings": [
+        "1 distinct source-relative hyperlink(s) are retained without target copying or rebasing; they may not resolve inside the output bundle.",
+        "2 merged table cell(s) were rendered through Markdown; review spans, geometry, and reading order.",
+        "Upstream DEBUG (anydoc::formats::doc): skipping picture with no supported blip payload",
+        "Upstream DEBUG (anydoc_md::render::markdown::inline): unresolved internal link target: plainmark"
+      ],
+      "assets": 1
+    },
+    {
+      "source": "docx/text.docx",
+      "status": "partial",
+      "warnings": [
+        "1 distinct source-relative hyperlink(s) are retained without target copying or rebasing; they may not resolve inside the output bundle.",
+        "2 merged table cell(s) were rendered through Markdown; review spans, geometry, and reading order."
+      ],
+      "assets": 1
+    },
+    {
+      "source": "epub/book.epub",
+      "status": "converted",
+      "warnings": [],
+      "assets": 1
+    },
+    {
+      "source": "odp/pres.odp",
+      "status": "partial",
+      "warnings": [
+        "Presentation text and available notes are extracted; slide layout, animation, and reading order require review.",
+        "OpenDocument embedded objects other than formulas are not fully interpreted; retained package resources preserve bytes only.",
+        "1 extracted asset(s) have no modeled position; links are appended below without claiming original placement."
+      ],
+      "assets": 2
+    },
+    {
+      "source": "ods/sheet.ods",
+      "status": "partial",
+      "warnings": [
+        "1 merged table cell(s) were rendered through Markdown; review spans, geometry, and reading order.",
+        "Spreadsheet conversion uses stored cell values and does not recalculate formulas; review cached values, merged cells, charts, and drawing placement.",
+        "OpenDocument embedded objects other than formulas are not fully interpreted; retained package resources preserve bytes only.",
+        "1 extracted asset(s) have no modeled position; links are appended below without claiming original placement."
+      ],
+      "assets": 1
+    },
+    {
+      "source": "odt/text.odt",
+      "status": "partial",
+      "warnings": [
+        "1 distinct source-relative hyperlink(s) are retained without target copying or rebasing; they may not resolve inside the output bundle.",
+        "2 merged table cell(s) were rendered through Markdown; review spans, geometry, and reading order.",
+        "OpenDocument embedded objects other than formulas are not fully interpreted; retained package resources preserve bytes only.",
+        "1 extracted asset(s) have no modeled position; links are appended below without claiming original placement."
+      ],
+      "assets": 2
+    },
+    {
+      "source": "pdf/text.pdf",
+      "status": "partial",
+      "warnings": [
+        "This PDF API returns text Markdown only; PDF images and embedded attachments are not extracted.",
+        "Review PDF reading order, tables, font encoding, and page coverage against the original."
+      ],
+      "assets": 0
+    },
+    {
+      "source": "ppt/pres.ppt",
+      "status": "partial",
+      "warnings": [
+        "Presentation text and available notes are extracted; slide layout, animation, and reading order require review."
+      ],
+      "assets": 0
+    },
+    {
+      "source": "pptx/pres.pptx",
+      "status": "partial",
+      "warnings": [
+        "Presentation text and available notes are extracted; slide layout, animation, and reading order require review."
+      ],
+      "assets": 0
+    },
+    {
+      "source": "rtf/text.rtf",
+      "status": "partial",
+      "warnings": [
+        "2 merged table cell(s) were rendered through Markdown; review spans, geometry, and reading order.",
+        "RTF exposes supported pictures; embedded object payloads and unsupported picture formats may be absent from the parser model."
+      ],
+      "assets": 1
+    },
+    {
+      "source": "xls/sheet.xls",
+      "status": "partial",
+      "warnings": [
+        "1 merged table cell(s) were rendered through Markdown; review spans, geometry, and reading order.",
+        "Spreadsheet conversion uses stored cell values and does not recalculate formulas; review cached values, merged cells, charts, and drawing placement.",
+        "Excel pictures are not positioned by the parser; ZIP media are recovered separately when present, and legacy XLS object extraction is limited."
+      ],
+      "assets": 0
+    },
+    {
+      "source": "xlsb/handmade-sheet.xlsb",
+      "status": "partial",
+      "warnings": [
+        "1 merged table cell(s) were rendered through Markdown; review spans, geometry, and reading order.",
+        "Spreadsheet conversion uses stored cell values and does not recalculate formulas; review cached values, merged cells, charts, and drawing placement.",
+        "Excel pictures are not positioned by the parser; ZIP media are recovered separately when present, and legacy XLS object extraction is limited."
+      ],
+      "assets": 0
+    },
+    {
+      "source": "xlsx/sheet.xlsx",
+      "status": "partial",
+      "warnings": [
+        "1 merged table cell(s) were rendered through Markdown; review spans, geometry, and reading order.",
+        "Spreadsheet conversion uses stored cell values and does not recalculate formulas; review cached values, merged cells, charts, and drawing placement.",
+        "Excel pictures are not positioned by the parser; ZIP media are recovered separately when present, and legacy XLS object extraction is limited."
+      ],
+      "assets": 0
+    }
+  ],
+  "source_mismatches_vs_final_snapshot": [],
+  "verify_exit_code": 0,
+  "verify": {
+    "ok": true,
+    "documents": 14,
+    "attention_required": 13,
+    "issues": [],
+    "semantic_fidelity_checked": false
+  },
+  "binary_sha256": "9dc62e3c02cc40f48d40743960c36acfa4dc6922991c0e7ad73672ee7c5f292c"
+}

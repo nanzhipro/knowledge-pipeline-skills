@@ -1,0 +1,37 @@
+{
+  "title": "Improve anydoc-markdown",
+  "target": {
+    "kind": "skill",
+    "path": "/Users/nanzhi/Downloads/知本设计研究/anydoc-markdown-skill/anydoc-markdown",
+    "entryPath": "/Users/nanzhi/Downloads/知本设计研究/anydoc-markdown-skill/anydoc-markdown/SKILL.md",
+    "name": "anydoc-markdown",
+    "relativePath": "anydoc-markdown-skill/anydoc-markdown"
+  },
+  "summary": "Raise the evaluation from grade B (91/100) with a focus on the highest-signal structural and budget issues first.",
+  "goals": [
+    "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle.",
+    "Reduce repeated instruction text and move detail into deferred supporting files."
+  ],
+  "measurementGoals": [
+    "token-usage-observer",
+    "task-outcome-scorecard"
+  ],
+  "requiredFixes": [],
+  "recommendedFixes": [
+    {
+      "id": "extra-doc-files",
+      "message": "The skill includes extra documentation files that usually belong in references/ or outside the skill bundle.",
+      "remediation": [
+        "Move reusable guidance into references/ and avoid extra top-level docs inside the skill bundle."
+      ]
+    },
+    {
+      "id": "deferred_cost_tokens-budget-high",
+      "message": "deferred_cost_tokens is heavy relative to the current Codex baseline.",
+      "remediation": [
+        "Reduce repeated instruction text and move detail into deferred supporting files."
+      ]
+    }
+  ],
+  "suggestedPrompt": "Use the skill-creator guidance to improve anydoc-markdown. Keep the structure compact and move bulky details into references or scripts. Define success measures with these toolsets: token-usage-observer, task-outcome-scorecard. Address extra-doc-files: The skill includes extra documentation files that usually belong in references/ or outside the skill bundle. Address deferred_cost_tokens-budget-high: deferred_cost_tokens is heavy relative to the current Codex baseline."
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "cargo",
+    "run",
+    "--locked",
+    "--release",
+    "--manifest-path",
+    "/Users/nanzhi/Downloads/\u77e5\u672c\u8bbe\u8ba1\u7814\u7a76/anydoc-markdown-skill/anydoc-markdown/scripts/anydoc-md/Cargo.toml",
+    "--",
+    "verify",
+    "/tmp/anydoc-eval-setup/forward-final-output"
+  ],
+  "environment": {
+    "CARGO_TARGET_DIR": "/tmp/anydoc-eval-setup/forward-cargo-target"
+  },
+  "exit_code": 0,
+  "stdout": "{\n  \"ok\": true,\n  \"documents\": 14,\n  \"attention_required\": 13,\n  \"issues\": [],\n  \"semantic_fidelity_checked\": false\n}\n",
+  "stderr": "    Finished `release` profile [optimized] target(s) in 0.05s\n     Running `/tmp/anydoc-eval-setup/forward-cargo-target/release/anydoc-md verify /tmp/anydoc-eval-setup/forward-final-output`\n"
+}

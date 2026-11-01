@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/firecrawl/anydoc",
+  "tag": "v0.2.4",
+  "commit": "42bf1c5ecdde9eb0d96d6bd75a9e6698cf93b14c",
+  "retrieved_date": "2026-11-01",
+  "local_modification": "Removed #[cfg(test)] and mod tests; plus their adjacent blank line from markdown/mod.rs only.",
+  "files": [
+    {
+      "path": "mod.rs",
+      "upstream_path": "src/render/mod.rs",
+      "upstream_sha256": "51c3a68b107e70138220a7d47565f5d183904500f84c46f1528d9323e96dd937",
+      "local_sha256": "51c3a68b107e70138220a7d47565f5d183904500f84c46f1528d9323e96dd937"
+    },
+    {
+      "path": "markdown/mod.rs",
+      "upstream_path": "src/render/markdown/mod.rs",
+      "upstream_sha256": "c09552eb6d0077b95047ee164cec3effec7306da51392adfbddea9bc9852ee27",
+      "local_sha256": "e771b944fbf03ff38423e05797dda568efd10180b05ef505a5d748ce490e7f0e"
+    },
+    {
+      "path": "markdown/inline.rs",
+      "upstream_path": "src/render/markdown/inline.rs",
+      "upstream_sha256": "395816095a377333ae4e4a959f4024c2db35f47acf4d0cd3212e584ed9896ac3",
+      "local_sha256": "395816095a377333ae4e4a959f4024c2db35f47acf4d0cd3212e584ed9896ac3"
+    },
+    {
+      "path": "markdown/escape.rs",
+      "upstream_path": "src/render/markdown/escape.rs",
+      "upstream_sha256": "dedb614508afeb826f96b807f9011407d71c3b40aa35c31ad92287a93e448ba2",
+      "local_sha256": "dedb614508afeb826f96b807f9011407d71c3b40aa35c31ad92287a93e448ba2"
+    },
+    {
+      "path": "markdown/anchors.rs",
+      "upstream_path": "src/render/markdown/anchors.rs",
+      "upstream_sha256": "7ce634f3c171e6162385c029714effc16638b5503065da9a6a274968ebdad718",
+      "local_sha256": "7ce634f3c171e6162385c029714effc16638b5503065da9a6a274968ebdad718"
+    },
+    {
+      "path": "markdown/table.rs",
+      "upstream_path": "src/render/markdown/table.rs",
+      "upstream_sha256": "2131b0ec1b356c8bfb9c2d234f47e50b090541e904d3a9646e5772598ea05472",
+      "local_sha256": "2131b0ec1b356c8bfb9c2d234f47e50b090541e904d3a9646e5772598ea05472"
+    }
+  ],
+  "license_sha256": "03a9e7657aac6536fb6458bd220347c4e7f85bd0a51d8d9e8528530b7a682ade"
+}

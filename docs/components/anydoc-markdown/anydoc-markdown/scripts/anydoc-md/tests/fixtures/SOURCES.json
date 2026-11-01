@@ -1,0 +1,207 @@
+{
+  "repository": "https://github.com/firecrawl/anydoc",
+  "tag": "v0.2.4",
+  "revision": "42bf1c5ecdde9eb0d96d6bd75a9e6698cf93b14c",
+  "license": "MIT",
+  "license_file": "LICENSE.anydoc",
+  "description": "Public upstream MIT fixtures only. No private Downloads documents or derived text. Includes one valid representative per 14 file extensions, one OCR-only PDF, a derived truncated PDF, and two embedded-image cases.",
+  "fixtures": [
+    {
+      "path": "valid/doc/text.doc",
+      "source_path": "tests/fixtures/doc/text.doc",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/doc/text.doc",
+      "license": "MIT",
+      "sha256": "0d7c077cf4b49939a05ccd5f8012164649752be0c5841fa50da6258e0517e6e5",
+      "size_bytes": 20480,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__doc__text.doc.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/docx/text.docx",
+      "source_path": "tests/fixtures/docx/text.docx",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/docx/text.docx",
+      "license": "MIT",
+      "sha256": "6b674297884f9ed57809763c9f60ea3a849d5cc6fb28c9837c714e322eceddcf",
+      "size_bytes": 10159,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__docx__text.docx.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/ppt/pres.ppt",
+      "source_path": "tests/fixtures/ppt/pres.ppt",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/ppt/pres.ppt",
+      "license": "MIT",
+      "sha256": "8b92d2304598dafc977ff309095aa405151ac741d3374b3d5a214377b57765b3",
+      "size_bytes": 464384,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__ppt__pres.ppt.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/pptx/pres.pptx",
+      "source_path": "tests/fixtures/pptx/pres.pptx",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/pptx/pres.pptx",
+      "license": "MIT",
+      "sha256": "c96aa52da19f273f602040490203d9319872f512707e1a6c5a3fc53251b6d050",
+      "size_bytes": 15734,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__pptx__pres.pptx.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/xls/sheet.xls",
+      "source_path": "tests/fixtures/xls/sheet.xls",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/xls/sheet.xls",
+      "license": "MIT",
+      "sha256": "1b3fc8f35f4c7ad6bb4dcf9b9f1fdf4ddf1f4c7f2f6748f33b7948204f940136",
+      "size_bytes": 7168,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__xls__sheet.xls.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/xlsx/sheet.xlsx",
+      "source_path": "tests/fixtures/xlsx/sheet.xlsx",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/xlsx/sheet.xlsx",
+      "license": "MIT",
+      "sha256": "ddfec7c1e98c7b50611b1c3ac55c0aa0d9d413135aa7afc36732338e44f4d26c",
+      "size_bytes": 7106,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__xlsx__sheet.xlsx.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/xlsb/handmade-sheet.xlsb",
+      "source_path": "tests/fixtures/xlsb/handmade-sheet.xlsb",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/xlsb/handmade-sheet.xlsb",
+      "license": "MIT",
+      "sha256": "6f965c3d4c9c9d4028c8e2bb8409c28473cd6310c4af05266cf54f4852f94fbf",
+      "size_bytes": 1602,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__xlsb__handmade-sheet.xlsb.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/odt/text.odt",
+      "source_path": "tests/fixtures/odt/text.odt",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/odt/text.odt",
+      "license": "MIT",
+      "sha256": "614b107dcd9f48364b33fa98ad1db32b43667701adeb510b081961ced54438ee",
+      "size_bytes": 25489,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__odt__text.odt.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/ods/sheet.ods",
+      "source_path": "tests/fixtures/ods/sheet.ods",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/ods/sheet.ods",
+      "license": "MIT",
+      "sha256": "e2c092eb2173b9c7ea8dd2c42e8dd7ef284cf37de40e206f3c8e43571de88454",
+      "size_bytes": 16142,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__ods__sheet.ods.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/odp/pres.odp",
+      "source_path": "tests/fixtures/odp/pres.odp",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/odp/pres.odp",
+      "license": "MIT",
+      "sha256": "6b5e859ad2591be8f1cbc0246d7e757fbc0ffa06e8ccd022a3e1612f67169df1",
+      "size_bytes": 19065,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__odp__pres.odp.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/rtf/text.rtf",
+      "source_path": "tests/fixtures/rtf/text.rtf",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/rtf/text.rtf",
+      "license": "MIT",
+      "sha256": "8af25d8d79f898c5fd8c65782a6b73b04b4869fe621c6d39bf201ce4478ec731",
+      "size_bytes": 20136,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__rtf__text.rtf.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/epub/book.epub",
+      "source_path": "tests/fixtures/epub/book.epub",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/epub/book.epub",
+      "license": "MIT",
+      "sha256": "292cba3ea8019684cb59cb890de6caf31bc9399d9f983b25db1506e275f83563",
+      "size_bytes": 6167,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__epub__book.epub.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/csv/sheet.csv",
+      "source_path": "tests/fixtures/csv/sheet.csv",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/csv/sheet.csv",
+      "license": "MIT",
+      "sha256": "4a19b2cd06b8571a6f39cbb11b51c90857effe25878094b1c817ba63300005fd",
+      "size_bytes": 210,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__csv__sheet.csv.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "valid/pdf/text.pdf",
+      "source_path": "tests/fixtures/pdf/text.pdf",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/pdf/text.pdf",
+      "license": "MIT",
+      "sha256": "7d1fd0932634cffa80bf9fb1bd73a6871f82a2cb29b4d7bcfb689927bc5d84e7",
+      "size_bytes": 90060,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/valid__pdf__text.pdf.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "negative/scanned.pdf",
+      "source_path": "tests/fixtures/pdf/handmade-scanned.pdf",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/pdf/handmade-scanned.pdf",
+      "license": "MIT",
+      "sha256": "f298b75294aa55400691fb88abb7c30e88fbde4ad04a9a43d809c12b214545c4",
+      "size_bytes": 1046,
+      "expected_status": "needs_ocr"
+    },
+    {
+      "path": "assets/image.docx",
+      "source_path": "tests/fixtures/docx/handmade-rich.docx",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/docx/handmade-rich.docx",
+      "license": "MIT",
+      "sha256": "22afadb7927cc11d7520cd0f471aa1eea658369a1ba85da48123aded0700aafa",
+      "size_bytes": 3268,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/assets__image.docx.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "assets/image.epub",
+      "source_path": "tests/fixtures/epub/handmade-css-links.epub",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/epub/handmade-css-links.epub",
+      "license": "MIT",
+      "sha256": "0d7a72873c570620e5fd425558bdfb014cecc85771b0775c1e992843509755ce",
+      "size_bytes": 3317,
+      "expected_status": "ok",
+      "upstream_markdown_snapshot": "expected/assets__image.epub.md",
+      "snapshot_notice": "Upstream Markdown renders embedded images as alt text. This bridge may replace alt text with local asset links; compare text after normalizing Markdown destinations."
+    },
+    {
+      "path": "negative/truncated.pdf",
+      "source_path": "tests/fixtures/pdf/text.pdf",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/v0.2.4/tests/fixtures/pdf/text.pdf",
+      "license": "MIT",
+      "sha256": "3aac165d38b732e9ab207496598eb78c55759e0f91c987540746692f2546076a",
+      "source_sha256": "7d1fd0932634cffa80bf9fb1bd73a6871f82a2cb29b4d7bcfb689927bc5d84e7",
+      "size_bytes": 128,
+      "derivation": "First 128 bytes of upstream text.pdf; intentionally truncated local derivative.",
+      "expected_status": "failed",
+      "expected_reason": "malformed_document"
+    }
+  ]
+}

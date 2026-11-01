@@ -1,0 +1,39 @@
+name: Native Rust checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-14, macos-15-intel, windows-latest]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: anydoc-markdown/scripts/anydoc-md
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: anydoc-markdown/scripts/anydoc-md
+      - name: Runtime details
+        run: rustc -vV
+      - run: cargo fmt --check
+      - run: cargo clippy --locked --all-targets -- -D warnings
+      - run: cargo test --locked
+      - run: cargo build --locked --release
+      - name: CLI format listing
+        run: cargo run --locked --release -- formats
+      - uses: actions/upload-artifact@v4
+        with:
+          name: anydoc-md-${{ runner.os }}-${{ runner.arch }}
+          path: |
+            anydoc-markdown/scripts/anydoc-md/target/release/anydoc-md
+            anydoc-markdown/scripts/anydoc-md/target/release/anydoc-md.exe
+          if-no-files-found: error
