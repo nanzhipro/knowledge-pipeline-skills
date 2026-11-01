@@ -1,0 +1,25 @@
+{
+  "schema": "anydoc-markdown/1",
+  "source_relative_path": "handbook/service-protocol.rtf",
+  "source_sha256": "6a4c825bf681952fb6a8c5e2eb19b9cdd156ffe987c11de320893164355246b4",
+  "status": "partial",
+  "format": "rtf",
+  "engine": "anydoc/0.2.4",
+  "warnings": [
+    "RTF exposes supported pictures; embedded object payloads and unsupported picture formats may be absent from the parser model."
+  ],
+  "ocr_pages": [],
+  "error": null,
+  "artifacts": [
+    {
+      "path": "source/original.rtf",
+      "sha256": "6a4c825bf681952fb6a8c5e2eb19b9cdd156ffe987c11de320893164355246b4",
+      "bytes": 672
+    },
+    {
+      "path": "document.md",
+      "sha256": "4ec7f5a4c246723b4247c9d603fc5bd3a6c2f291d649568b52ba3bebaf10f1c5",
+      "bytes": 855
+    }
+  ]
+}

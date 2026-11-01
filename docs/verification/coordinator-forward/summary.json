@@ -1,0 +1,22 @@
+{
+  "task": "Independent actual Agent forward for the top coordinator",
+  "published": true,
+  "input_files": 10,
+  "converted": 1,
+  "partial": 6,
+  "diagnostics": 3,
+  "compiled_sources": 7,
+  "knowledge_pages": 15,
+  "concepts": 3,
+  "pending": 0,
+  "prepare_preserved_formal": true,
+  "query_zero_writes": true,
+  "query_no_conversion": true,
+  "independent_parser_only_installation": true,
+  "independent_wiki_only_installation": true,
+  "source_originals_unchanged": true,
+  "injected_source_instructions_executed": false,
+  "semantic_scope": "Synthetic documents, limited to actually read evidence",
+  "model_accuracy_claim": false,
+  "GUI_tested": false
+}

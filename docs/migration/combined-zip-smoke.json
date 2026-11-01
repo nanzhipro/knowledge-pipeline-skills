@@ -1,0 +1,7 @@
+{
+  "scope": "Combined release archive extracted independently; all three top-level Skill folders present and Wiki helper finds its own templates",
+  "skill_folders": 3,
+  "wiki_init_and_lint_pass": true,
+  "runtime_dependency": "Separately installed PyYAML 6.0.3",
+  "zip_sha256": "cc7a7baf897fc87311391a3391a15565799a962c0c75bd95011faf10a53eb2ff"
+}

@@ -25,7 +25,7 @@ not model accuracy, source fidelity, or observed token metrics.
   documents, compiles source summaries and knowledge pages and answers a cited query.
   Its record distinguishes helper execution from actual source reading and synthesis.
 
-Execution identities and final native outcomes are recorded in
+All three OS jobs and six Python combinations passed on [run 41271967923](https://github.com/nanzhipro/knowledge-pipeline-skills/actions/runs/41271967923), source commit `44bd1bbe98b3baf6f0f9d0d6b3a317072cef9974`. Each Python combination ran 29 Wiki tests and the real handoff test. The independent coordinator exercise compiled seven readable sources from ten actual input documents into 15 pages, published after diff review, and confirmed query zero writes plus standalone child execution. Execution identities and final native outcomes are recorded in
 [verification/native-ci.json](verification/native-ci.json). The Agent exercise lives
 under [verification/coordinator-forward](verification/coordinator-forward/).
 Original component reports retain their historical scores and source identity under

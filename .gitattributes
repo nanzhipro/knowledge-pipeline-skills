@@ -1,3 +1,5 @@
 * text=auto eol=lf
 # Historical raw snapshots bind exact bytes.
 docs/components/obsidian-llm-wiki/docs/verification/*-compiled-vault/** -text
+# Agent forward evidence may contain raw bundles with recorded hashes.
+docs/verification/coordinator-forward/** -text

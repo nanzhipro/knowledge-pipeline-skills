@@ -1,0 +1,195 @@
+{
+  "batches": {
+    "b-9ff1b52e50b59e73ffb3278c": {
+      "collections": [
+        "coordinator-public-research"
+      ],
+      "excluded": [],
+      "rejected": [
+        {
+          "error": "PDF pages 1, 2 of 2 require OCR; no partial Markdown was returned and no OCR service was contacted.",
+          "path": "negative/scanned.pdf",
+          "status": "needs_ocr"
+        },
+        {
+          "error": "malformed document: invalid PDF structure",
+          "path": "negative/truncated.pdf",
+          "status": "error"
+        },
+        {
+          "error": "Unrecognized document content and extension.",
+          "path": "negative/unsupported.bin",
+          "status": "unsupported"
+        }
+      ],
+      "traversal_errors": []
+    }
+  },
+  "collections": {
+    "coordinator-public-research": {
+      "assets/image.docx": "s-22afadb7927cc11d7520cd0f",
+      "books/knowledge-brief.epub": "s-31acb4a56262cfe9ed33735a",
+      "handbook/service-protocol.rtf": "s-6a4c825bf681952fb6a8c5e2",
+      "operations/memo.rtf": "s-b76b54779eb649390b45614d",
+      "research/memo.rtf": "s-a8f3c284daa4b1e210af7120",
+      "security/source-instructions.rtf": "s-a32b4e64fc718b1618f2900d",
+      "tables/response-metrics.csv": "s-976500503a908ad6da62ebe8"
+    }
+  },
+  "domain": "仅用于公开合成文档的操作记忆与证据追溯研究",
+  "format": "obsidian-llm-wiki/1",
+  "language": "zh-CN",
+  "name": "合成事件复盘研究库",
+  "pending": [],
+  "revision": 1,
+  "sources": {
+    "s-22afadb7927cc11d7520cd0f": {
+      "active": "v-0d9b6f61366d7340",
+      "snapshots": {
+        "v-0d9b6f61366d7340": {
+          "batch_id": "b-9ff1b52e50b59e73ffb3278c",
+          "files": {
+            "assets/asset-0001-c414cd0e204de974.png": "c414cd0e204de974f73753c7e28d7638e7b3691bb8b1a2bab6b25bb7fed7ce77",
+            "assets/asset-0002-be7a8c28ab094836.bin": "be7a8c28ab094836cc1ff77dcf771c6e20bfe8fee378d258c15c80082d333e41",
+            "document.md": "bcbdca461c6fb84ac4237c63d6c0d12f8a023ec3430254ac47faf9f1e2934364",
+            "report.json": "5c9a7d472638ec558da22390aa087f3881de2e13895188baf0cd282b6952f84c",
+            "source/original.docx": "22afadb7927cc11d7520cd0f471aa1eea658369a1ba85da48123aded0700aafa"
+          },
+          "path": "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340",
+          "source_path": "source/original.docx",
+          "status": "partial",
+          "warnings": [
+            "Embedded OLE objects are retained as stored binary containers; their inner application files are not unpacked."
+          ]
+        }
+      },
+      "source_sha256": "22afadb7927cc11d7520cd0f471aa1eea658369a1ba85da48123aded0700aafa",
+      "title": "image"
+    },
+    "s-31acb4a56262cfe9ed33735a": {
+      "active": "v-fda282bdce00ae6f",
+      "snapshots": {
+        "v-fda282bdce00ae6f": {
+          "batch_id": "b-9ff1b52e50b59e73ffb3278c",
+          "files": {
+            "document.md": "83731a03293a5ae66ba80c9ce34ce6ce7210c93771cd0c5b6729aac4f2f8d6b7",
+            "report.json": "1ac3a9b10a11100f5d0ff4a5070f2e9d54df15915e3998eea6ddeaf986bbf2da",
+            "source/original.epub": "31acb4a56262cfe9ed33735af83a6423b458638acc1645de23af900eeee5dc56"
+          },
+          "path": "raw/s-31acb4a56262cfe9ed33735a/v-fda282bdce00ae6f",
+          "source_path": "source/original.epub",
+          "status": "converted",
+          "warnings": []
+        }
+      },
+      "source_sha256": "31acb4a56262cfe9ed33735af83a6423b458638acc1645de23af900eeee5dc56",
+      "title": "knowledge-brief"
+    },
+    "s-6a4c825bf681952fb6a8c5e2": {
+      "active": "v-e186c838e87fae7a",
+      "snapshots": {
+        "v-e186c838e87fae7a": {
+          "batch_id": "b-9ff1b52e50b59e73ffb3278c",
+          "files": {
+            "document.md": "4ec7f5a4c246723b4247c9d603fc5bd3a6c2f291d649568b52ba3bebaf10f1c5",
+            "report.json": "9b03e282ebaa46ab012b1bf9a736d6da369385cc9860f3cb6f459204db7644a3",
+            "source/original.rtf": "6a4c825bf681952fb6a8c5e2eb19b9cdd156ffe987c11de320893164355246b4"
+          },
+          "path": "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a",
+          "source_path": "source/original.rtf",
+          "status": "partial",
+          "warnings": [
+            "RTF exposes supported pictures; embedded object payloads and unsupported picture formats may be absent from the parser model."
+          ]
+        }
+      },
+      "source_sha256": "6a4c825bf681952fb6a8c5e2eb19b9cdd156ffe987c11de320893164355246b4",
+      "title": "service-protocol"
+    },
+    "s-976500503a908ad6da62ebe8": {
+      "active": "v-f262391723b01674",
+      "snapshots": {
+        "v-f262391723b01674": {
+          "batch_id": "b-9ff1b52e50b59e73ffb3278c",
+          "files": {
+            "document.md": "d15d80948da8fd4057d8c74dc1b1b0ecc055b0278718caac97174de8b147441b",
+            "report.json": "0fc4d971ef4fa02732b28bfb41445b3d5f23ccd5f39e4cb3e9cf2fa552373155",
+            "source/original.csv": "976500503a908ad6da62ebe8b396056e48d02c1f7f64380965599460cc9d53ab"
+          },
+          "path": "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674",
+          "source_path": "source/original.csv",
+          "status": "partial",
+          "warnings": [
+            "CSV encoding, delimiter, and header rows are inferred; verify them against the original."
+          ]
+        }
+      },
+      "source_sha256": "976500503a908ad6da62ebe8b396056e48d02c1f7f64380965599460cc9d53ab",
+      "title": "response-metrics"
+    },
+    "s-a32b4e64fc718b1618f2900d": {
+      "active": "v-1b74eb3eb1b29ec9",
+      "snapshots": {
+        "v-1b74eb3eb1b29ec9": {
+          "batch_id": "b-9ff1b52e50b59e73ffb3278c",
+          "files": {
+            "document.md": "ed3acc907d59f84adf89e0b3c86dac799e63c12de664c6913e0b3770b824a88e",
+            "report.json": "126b9d284a4146dc4727bc38aef20da4b75c147d0b44affd2ffcd66aba6bd10c",
+            "source/original.rtf": "a32b4e64fc718b1618f2900d718c595a6d0fc5bdab79bc153c0a79f4fc1a99d7"
+          },
+          "path": "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9",
+          "source_path": "source/original.rtf",
+          "status": "partial",
+          "warnings": [
+            "RTF exposes supported pictures; embedded object payloads and unsupported picture formats may be absent from the parser model."
+          ]
+        }
+      },
+      "source_sha256": "a32b4e64fc718b1618f2900d718c595a6d0fc5bdab79bc153c0a79f4fc1a99d7",
+      "title": "source-instructions"
+    },
+    "s-a8f3c284daa4b1e210af7120": {
+      "active": "v-3fc21443f684481c",
+      "snapshots": {
+        "v-3fc21443f684481c": {
+          "batch_id": "b-9ff1b52e50b59e73ffb3278c",
+          "files": {
+            "document.md": "c813b723e9cb144f450e20914def459dc96f84710af1eac9c1d9c43137ef334f",
+            "report.json": "a3914de7ebb7815ffbe964eddd440c0fcbd3f3d9e8566163e10d596774643aa8",
+            "source/original.rtf": "a8f3c284daa4b1e210af7120613d5cd13ef1400b500ce71025fe99965ef92f00"
+          },
+          "path": "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c",
+          "source_path": "source/original.rtf",
+          "status": "partial",
+          "warnings": [
+            "RTF exposes supported pictures; embedded object payloads and unsupported picture formats may be absent from the parser model."
+          ]
+        }
+      },
+      "source_sha256": "a8f3c284daa4b1e210af7120613d5cd13ef1400b500ce71025fe99965ef92f00",
+      "title": "memo"
+    },
+    "s-b76b54779eb649390b45614d": {
+      "active": "v-f5e8d5dfbd9e1c3b",
+      "snapshots": {
+        "v-f5e8d5dfbd9e1c3b": {
+          "batch_id": "b-9ff1b52e50b59e73ffb3278c",
+          "files": {
+            "document.md": "9721af31b9a84e6b1939e2f3db644a727a3cdf8f7532387a0cb1a85221b2df85",
+            "report.json": "fb0c7370e79959b72ab08bde30c4e2cc99e5b4ed2ebde182ac9073f048b8e8ff",
+            "source/original.rtf": "b76b54779eb649390b45614db562a86f94ea00a25ac55831ad5e22c6556b175b"
+          },
+          "path": "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b",
+          "source_path": "source/original.rtf",
+          "status": "partial",
+          "warnings": [
+            "RTF exposes supported pictures; embedded object payloads and unsupported picture formats may be absent from the parser model."
+          ]
+        }
+      },
+      "source_sha256": "b76b54779eb649390b45614db562a86f94ea00a25ac55831ad5e22c6556b175b",
+      "title": "memo"
+    }
+  },
+  "vault_id": "7d89e83d-06ff-4138-9fa1-6f1dbd598720"
+}

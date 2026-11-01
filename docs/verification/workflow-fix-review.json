@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-01T04:10:07.037451+00:00",
+  "review_scope": "Read-only context/platform review; no workflow or skill code changes.",
+  "reviewed_commit": "44bd1bbe98b3baf6f0f9d0d6b3a317072cef9974",
+  "workflow_sha256": "34273e491f0665353d6c558776788befdd876ca17f1293dd6cbce77b346278e8",
+  "original_failed_run": "https://github.com/nanzhipro/knowledge-pipeline-skills/actions/runs/41271916577",
+  "original_finding": "The earlier job-level env used runner.os, which is unavailable at that workflow key. It was my initial workflow error; YAML parsing alone did not validate expression context availability.",
+  "fix": "Removed the job-level binary override. The integration test resolves an absolute path from its checkout and selects .exe on Windows using os.name.",
+  "remaining_expressions": [
+    {
+      "location": "jobs.native.runs-on",
+      "expression": "${{ matrix.os }}",
+      "valid_context_scope": true
+    },
+    {
+      "location": "jobs.native.steps.with.name",
+      "expression": "anydoc-md-${{ runner.os }}-${{ runner.arch }}",
+      "valid_context_scope": true
+    }
+  ],
+  "checks": {
+    "yaml_structure_parses": true,
+    "matrix_has_three_native_platforms": true,
+    "python_versions": [
+      "3.10",
+      "3.13"
+    ],
+    "binary_default_is_absolute_checkout_path": true,
+    "native_windows_executable_suffix": true,
+    "shell_independent_python_test_runners": true,
+    "fixture_local_gitattributes_preserved": true,
+    "no_remaining_invalid_context_reference_found": true,
+    "actionlint_installed": false
+  },
+  "official_context_reference": "https://docs.github.com/en/actions/reference/workflows-and-actions/contexts#context-availability",
+  "github_server_validation": {
+    "run": "https://github.com/nanzhipro/knowledge-pipeline-skills/actions/runs/41271967923",
+    "accepted_jobs": 3,
+    "status_at_review": "in_progress",
+    "conclusion_at_review": ""
+  },
+  "limits": "No actionlint was installed. GitHub has accepted and started all three jobs, proving the repaired workflow passed server validation; native Rust/Python outcomes are still pending and must pass separately."
+}

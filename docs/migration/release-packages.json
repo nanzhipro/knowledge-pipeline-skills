@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "skills": [
+    "anydoc-markdown",
+    "obsidian-llm-wiki",
+    "knowledge-pipeline"
+  ],
+  "evaluated_skill_files": 162,
+  "source_matches_evaluation": true,
+  "packages": [
+    {
+      "file": "knowledge-pipeline-skills-v0.2.0.zip",
+      "bytes": 370037,
+      "sha256": "cc7a7baf897fc87311391a3391a15565799a962c0c75bd95011faf10a53eb2ff"
+    },
+    {
+      "file": "legacy-repositories-backup-2026-11-01.zip",
+      "bytes": 36936306,
+      "sha256": "34b2dbf96259de2834df1e45cf5e6fcfb2edb82171a9fa11d19922bef7c1f641"
+    }
+  ]
+}

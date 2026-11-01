@@ -47,7 +47,8 @@ Windows PowerShell：
 
 ```powershell
 py -3 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r .\skills\obsidian-llm-wikiequirements.txt
+.\.venv\Scripts\python.exe -m pip install -r .\skills\obsidian-llm-wiki
+equirements.txt
 ```
 
 ## 调用示例
@@ -78,7 +79,7 @@ python skills/obsidian-llm-wiki/scripts/wiki.py --help
 
 ## 验证与过程
 
-当前三个独立 Skill 的 Plugin Eval、官方 Agent Skills 校验和源码清单见 [整合评测](docs/evaluation/merge/README.md)。它们是静态包质量分数，不是事实正确率或模型理解准确率。
+三个 Skill 分别为 **95 / 91 / 95 分**；原生 CI 三个平台、六组 Python 组合全部通过。当前三个独立 Skill 的 Plugin Eval、官方 Agent Skills 校验和源码清单见 [整合评测](docs/evaluation/merge/README.md)。它们是静态包质量分数，不是事实正确率或模型理解准确率。
 
 [原生 CI](https://github.com/nanzhipro/knowledge-pipeline-skills/actions/workflows/ci.yml) 在 macOS ARM/Intel 与 Windows x64 分别测试 Rust，并在 Python 3.10/3.13 上运行 Wiki 回归和真实解析器到 Wiki 的交接测试。顶层 Agent 的实际知识编译演练单独留证，见 [验证范围](docs/validation.md)。未运行 Obsidian GUI 自动化。
 
