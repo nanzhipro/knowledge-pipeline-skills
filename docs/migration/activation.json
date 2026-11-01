@@ -1,0 +1,13 @@
+{
+  "new_repository": "https://github.com/nanzhipro/knowledge-pipeline-skills",
+  "installed": [
+    "anydoc-markdown",
+    "obsidian-llm-wiki",
+    "knowledge-pipeline"
+  ],
+  "installed_source_matches_evaluation": true,
+  "project_entrypoints_updated": true,
+  "previous_installed_copies_preserved": true,
+  "original_Karpathy_repository_unchanged": true,
+  "old_remote_deletion_status": "GitHub HTTP 403: missing delete_repo scope; both old repositories remain until account authorization completes"
+}

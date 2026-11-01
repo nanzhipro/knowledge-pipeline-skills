@@ -1,0 +1,20 @@
+{
+  "repositories": {
+    "nanzhipro/anydoc-markdown-skill": {
+      "id": 1441430138,
+      "backed_up_head": "2f8e64fbca75793a76cdc0b08f33cc82508632a7",
+      "attempted_at": "2026-11-01T04:24:58.697949+00:00",
+      "deleted": false,
+      "exit": 1,
+      "github_error": "gh: Must have admin rights to Repository. (HTTP 403)\ngh: This API operation needs the \"delete_repo\" scope. To request it, run:  gh auth refresh -h github.com -s delete_repo"
+    },
+    "nanzhipro/obsidian-llm-wiki-skill": {
+      "id": 1441448157,
+      "deleted": false,
+      "attempted": false,
+      "reason": "Stopped after GitHub required missing delete_repo OAuth scope on the first repository."
+    }
+  },
+  "all_deleted": false,
+  "status": "waiting-for-github-delete_repo-authorization"
+}

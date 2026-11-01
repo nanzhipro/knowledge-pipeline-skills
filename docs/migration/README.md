@@ -49,3 +49,7 @@ checks pass, native matrix/integration checks pass, top-level Agent forward evid
 is reviewed, both bundles restore, remote release assets match their checksums, and
 the named old repository IDs/heads still match the backup. Record the actual action
 or any GitHub authorization error honestly; archiving is not reported as deletion.
+
+## Actual status
+
+The new v0.2.0 release is published, all three skills are installed, and project entrypoints use the new repository. Both release ZIPs were downloaded and verified. Deletion of the first old repository returned GitHub HTTP 403 requiring the delete_repo OAuth scope; the second deletion was not attempted after that error. The current remote outcome is recorded in [deletion-status.json](deletion-status.json). This account permission requirement is separate from the passed validation/backup gate.

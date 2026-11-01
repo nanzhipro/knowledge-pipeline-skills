@@ -1,0 +1,23 @@
+{
+  "all_required_checks_passed": true,
+  "checks": {
+    "all_three_static_scores_above_90": true,
+    "native_matrix_pass": true,
+    "actual_coordinator_forward_published": true,
+    "both_standalone_bundles_restore": true,
+    "downloaded_release_and_backup_verified": true,
+    "new_release_published": true,
+    "project_activated": true
+  },
+  "authorized_deletion_scope": [
+    "nanzhipro/anydoc-markdown-skill",
+    "nanzhipro/obsidian-llm-wiki-skill"
+  ],
+  "excluded": [
+    "original Karpathy repository",
+    "local old repositories",
+    "local mirror/bundle/installed-skill backups"
+  ],
+  "new_release": "https://github.com/nanzhipro/knowledge-pipeline-skills/releases/tag/v0.2.0",
+  "deletion_executed": false
+}
