@@ -1,0 +1,13 @@
+{
+  "interrupted_after": [
+    "wiki/log.md"
+  ],
+  "initial_error": "Publication interrupted: Simulated interruption after first file write. Stop editing and use recover --rollback",
+  "injected_after_preflight": true,
+  "recovery_result": {
+    "refused": "Recovery found a new external edit: wiki/overview.md"
+  },
+  "external_user_edit_survived": true,
+  "active_marker_remains": true,
+  "current_matches_base": false
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "anydoc-markdown/1",
+  "source_relative_path": "tables/response-metrics.csv",
+  "source_sha256": "ecfa4274f052b993e2837d68714c16835bb8f31e2bb065a082d25800304216dc",
+  "status": "partial",
+  "format": "csv",
+  "engine": "anydoc/0.2.4",
+  "warnings": [
+    "CSV encoding, delimiter, and header rows are inferred; verify them against the original."
+  ],
+  "ocr_pages": [],
+  "error": null,
+  "artifacts": [
+    {
+      "path": "source/original.csv",
+      "sha256": "ecfa4274f052b993e2837d68714c16835bb8f31e2bb065a082d25800304216dc",
+      "bytes": 135
+    },
+    {
+      "path": "document.md",
+      "sha256": "54aef2caf6b52d61f779b11f4dfff734250eaf3cd0b2aaed704d1644f607defe",
+      "bytes": 459
+    }
+  ]
+}

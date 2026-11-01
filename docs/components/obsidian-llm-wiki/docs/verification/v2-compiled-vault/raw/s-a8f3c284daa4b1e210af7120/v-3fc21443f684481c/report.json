@@ -1,0 +1,25 @@
+{
+  "schema": "anydoc-markdown/1",
+  "source_relative_path": "research/memo.rtf",
+  "source_sha256": "a8f3c284daa4b1e210af7120613d5cd13ef1400b500ce71025fe99965ef92f00",
+  "status": "partial",
+  "format": "rtf",
+  "engine": "anydoc/0.2.4",
+  "warnings": [
+    "RTF exposes supported pictures; embedded object payloads and unsupported picture formats may be absent from the parser model."
+  ],
+  "ocr_pages": [],
+  "error": null,
+  "artifacts": [
+    {
+      "path": "source/original.rtf",
+      "sha256": "a8f3c284daa4b1e210af7120613d5cd13ef1400b500ce71025fe99965ef92f00",
+      "bytes": 441
+    },
+    {
+      "path": "document.md",
+      "sha256": "c813b723e9cb144f450e20914def459dc96f84710af1eac9c1d9c43137ef334f",
+      "bytes": 617
+    }
+  ]
+}

@@ -1,0 +1,887 @@
+[
+  {
+    "case": "empty-library",
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed."
+    ],
+    "sources": 0,
+    "pages": 1,
+    "pending": []
+  },
+  {
+    "case": "empty-workspace",
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed."
+    ],
+    "sources": 0,
+    "pages": 1,
+    "pending": []
+  },
+  {
+    "case": "real-import-and-concept",
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-source-id",
+    "ok": false,
+    "errors": [
+      "state.sources['s-22afadb7927cc11d7520cd0f']: source ID does not match original SHA-256",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/assets/asset-0001-c414cd0e204de974.png: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/assets/asset-0002-be7a8c28ab094836.bin: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/document.md: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/report.json: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/source/original.docx: raw file is not declared by any source snapshot",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card has no valid active snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-source-record-type",
+    "ok": false,
+    "errors": [
+      "state.sources['s-22afadb7927cc11d7520cd0f']: source record must be an object",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/assets/asset-0001-c414cd0e204de974.png: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/assets/asset-0002-be7a8c28ab094836.bin: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/document.md: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/report.json: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/source/original.docx: raw file is not declared by any source snapshot",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card registry entry must be an object"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-state-sources-type",
+    "ok": false,
+    "errors": [
+      "registry: state.sources must be an object",
+      "wiki/concepts/maintained.md: unregistered source ID: s-22afadb7927cc11d7520cd0f",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: unregistered source ID: s-22afadb7927cc11d7520cd0f",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card source_id is not registered",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: unregistered source ID: s-31acb4a56262cfe9ed33735a",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: source card source_id is not registered",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: unregistered source ID: s-6a4c825bf681952fb6a8c5e2",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: source card source_id is not registered",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: unregistered source ID: s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: source card source_id is not registered",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: unregistered source ID: s-a32b4e64fc718b1618f2900d",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: source card source_id is not registered",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: unregistered source ID: s-a8f3c284daa4b1e210af7120",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: source card source_id is not registered",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: unregistered source ID: s-b76b54779eb649390b45614d",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: source card source_id is not registered"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 0,
+    "pages": 9,
+    "pending": []
+  },
+  {
+    "case": "unknown-pending-source",
+    "ok": false,
+    "errors": [
+      "registry: state.pending refers to unregistered source s-ffffffffffffffffffffffff",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card has no valid active snapshot",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: source card has no valid active snapshot",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: source card has no valid active snapshot",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: source card has no valid active snapshot",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: source card has no valid active snapshot",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: source card has no valid active snapshot",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: source card has no valid active snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8",
+      "s-ffffffffffffffffffffffff"
+    ]
+  },
+  {
+    "case": "bad-snapshot-path",
+    "ok": false,
+    "errors": [
+      "s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: snapshot.path: expected a contained relative path without drive, backslash, or dot components",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/assets/asset-0001-c414cd0e204de974.png: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/assets/asset-0002-be7a8c28ab094836.bin: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/document.md: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/report.json: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/source/original.docx: raw file is not declared by any source snapshot",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card has no valid active snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-state-file-hash",
+    "ok": false,
+    "errors": [
+      "s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: state file SHA-256 mismatch: raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/document.md",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/report.json: raw file is not declared by any source snapshot",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340/source/original.docx: raw file is not declared by any source snapshot",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card has no valid active snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-rejected-error-type",
+    "ok": false,
+    "errors": [
+      "state.batches['b-b365ea45c49159af331deb67']: b-b365ea45c49159af331deb67.rejected.error: expected a string",
+      "s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: snapshot has no valid original batch receipt",
+      "s-31acb4a56262cfe9ed33735a/v-fda282bdce00ae6f: snapshot has no valid original batch receipt",
+      "s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: snapshot has no valid original batch receipt",
+      "s-976500503a908ad6da62ebe8/v-f262391723b01674: snapshot has no valid original batch receipt",
+      "s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: snapshot has no valid original batch receipt",
+      "s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: snapshot has no valid original batch receipt",
+      "s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: snapshot has no valid original batch receipt",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card has no valid active snapshot",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: source card has no valid active snapshot",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: source card has no valid active snapshot",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: source card has no valid active snapshot",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: source card has no valid active snapshot",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: source card has no valid active snapshot",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: source card has no valid active snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-receipt-discovery-state",
+    "ok": false,
+    "errors": [
+      "state.batches['b-b365ea45c49159af331deb67']: state receipt traversal_errors differs from original manifest",
+      "s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: snapshot has no valid original batch receipt",
+      "s-31acb4a56262cfe9ed33735a/v-fda282bdce00ae6f: snapshot has no valid original batch receipt",
+      "s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: snapshot has no valid original batch receipt",
+      "s-976500503a908ad6da62ebe8/v-f262391723b01674: snapshot has no valid original batch receipt",
+      "s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: snapshot has no valid original batch receipt",
+      "s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: snapshot has no valid original batch receipt",
+      "s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: snapshot has no valid original batch receipt",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card has no valid active snapshot",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: source card has no valid active snapshot",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: source card has no valid active snapshot",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: source card has no valid active snapshot",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: source card has no valid active snapshot",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: source card has no valid active snapshot",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: source card has no valid active snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "receipt-byte-tamper",
+    "ok": false,
+    "errors": [
+      "state.batches['b-b365ea45c49159af331deb67']: batch ID does not bind the original manifest bytes",
+      "s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: snapshot has no valid original batch receipt",
+      "s-31acb4a56262cfe9ed33735a/v-fda282bdce00ae6f: snapshot has no valid original batch receipt",
+      "s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: snapshot has no valid original batch receipt",
+      "s-976500503a908ad6da62ebe8/v-f262391723b01674: snapshot has no valid original batch receipt",
+      "s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: snapshot has no valid original batch receipt",
+      "s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: snapshot has no valid original batch receipt",
+      "s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: snapshot has no valid original batch receipt",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card has no valid active snapshot",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: source card has no valid active snapshot",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: source card has no valid active snapshot",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: source card has no valid active snapshot",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: source card has no valid active snapshot",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: source card has no valid active snapshot",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: source card has no valid active snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "receipt-source-backlink-tamper",
+    "ok": false,
+    "errors": [
+      "s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: snapshot report/source/status does not match its original manifest entry",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card has no valid active snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "undeclared-raw-file",
+    "ok": false,
+    "errors": [
+      "raw/extra.bin: raw file is not declared by any source snapshot"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "raw-symlink",
+    "ok": false,
+    "errors": [
+      "raw/symlink.bin: symlink is not a managed artifact"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "windows-reserved-slug",
+    "ok": false,
+    "errors": [
+      "wiki/concepts/CON.md: generated path is not portable on Windows",
+      "wiki/concepts/CON.md: knowledge note is absent from wiki/index.md",
+      "wiki/concepts/CON.md: concept is absent from wiki/concept-table.md"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 10,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "casefold-collision",
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "Skipped physical collision probe: host filesystem merges case variants"
+    ],
+    "skipped": true
+  },
+  {
+    "case": "index-drift",
+    "ok": false,
+    "errors": [
+      "wiki/concepts/maintained.md: knowledge note is absent from wiki/index.md",
+      "wiki/overview.md: knowledge note is absent from wiki/index.md",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: knowledge note is absent from wiki/index.md",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: knowledge note is absent from wiki/index.md",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: knowledge note is absent from wiki/index.md",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: knowledge note is absent from wiki/index.md",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: knowledge note is absent from wiki/index.md",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: knowledge note is absent from wiki/index.md",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: knowledge note is absent from wiki/index.md"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "concept-table-drift",
+    "ok": false,
+    "errors": [
+      "wiki/concepts/maintained.md: concept is absent from wiki/concept-table.md"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "broken-local-link",
+    "ok": false,
+    "errors": [
+      "wiki/concepts/maintained.md: invalid local link '../missing.md': [Errno 2] No such file or directory: '/private/tmp/obsidian-wiki-contract/quality-cases/broken-local-link/wiki/missing.md'"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "undefined-reference",
+    "ok": false,
+    "errors": [
+      "wiki/concepts/maintained.md: undefined Markdown link reference [undefined]"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-note-yaml",
+    "ok": false,
+    "errors": [
+      "content: Invalid or duplicate YAML property: 'title'",
+      "navigation: wiki/log.md has no operation entry"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8"
+    ],
+    "sources": 7,
+    "pages": 0,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-source-raw-document",
+    "ok": false,
+    "errors": [
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: source card raw_document does not resolve to its active extraction"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "bad-log-heading",
+    "ok": false,
+    "errors": [
+      "navigation: wiki/log.md: invalid operation heading '[2026-02-30] invalid-date | fixture'"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 7,
+    "pages": 9,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "failed-extraction-source-card",
+    "ok": false,
+    "errors": [
+      "wiki/sources/s-3aac165d38b732e9ab207496.md: failed/diagnostic extraction cannot generate a source card"
+    ],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-3aac165d38b732e9ab207496/v-e96ce89cd3a9c81f: diagnostic extraction status error; no knowledge source card may use it.",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 7 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 8,
+    "pages": 10,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8"
+    ]
+  },
+  {
+    "case": "second-import-retains-history",
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "Structural checks do not verify quotes, claim support, source completeness, or factual correctness; no L3 semantic review was performed.",
+      "raw/s-22afadb7927cc11d7520cd0f/v-0d9b6f61366d7340: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-6a4c825bf681952fb6a8c5e2/v-e186c838e87fae7a: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-976500503a908ad6da62ebe8/v-f262391723b01674: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a32b4e64fc718b1618f2900d/v-1b74eb3eb1b29ec9: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-a8f3c284daa4b1e210af7120/v-3fc21443f684481c: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b76b54779eb649390b45614d/v-f5e8d5dfbd9e1c3b: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-b84d4e9d53af50e38bb98dcb/v-154e9df8cf6207dc: partial extraction; retain and review 1 conversion warning(s).",
+      "raw/s-ecfa4274f052b993e2837d68/v-dec36c230bfbbcb2: partial extraction; retain and review 1 conversion warning(s).",
+      "Semantic compilation is pending for 9 registered source(s): s-22afadb7927cc11d7520cd0f, s-31acb4a56262cfe9ed33735a, s-6a4c825bf681952fb6a8c5e2, s-b76b54779eb649390b45614d, s-a8f3c284daa4b1e210af7120, s-a32b4e64fc718b1618f2900d, s-976500503a908ad6da62ebe8, s-b84d4e9d53af50e38bb98dcb, s-ecfa4274f052b993e2837d68",
+      "wiki/sources/s-22afadb7927cc11d7520cd0f.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-31acb4a56262cfe9ed33735a.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-6a4c825bf681952fb6a8c5e2.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-976500503a908ad6da62ebe8.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a32b4e64fc718b1618f2900d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-a8f3c284daa4b1e210af7120.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b76b54779eb649390b45614d.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-b84d4e9d53af50e38bb98dcb.md: contains an unfinished semantic compilation marker.",
+      "wiki/sources/s-ecfa4274f052b993e2837d68.md: contains an unfinished semantic compilation marker."
+    ],
+    "sources": 9,
+    "pages": 11,
+    "pending": [
+      "s-22afadb7927cc11d7520cd0f",
+      "s-31acb4a56262cfe9ed33735a",
+      "s-6a4c825bf681952fb6a8c5e2",
+      "s-b76b54779eb649390b45614d",
+      "s-a8f3c284daa4b1e210af7120",
+      "s-a32b4e64fc718b1618f2900d",
+      "s-976500503a908ad6da62ebe8",
+      "s-b84d4e9d53af50e38bb98dcb",
+      "s-ecfa4274f052b993e2837d68"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "scope": "Actual standalone final release ZIP; runtime dependency installed separately",
+  "tests": 29,
+  "passed": true,
+  "source_commit": "911980400f4c512843585e6f493e209b7c3603c8",
+  "zip_sha256": "1654c07297e3079a6e7e9db3b152a2db03dca8eaab9e58c8771d079c8190e2d1"
+}

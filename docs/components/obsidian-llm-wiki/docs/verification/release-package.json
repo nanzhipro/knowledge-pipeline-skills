@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "filename": "obsidian-llm-wiki-v0.1.0.zip",
+  "bytes": 106415,
+  "sha256": "1654c07297e3079a6e7e9db3b152a2db03dca8eaab9e58c8771d079c8190e2d1",
+  "skill_source_tree_sha256": "edc2e4eb9111c9e13dc43bec20558950b129c85500b77e0a842b7b00c224f82f",
+  "skill_source_files": 97,
+  "release_zip_tests": 29,
+  "release_zip_tests_passed": true,
+  "source_identical_to_evaluated_inventory": true,
+  "contents": "Complete installable skill including scripts, references, templates, requirements, tests and MIT fixture notices; no virtualenv, caches, private documents or process journals."
+}

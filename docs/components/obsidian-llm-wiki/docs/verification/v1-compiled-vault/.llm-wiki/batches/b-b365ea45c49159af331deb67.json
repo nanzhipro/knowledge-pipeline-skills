@@ -1,0 +1,88 @@
+{
+  "schema": "anydoc-markdown/1",
+  "converter_version": "0.1.0",
+  "anydoc_version": "0.2.4",
+  "created_at": "2026-11-01T03:05:22.018621+00:00",
+  "entries": [
+    {
+      "source_relative_path": "assets/image.docx",
+      "bundle": "documents/doc-image.docx--ef97b76582be84e0",
+      "status": "partial",
+      "source_sha256": "22afadb7927cc11d7520cd0f471aa1eea658369a1ba85da48123aded0700aafa",
+      "report_sha256": "5c9a7d472638ec558da22390aa087f3881de2e13895188baf0cd282b6952f84c"
+    },
+    {
+      "source_relative_path": "books/knowledge-brief.epub",
+      "bundle": "documents/doc-knowledge-brief.epub--e6dcb8aa423ee260",
+      "status": "converted",
+      "source_sha256": "31acb4a56262cfe9ed33735af83a6423b458638acc1645de23af900eeee5dc56",
+      "report_sha256": "1ac3a9b10a11100f5d0ff4a5070f2e9d54df15915e3998eea6ddeaf986bbf2da"
+    },
+    {
+      "source_relative_path": "handbook/service-protocol.rtf",
+      "bundle": "documents/doc-service-protocol.rtf--11908bf4f322e441",
+      "status": "partial",
+      "source_sha256": "6a4c825bf681952fb6a8c5e2eb19b9cdd156ffe987c11de320893164355246b4",
+      "report_sha256": "9b03e282ebaa46ab012b1bf9a736d6da369385cc9860f3cb6f459204db7644a3"
+    },
+    {
+      "source_relative_path": "negative/scanned.pdf",
+      "bundle": "documents/doc-scanned.pdf--2b8569bc9706de56",
+      "status": "needs_ocr",
+      "source_sha256": "f298b75294aa55400691fb88abb7c30e88fbde4ad04a9a43d809c12b214545c4",
+      "report_sha256": "7c94998de174905cec73be2097800e942c70b02585bcdfa7ca29076c37d181fa"
+    },
+    {
+      "source_relative_path": "negative/truncated.pdf",
+      "bundle": "documents/doc-truncated.pdf--c8d3831a059a01a8",
+      "status": "error",
+      "source_sha256": "3aac165d38b732e9ab207496598eb78c55759e0f91c987540746692f2546076a",
+      "report_sha256": "e3f8738bb9cd97b8068ef12f7379a0a8d032f7929e12ce9695b09d20d8fb3b5e"
+    },
+    {
+      "source_relative_path": "negative/unsupported.bin",
+      "bundle": "documents/doc-unsupported.bin--6dc8baa6a6881efb",
+      "status": "unsupported",
+      "source_sha256": "eb16992f00b04fc59dbc1e6d7f4b89e65395319663915ddb6429d388c7b53a73",
+      "report_sha256": "6b6e6761c5ca40a6d6dea9b811787549d8f71d2055e6cde93966a5f97c7818bc"
+    },
+    {
+      "source_relative_path": "operations/memo.rtf",
+      "bundle": "documents/doc-memo.rtf--17625b220aea65a9",
+      "status": "partial",
+      "source_sha256": "b76b54779eb649390b45614db562a86f94ea00a25ac55831ad5e22c6556b175b",
+      "report_sha256": "fb0c7370e79959b72ab08bde30c4e2cc99e5b4ed2ebde182ac9073f048b8e8ff"
+    },
+    {
+      "source_relative_path": "research/memo.rtf",
+      "bundle": "documents/doc-memo.rtf--05218eb79d3ed83c",
+      "status": "partial",
+      "source_sha256": "a8f3c284daa4b1e210af7120613d5cd13ef1400b500ce71025fe99965ef92f00",
+      "report_sha256": "a3914de7ebb7815ffbe964eddd440c0fcbd3f3d9e8566163e10d596774643aa8"
+    },
+    {
+      "source_relative_path": "security/source-instructions.rtf",
+      "bundle": "documents/doc-source-instructions.rtf--cce3f327cb6da65f",
+      "status": "partial",
+      "source_sha256": "a32b4e64fc718b1618f2900d718c595a6d0fc5bdab79bc153c0a79f4fc1a99d7",
+      "report_sha256": "126b9d284a4146dc4727bc38aef20da4b75c147d0b44affd2ffcd66aba6bd10c"
+    },
+    {
+      "source_relative_path": "tables/response-metrics.csv",
+      "bundle": "documents/doc-response-metrics.csv--63bdb02e738efcfe",
+      "status": "partial",
+      "source_sha256": "976500503a908ad6da62ebe8b396056e48d02c1f7f64380965599460cc9d53ab",
+      "report_sha256": "0fc4d971ef4fa02732b28bfb41445b3d5f23ccd5f39e4cb3e9cf2fa552373155"
+    }
+  ],
+  "counts": {
+    "converted": 1,
+    "error": 1,
+    "needs_ocr": 1,
+    "partial": 6,
+    "unsupported": 1
+  },
+  "traversal_errors": [],
+  "excluded": [],
+  "index_sha256": "40a6be70a33bf96872f0043933ff94896428d9df6d4e031ddeb5a838cbb4804b"
+}

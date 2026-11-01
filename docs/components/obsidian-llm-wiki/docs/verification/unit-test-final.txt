@@ -1,0 +1,34 @@
+test_crlf_history_bytes_survive_import_prepare_and_apply (test_log_bytes.LogByteTest.test_crlf_history_bytes_survive_import_prepare_and_apply) ... ok
+test_initial_generated_text_uses_lf_on_every_platform (test_log_bytes.LogByteTest.test_initial_generated_text_uses_lf_on_every_platform) ... ok
+test_bm25_cache_detects_add_modify_delete_and_search_is_read_only (test_pipeline.PipelineTest.test_bm25_cache_detects_add_modify_delete_and_search_is_read_only) ... ok
+test_bundle_symlink_is_rejected (test_pipeline.PipelineTest.test_bundle_symlink_is_rejected) ... ok
+test_corrupt_bm25_cache_falls_back_without_writing (test_pipeline.PipelineTest.test_corrupt_bm25_cache_falls_back_without_writing) ... ok
+test_external_change_since_workspace_blocks_prepare (test_pipeline.PipelineTest.test_external_change_since_workspace_blocks_prepare) ... ok
+test_forged_status_with_refreshed_report_hash_is_rejected (test_pipeline.PipelineTest.test_forged_status_with_refreshed_report_hash_is_rejected) ... ok
+test_import_gate_identity_and_repeat_are_idempotent (test_pipeline.PipelineTest.test_import_gate_identity_and_repeat_are_idempotent) ... ok
+test_independent_artifact_tampering_is_rejected (test_pipeline.PipelineTest.test_independent_artifact_tampering_is_rejected) ... ok
+test_initialize_is_non_destructive_and_native_no_replace (test_pipeline.PipelineTest.test_initialize_is_non_destructive_and_native_no_replace) ... ok
+test_interruption_journal_rolls_back_exact_prior_state (test_pipeline.PipelineTest.test_interruption_journal_rolls_back_exact_prior_state) ... ok
+test_invalid_citation_broken_link_and_raw_edit_stop_prepare (test_pipeline.PipelineTest.test_invalid_citation_broken_link_and_raw_edit_stop_prepare) ... ok
+test_live_note_change_after_review_blocks_every_write (test_pipeline.PipelineTest.test_live_note_change_after_review_blocks_every_write) ... ok
+test_malformed_yaml_returns_json_error_and_preserves_formal_vault (test_pipeline.PipelineTest.test_malformed_yaml_returns_json_error_and_preserves_formal_vault) ... ok
+test_managed_paths_reject_normalization_and_escape (test_pipeline.PipelineTest.test_managed_paths_reject_normalization_and_escape) ... ok
+test_manifest_unknown_schema_duplicate_and_index_tampering_rejected (test_pipeline.PipelineTest.test_manifest_unknown_schema_duplicate_and_index_tampering_rejected) ... ok
+test_marker_cannot_be_declared_semantically_compiled (test_pipeline.PipelineTest.test_marker_cannot_be_declared_semantically_compiled) ... ok
+test_new_extraction_same_original_keeps_old_snapshot (test_pipeline.PipelineTest.test_new_extraction_same_original_keeps_old_snapshot) ... ok
+test_new_manifest_receipt_does_not_rewrite_existing_snapshot (test_pipeline.PipelineTest.test_new_manifest_receipt_does_not_rewrite_existing_snapshot) ... ok
+test_prepare_changes_no_live_content_and_apply_is_review_bound (test_pipeline.PipelineTest.test_prepare_changes_no_live_content_and_apply_is_review_bound) ... ok
+test_prepared_artifact_tampering_blocks_publication (test_pipeline.PipelineTest.test_prepared_artifact_tampering_blocks_publication) ... ok
+test_query_and_lint_are_read_only_and_chinese_search_works (test_pipeline.PipelineTest.test_query_and_lint_are_read_only_and_chinese_search_works) ... ok
+test_raw_drift_after_prepare_blocks_every_write (test_pipeline.PipelineTest.test_raw_drift_after_prepare_blocks_every_write) ... ok
+test_real_batches_and_originals_remain_unchanged (test_pipeline.PipelineTest.test_real_batches_and_originals_remain_unchanged) ... ok
+test_recovery_refuses_unknown_external_bytes (test_pipeline.PipelineTest.test_recovery_refuses_unknown_external_bytes) ... ok
+test_same_basename_memos_have_distinct_identities (test_pipeline.PipelineTest.test_same_basename_memos_have_distinct_identities) ... ok
+test_traversing_report_artifact_is_rejected_after_hash_refresh (test_pipeline.PipelineTest.test_traversing_report_artifact_is_rejected_after_hash_refresh) ... ok
+test_v2_preserves_v1_raw_and_deduplicates_unchanged_sources (test_pipeline.PipelineTest.test_v2_preserves_v1_raw_and_deduplicates_unchanged_sources) ... ok
+test_unknown_edit_between_recovery_scans_is_preserved (test_recovery_race.RecoveryRaceTest.test_unknown_edit_between_recovery_scans_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 8.522s
+
+OK

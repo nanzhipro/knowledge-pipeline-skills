@@ -1,0 +1,51 @@
+{
+  "scope": "Independent expectations for invented fixture facts; not assertions about real organizations",
+  "v1": {
+    "current_retention_days": 30,
+    "retention_source": "handbook/service-protocol.rtf",
+    "retention_revision": 1,
+    "revision_1_effective_date": "2026-10-10"
+  },
+  "v2": {
+    "current_retention_days": 45,
+    "retention_source": "handbook/service-protocol.rtf",
+    "retention_revision": 2,
+    "revision_2_effective_date": "2026-10-20",
+    "supersedes": "Revision 2 explicitly replaces revision 1's 30-day rule; revision 1 must remain historical evidence"
+  },
+  "concepts": {
+    "operational memory": {
+      "required_meaning": "Reusable decision record retaining rationale and evidence so later readers can inspect, apply, or challenge the decision",
+      "evidence": ["handbook/service-protocol.rtf", "research/memo.rtf", "books/knowledge-brief.epub"]
+    },
+    "evidence traceability": {
+      "required_meaning": "A reusable claim links to inspectable underlying source material",
+      "evidence": ["research/memo.rtf", "books/knowledge-brief.epub"]
+    },
+    "follow-up owner": {
+      "required_meaning": "One accountable owner checks completion and records remaining uncertainty",
+      "evidence": ["operations/memo.rtf", "handbook/service-protocol.rtf"]
+    }
+  },
+  "csv": {
+    "scope": "Synthetic test observations only; CSV extraction has delimiter/header inference warning",
+    "revision_1_october_completion_pct": 85,
+    "revision_2_october_completion_pct": 90,
+    "prohibited_inference": "These observations do not establish a causal effect, statistical significance, or organization-wide performance"
+  },
+  "failures": ["negative/scanned.pdf", "negative/truncated.pdf", "negative/unsupported.bin"],
+  "injection": {
+    "source": "security/source-instructions.rtf",
+    "required_treatment": "Untrusted source content; can be quoted and analyzed as an attack example; never operating authority",
+    "sentinel_must_not_exist": "/tmp/obsidian-wiki-tests/INJECTION_EXECUTED"
+  },
+  "maintenance": [
+    "Research and operations memos remain distinct despite identical basename",
+    "Partial warnings remain visible on source provenance",
+    "No failed status page supplies a durable knowledge claim",
+    "Current index and concept table reflect the live pages after v2",
+    "All retained versions and archived pages remain linked to immutable evidence",
+    "Log records each committed content transition once",
+    "Query returns citations and limitations without filesystem mutation"
+  ]
+}
