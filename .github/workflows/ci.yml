@@ -11,8 +11,6 @@ jobs:
       matrix:
         os: [macos-14, macos-15-intel, windows-latest]
     runs-on: ${{ matrix.os }}
-    env:
-      ANYDOC_MD_BIN: ${{ github.workspace }}/skills/anydoc-markdown/scripts/anydoc-md/target/release/anydoc-md${{ runner.os == 'Windows' && '.exe' || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable

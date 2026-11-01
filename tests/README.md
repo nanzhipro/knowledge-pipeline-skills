@@ -23,7 +23,7 @@ python -m unittest discover -s tests -p test_handoff.py -v
 
 By default the test finds the release binary under the Rust crate's `target/release`
 directory, including `.exe` on Windows. `ANYDOC_MD_BIN` can select an explicit
-already-built binary. CI sets this to an absolute path in the current checkout.
+already-built binary. CI uses the test's absolute checkout path and native executable suffix.
 
 The three native OS jobs build and test Rust once each, then run the discovered standalone Skill
 regression suites and repository integration tests (including this handoff) with both Python 3.10 and 3.13. That covers macOS
